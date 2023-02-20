@@ -1,0 +1,79 @@
+:root {
+  --golden: #f1b502;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  background-color: var(--golden);
+  height: 5rem;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 1px 20px 0 #a59061;
+  justify-content: space-between;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin-right: 60px;
+}
+
+.cover {
+  width: 100%;
+}
+.cover-text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: 50px 80px;
+}
+.logo {
+  width: 250px;
+  height: 80px;
+}
+
+.form {
+  width: 90%;
+  margin: auto;
+}
+.search-container {
+  display: flex;
+}
+.search {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: larger;
+  padding-left: 2rem;
+}
+.fa-magnifying-glass {
+  border-right: 5px solid var(--golden);
+  font-size: 3rem;
+  /* margin: auto; */
+  color: var(--golden);
+  padding-right: 1rem;
+}
+
+.job-menu a {
+  text-decoration: none;
+  color: var(--golden);
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.job-menu {
+  padding-bottom: 2rem;
+}
