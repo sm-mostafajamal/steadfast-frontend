@@ -6,9 +6,9 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <Navbar className="navbar">
+        <Navbar fixed="top">
           <Container className="container">
-            <Navbar.Brand className="brand">
+            <Navbar.Brand>
               <Link to={"/"}>
                 <img
                   src={`${process.env.PUBLIC_URL}/steadfast_images/Steadfast-logo_withTxt.png`}
@@ -17,7 +17,7 @@ function App() {
                 />
               </Link>
             </Navbar.Brand>
-            <Nav className="nav">
+            <Nav className="justify-content-end nav" activeKey="/home">
               <Link to={"/"}>HOME</Link>
               <Link to={"/jobs"}>JOBS</Link>
               <Link to={"/join-us"}>JOIN US</Link>
