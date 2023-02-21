@@ -1,5 +1,5 @@
 :root {
-  --golden: #f1b502;
+  --black: black;
 }
 body {
   margin: 0;
@@ -12,11 +12,11 @@ body {
 
 .container {
   display: flex;
-  background-color: var(--golden);
+  background-color: var(--black);
   height: 5rem;
   align-items: center;
   position: relative;
-  box-shadow: 0 1px 20px 0 #a59061;
+  box-shadow: 0 1px 20px 0 rgb(63, 63, 63);
   justify-content: space-between;
 }
 .container a {
@@ -41,8 +41,9 @@ body {
   margin: 50px 80px;
 }
 .logo {
-  width: 250px;
-  height: 80px;
+  width: 5.2rem;
+  height: 5rem;
+  margin-left: 4rem;
 }
 
 .form {
@@ -60,16 +61,16 @@ body {
   padding-left: 2rem;
 }
 .fa-magnifying-glass {
-  border-right: 5px solid var(--golden);
+  border-right: 5px solid var(--black);
   font-size: 3rem;
   /* margin: auto; */
-  color: var(--golden);
+  color: var(--black);
   padding-right: 1rem;
 }
 
 .job-menu a {
   text-decoration: none;
-  color: var(--golden);
+  color: rgb(105, 105, 105);
   margin-right: 1rem;
   font-size: 1.5rem;
   font-weight: bolder;

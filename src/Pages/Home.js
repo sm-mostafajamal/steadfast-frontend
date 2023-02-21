@@ -23,7 +23,7 @@ const Home = () => {
           <Link>Engineering</Link>
         </div>
         <div className="search-container">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
           <input type={"search"} className="search" placeholder="Search" />
         </div>
       </form>

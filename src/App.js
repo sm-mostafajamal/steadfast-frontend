@@ -6,12 +6,12 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <Navbar>
+        <Navbar className="navbar">
           <Container className="container">
             <Navbar.Brand className="brand">
               <Link to={"/"}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/steadfast_images/s2-r.png`}
+                  src={`${process.env.PUBLIC_URL}/steadfast_images/Steadfast-logo_withTxt.png`}
                   alt=""
                   className="logo"
                 />
