@@ -1,0 +1,63 @@
+.service-container {
+  width: 100%;
+  height: max-content;
+  background-color: black;
+  color: white;
+  margin-top: 300px;
+}
+.for-jobseekers,
+.for-employers {
+  display: flex;
+  justify-content: space-around;
+}
+.jsDetails,
+.feDetails {
+  width: 40%;
+  padding-top: 50px;
+  line-height: 30px;
+}
+.jsDetails > h4,
+.feDetails > h4 {
+  color: #01b178;
+  margin: 0;
+}
+.jsDetails > button,
+.feDetails > button {
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: #ffdd00;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.jsDetails > button:hover,
+.feDetails > button:hover {
+  background-color: #f1b502;
+}
+
+.jsImg,
+.feImg {
+  width: 500px;
+  height: 550px;
+  border-radius: 25px;
+}
+.jsImg {
+  margin-top: -180px;
+}
+.for-employers {
+  margin-top: 100px;
+}
+.feImg {
+  margin-bottom: -630px;
+}
+.feDetails {
+  width: 40%;
+  padding: 70px 0px;
+  line-height: 30px;
+}
+/* .feDetails > h4 {
+  color: #01b178;
+  margin: 0;
+} */

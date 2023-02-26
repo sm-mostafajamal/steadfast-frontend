@@ -16,13 +16,14 @@
   /* margin: auto; */
 }
 .cover-heading > h1,
-h2 {
+h4 {
   margin: 0;
   margin-left: 20px;
 }
-.cover-heading > h2 {
+.cover-heading > h4 {
   font-size: small;
-  font-weight: 400;
+  /* font-weight: 400; */
   margin-top: 20px;
-  color: #f1b502;
+  /* color: #ffdd00; */
+  color: #01b178;
 }

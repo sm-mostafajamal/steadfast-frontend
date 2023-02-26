@@ -1,6 +1,6 @@
 .cardContainer {
-  width: 278px;
-  height: 420px;
+  width: 440px;
+  height: 450px;
   background-color: black;
   color: white;
   border: 1px solid black;
@@ -66,19 +66,22 @@
   width: 150px;
   height: 50px;
   border: none;
-  background-color: #f1b502;
+  background-color: #ffdd00;
   font-size: medium;
+  font-weight: 500;
 }
-
+.detailsBtn > button:hover {
+  background-color: #f1b502;
+}
 .detailsArrow {
   position: absolute;
   margin: 2px 8px;
 }
 .cardIcon {
   position: absolute;
-  margin-top: 1px;
+  padding-top: 3px;
 }
 .title,
 .cardDetails {
-  margin-left: 20px;
+  padding-left: 25px;
 }

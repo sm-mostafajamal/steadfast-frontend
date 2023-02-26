@@ -1,10 +1,7 @@
-.featuredJobs {
-  margin-top: 50px;
-}
 .cards {
+  width: 100%;
   display: flex;
-  margin-top: 30px;
-  gap: 10px;
+  gap: 15px;
   flex: 1px;
   flex-wrap: wrap;
   /* justify-content: ; */

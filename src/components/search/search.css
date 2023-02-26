@@ -1,9 +1,13 @@
+.searchContainer {
+  width: 90%;
+  margin: auto;
+}
 .searchMenu > ul {
   display: flex;
   gap: 20px;
   padding: 0;
   list-style: none;
-  margin-top: 20px;
+  /* padding-top: 20px; */
   font-size: 18px;
   font-weight: 600;
   color: rgb(92, 92, 92);
@@ -13,7 +17,7 @@
 }
 .search {
   display: flex;
-  margin-top: 30px;
+  padding-top: 30px;
   align-content: center;
 }
 .searchIcon {

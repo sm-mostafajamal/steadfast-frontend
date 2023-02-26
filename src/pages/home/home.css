@@ -4,13 +4,16 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-main {
-  width: 90%;
-  margin: auto;
-}
 
+.featuredContainer {
+  display: flex;
+  width: 90%;
+  margin: 80px auto 80px auto;
+}
 .ftitle {
-  margin-top: 50px;
+  width: 30%;
+  margin: 0;
+  padding-right: 80px;
   font-weight: 500;
 }
 .longArrow {
