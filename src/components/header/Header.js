@@ -1,7 +1,7 @@
 import "./header.css";
 const Header = () => {
   return (
-    <div>
+    <div className="cover-container">
       <div className="cover-heading">
         <h1>Where you want to go next on your career path?</h1>
         <h4>WE CONNECT TALENTED PEOPLE WITH GREAT COMPANIES.</h4>
