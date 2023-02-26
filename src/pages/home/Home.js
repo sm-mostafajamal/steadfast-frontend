@@ -13,6 +13,9 @@ const Home = () => {
         <Header />
       </header>
       <main>
+        <div className="findJob">
+          <h1>Find a Job In:</h1>
+        </div>
         <Search />
         <div className="featuredContainer">
           <h1 className="ftitle">

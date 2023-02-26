@@ -4,7 +4,10 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-
+main > div.findJob {
+  width: 90%;
+  margin: auto;
+}
 .featuredContainer {
   display: flex;
   width: 90%;

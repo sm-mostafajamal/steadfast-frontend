@@ -2,6 +2,7 @@
   width: 100%;
   background-color: black;
   color: white;
+  /* margin-top: 80px; */
 }
 .footerWrapper {
   display: flex;
@@ -59,9 +60,10 @@
 .follow > ul > li > a {
   color: #00a26e;
 }
-.follow > ul > li:hover {
+.follow > ul > li > a:hover {
   transition: 0.5s ease;
   font-size: 30px;
+  color: #f1b502;
 }
 .follow > ul {
   display: flex;

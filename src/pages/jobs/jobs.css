@@ -1,0 +1,129 @@
+.find-container {
+  background-image: url("../../../public/steadfast_images/find.png");
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: contain; */
+  /* background-color: #f1b502; */
+  /* background-color: #ffdd00; */
+  padding: 50px 0;
+}
+.findWrapper {
+  width: 90%;
+  margin: auto;
+}
+.findWrapper > h1 {
+  margin-top: 0;
+  /* padding-top: 50px; */
+}
+.findWrapper > h3 {
+  font-size: 90%;
+  font-weight: 400;
+  white-space: inherit;
+  line-height: 3vh;
+}
+.findWrapper > h3 > span {
+  /* color: #01a06d; */
+  font-weight: 600;
+}
+.filter-container {
+  background-color: #ffdd00;
+
+  height: 60px;
+  display: flex;
+}
+.filterWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.role-types {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+.location-container {
+  margin-right: 10%;
+}
+.location {
+  padding-right: 40%;
+  /* padding: 10% 50% 10% 5%; */
+  background: transparent;
+  border: none;
+  font-size: medium;
+}
+
+.role-type,
+.location {
+  cursor: pointer;
+  font-weight: 600;
+}
+.jobCards-container {
+  width: 95%;
+  margin: auto;
+  padding-top: 80px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.moreBtn {
+  width: 100%;
+  width: 15%;
+  /* height: 70px; */
+  margin: 5% auto;
+}
+.moreBtn > button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #01a06d;
+  font-size: medium;
+  font-weight: 500;
+}
+.moreBtn > button:hover {
+  background-color: #007752;
+  color: white;
+}
+.moreArrow {
+  position: absolute;
+  margin: 2px 8px;
+}
+.specialism {
+  margin-top: 50px;
+  position: relative;
+}
+
+.spDetails {
+  background-color: rgba(0, 0, 0, 0.603);
+  z-index: 1;
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  padding: 3% 0;
+}
+.spDetails > h1 {
+  color: #01a06d;
+  width: 50%;
+  margin: auto;
+  line-height: 7vh;
+}
+.spDetails > p {
+  line-height: 3vh;
+  width: 50%;
+  margin: auto;
+  font-weight: 500;
+}
+.spImg {
+  width: 100%;
+  /* opacity: 80%; */
+  filter: brightness(50%);
+}
