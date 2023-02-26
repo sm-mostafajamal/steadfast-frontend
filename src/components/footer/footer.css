@@ -1,0 +1,77 @@
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.about {
+  width: 50%;
+}
+.about > article,
+.openningHours > ul > li > span {
+  font-size: 14px;
+  line-height: 20px;
+}
+.openningHours > ul,
+.follow > ul {
+  padding: 0;
+}
+.openningHours > ul > li {
+  list-style: none;
+  padding: 3px;
+}
+.footerWrapper h3 {
+  color: #00a26e;
+  display: inline;
+}
+.steadfastLogo-container {
+  display: flex;
+  align-items: center;
+}
+.steadfast-logo {
+  width: 32px;
+  height: 30px;
+  padding-right: 10px;
+}
+.openningIcon {
+  position: absolute;
+  padding-top: 4px;
+  color: #f1b502;
+}
+.openningHours > ul > li > span {
+  padding-left: 20px;
+}
+
+.follow {
+  width: 15%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.follow > ul > li {
+  list-style: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.follow > ul > li > a {
+  color: #00a26e;
+}
+.follow > ul > li:hover {
+  transition: 0.5s ease;
+  font-size: 30px;
+}
+.follow > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  width: 35%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.copyright > span {
+  font-size: 12px;
+}
