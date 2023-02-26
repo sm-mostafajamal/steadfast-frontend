@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.ftitle {
+  margin-top: 50px;
+  font-weight: 500;
+}
+.longArrow {
+  font-size: 40px;
+  position: absolute;
+  color: #f1b502;
+  padding-top: 1px;
+  margin-left: 20px;
+}

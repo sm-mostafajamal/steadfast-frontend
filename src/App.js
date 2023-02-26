@@ -1,39 +1,23 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import Home from "./Pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Jobs from "./pages/jobs/Jobs";
+import JoinUs from "./pages/joinUs/JoinUs";
+import Employer from "./pages/employer/Employer";
+import Contact from "./pages/contact/Contact";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
-      <header>
-        <Navbar fixed="top">
-          <Container className="container">
-            <Navbar.Brand>
-              <Link to={"/"}>
-                <img
-                  src={`${process.env.PUBLIC_URL}/steadfast_images/Steadfast-logo_withTxt.png`}
-                  alt=""
-                  className="logo"
-                />
-              </Link>
-            </Navbar.Brand>
-            <Nav className="justify-content-end nav" activeKey="/home">
-              <Link to={"/"}>HOME</Link>
-              <Link to={"/jobs"}>JOBS</Link>
-              <Link to={"/join-us"}>JOIN US</Link>
-              <Link to={"/employer"}>EMPLOYER</Link>
-              <Link to={"/contact"}>CONTACT</Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </header>
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            Home
-          </Route>
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/joinus" element={<JoinUs />} />
+          <Route path="/employer" element={<Employer />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
