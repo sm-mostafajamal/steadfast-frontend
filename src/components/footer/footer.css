@@ -12,10 +12,24 @@
 .about {
   width: 50%;
 }
-.about > article,
-.openningHours > ul > li > span {
+.about > .aDetails article,
+.openningHours > ul > li > span,
+.address span {
   font-size: 14px;
   line-height: 20px;
+}
+
+.address {
+  padding-top: 20px;
+}
+.address span {
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+.flagIcon {
+  position: absolute;
+  /* padding-top: 10px; */
 }
 .openningHours > ul,
 .follow > ul {
@@ -27,7 +41,6 @@
 }
 .footerWrapper h3 {
   color: #00a26e;
-  display: inline;
 }
 .steadfastLogo-container {
   display: flex;
@@ -48,9 +61,9 @@
 }
 
 .follow {
-  width: 15%;
-  margin: auto;
-  padding-bottom: 15px;
+  width: 70%;
+  /* margin: auto; */
+  /* padding: 30px 0; */
 }
 .follow > ul > li {
   list-style: none;
@@ -58,12 +71,12 @@
   cursor: pointer;
 }
 .follow > ul > li > a {
-  color: #00a26e;
+  color: white;
 }
 .follow > ul > li > a:hover {
   transition: 0.5s ease;
   font-size: 30px;
-  color: #f1b502;
+  color: #00a26e;
 }
 .follow > ul {
   display: flex;
@@ -72,7 +85,8 @@
 .copyright {
   width: 35%;
   margin: auto;
-  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 .copyright > span {
   font-size: 12px;
