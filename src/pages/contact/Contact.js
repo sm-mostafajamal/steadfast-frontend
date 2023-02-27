@@ -1,7 +1,6 @@
 import "./contact.css";
 import Flag from "react-world-flags";
 import Footer from "../../components/footer/Footer";
-import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div className="contact-container">
