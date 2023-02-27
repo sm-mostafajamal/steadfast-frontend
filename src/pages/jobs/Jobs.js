@@ -63,7 +63,7 @@ const Jobs = () => {
           </p>
         </div>
         <img
-          src={`${process.env.PUBLIC_URL}/steadfast_images/specialism.jpeg`}
+          src={`${process.env.PUBLIC_URL}/steadfast_images/specialism.jpg`}
           alt="specialisms"
           className="spImg"
         />

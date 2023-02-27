@@ -1,0 +1,138 @@
+:root {
+  --green: #007752;
+  --yellow: #ffdd00;
+  --orange: #f1b502;
+  --silver: #f2f2f2;
+}
+
+.eTitle {
+  background-image: url("../../../public/steadfast_images/employer.jpeg");
+  width: 100%;
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eTitle > h1 {
+  margin: 0;
+  color: white;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+  line-height: 5vh;
+  font-size: 2.5vmax;
+  white-space: nowrap;
+}
+.eTitle > h1 > span {
+  color: var(--yellow);
+}
+
+.steadfast-cards {
+  display: flex;
+  position: relative;
+  background-color: var(--silver);
+  /* width: 0%; */
+  gap: 5%;
+  justify-content: center;
+  padding: 5% 0;
+  /* margin: auto; */
+  line-height: 3vh;
+}
+.steadfast-card {
+  width: 40%;
+  text-align: justify;
+}
+.steadfast-card > p {
+  font-size: 14px;
+}
+.steadfast-card > h3 {
+  font-size: 2vmax;
+}
+.sep {
+  border: 1px solid rgba(56, 56, 56, 0.315);
+}
+.sIcon {
+  position: absolute;
+  padding-left: 15px;
+  /* padding-top: -15px; */
+  font-size: 3vh;
+}
+
+.questions-container {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0;
+}
+.qTitle {
+  text-align: center;
+}
+.qTitle > h1 {
+  font-size: 3vmax;
+}
+.questions-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
+  gap: 5%;
+  padding-top: 5%;
+}
+.qa {
+  text-align: justify;
+  border-left: 1px solid;
+  border-color: var(--orange);
+  border-width: 5px;
+  /* height: 80%; */
+
+  padding-left: 20px;
+}
+.qa > h2 {
+  margin-top: 0;
+  font-size: large;
+}
+.qa > p {
+  font-size: 14px;
+  line-height: 3vh;
+}
+.qaSep {
+  border: 1px solid black;
+}
+.contactUs-container {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  color: white;
+}
+.cImg {
+  width: inherit;
+  height: 30vmax;
+}
+.cDetails {
+  position: absolute;
+  top: 4vmax;
+  margin-left: 2vmax;
+}
+.cDetails > h1 {
+  font-size: 3vmax;
+}
+.cDetails > p {
+  font-size: 1.3vmax;
+  padding-bottom: 10px;
+}
+
+.cDetails button {
+  width: 30%;
+  height: 6vh;
+  border: none;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  font-size: 1vmax;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cDetails button:hover {
+  background-color: var(--orange);
+  color: white;
+}

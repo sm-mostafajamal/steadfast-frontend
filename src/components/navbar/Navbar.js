@@ -16,8 +16,8 @@ function Navbar() {
           <div className="navlist">
             <Link to="/">HOME</Link>
             <Link to="/jobs">JOBS</Link>
-            <Link to="/joinUs">JOIN US</Link>
             <Link to="/employer">EMPLOYER</Link>
+            <Link to="/joinUs">JOIN US</Link>
             <Link to="/contact">CONTACT</Link>
           </div>
         </div>

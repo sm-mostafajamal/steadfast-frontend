@@ -107,23 +107,27 @@
   color: white;
   width: 100%;
   text-align: center;
-  top: 40%;
-  padding: 3% 0;
+  top: 35%;
+  padding: 1% 0;
 }
 .spDetails > h1 {
   color: #01a06d;
   width: 50%;
   margin: auto;
-  line-height: 7vh;
+  line-height: 5vh;
+  font-size: x-large;
 }
 .spDetails > p {
   line-height: 3vh;
-  width: 50%;
+  width: 60%;
   margin: auto;
   font-weight: 500;
+  font-size: small;
+  padding-bottom: 1%;
 }
+
 .spImg {
   width: 100%;
-  /* opacity: 80%; */
+  height: 60vh;
   filter: brightness(50%);
 }
