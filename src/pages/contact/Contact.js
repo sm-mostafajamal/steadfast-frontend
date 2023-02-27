@@ -45,9 +45,14 @@ const Contact = () => {
         <input type="text" name="email" id="email" placeholder="Email*" />
         {/* <label htmlFor="phone">Phone</label> */}
         <input type="text" name="phone" id="phone" placeholder="Phone*" />
-        <textarea name="help" id="help" cols="30" rows="10">
-          How can we help?*
-        </textarea>
+        <textarea
+          name="help"
+          id="help"
+          cols="100"
+          rows="10"
+          placeholder="How can we help?*"
+        />
+
         <div className="policy">
           <label htmlFor="policy">Privacy Policy *</label>
           <input type="checkbox" name="policy" id="policy" />

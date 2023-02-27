@@ -68,6 +68,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  resize: vertical;
 }
 .policy > label {
   display: block;
