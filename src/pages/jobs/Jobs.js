@@ -3,6 +3,8 @@ import Find from "../../components/find/Find";
 import Footer from "../../components/footer/Footer";
 import data from "../../data";
 import Card from "../../components/card/Card";
+import Image from "../../components/image/Image";
+
 import { FaAngleDoubleRight } from "react-icons/fa";
 const Jobs = () => {
   return (
@@ -62,11 +64,7 @@ const Jobs = () => {
             covering both client side and agency.
           </p>
         </div>
-        <img
-          src={`${process.env.PUBLIC_URL}/steadfast_images/specialism.jpg`}
-          alt="specialisms"
-          className="spImg"
-        />
+        <Image imgName="specialism.jpg" className="spImg" />
       </div>
       <Footer />
     </div>

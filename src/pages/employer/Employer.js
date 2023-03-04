@@ -1,6 +1,8 @@
 import "./employer.css";
 import { BsPeopleFill, BsQuestionOctagonFill } from "react-icons/bs";
 import Footer from "../../components/footer/Footer";
+import Image from "../../components/image/Image";
+
 import { Link } from "react-router-dom";
 const Employer = () => {
   return (
@@ -136,11 +138,7 @@ const Employer = () => {
             <button>CONTACT DETAILS</button>
           </Link>
         </div>
-        <img
-          src={`${process.env.PUBLIC_URL}/steadfast_images/contact.jpg`}
-          alt="contact"
-          className="cImg"
-        />
+        <Image imgName="contact.jpg" className="cImg" />
       </div>
       <Footer />
     </div>

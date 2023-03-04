@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import "./navbar.css";
+import Image from "../image/Image";
 
 function Navbar() {
   return (
@@ -7,11 +8,12 @@ function Navbar() {
       <div className="navWrapper">
         <div className="navContainer">
           <Link to="/">
-            <img
-              src={`${process.env.PUBLIC_URL}/steadfast_images/Steadfast-logo_withTxt.png`}
-              className="logo"
-              alt="steadfast logo"
-            />
+            <div className="logo-wrapper">
+              <Image imgName={"Steadfast-logo_withTxt.png"} className="logo" />
+              <h1 className="logoName">
+                STEADFAST <br /> COMMUNICATIONS
+              </h1>
+            </div>
           </Link>
           <div className="navlist">
             <Link to="/">HOME</Link>

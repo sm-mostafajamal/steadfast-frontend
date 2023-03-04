@@ -3,17 +3,18 @@
   object-fit: cover;
   /* margin-top: 85px; */
 }
-
+.cover-container {
+  position: relative;
+  font-size: 1.3vmax;
+}
 .cover-heading {
   position: absolute;
   color: white;
   width: 40%;
   border-left: 5px solid #f1b502;
   border-width: 8px;
-  /* height: 130px; */
-  /* text-align: center; */
-  margin-top: 70px;
-  margin-left: 150px;
+  margin-top: 8%;
+  margin-left: 10%;
   /* margin: auto; */
 }
 .cover-heading > h1,
@@ -22,9 +23,12 @@ h4 {
   margin-left: 20px;
 }
 .cover-heading > h4 {
-  font-size: small;
+  font-size: 1vmax;
   /* font-weight: 400; */
   margin-top: 20px;
   /* color: #ffdd00; */
   color: #01b178;
+}
+.cover-heading > h1 {
+  font-size: 2.6vmax;
 }

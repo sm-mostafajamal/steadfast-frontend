@@ -1,4 +1,6 @@
 import "./header.css";
+import Image from "../image/Image";
+
 const Header = () => {
   return (
     <div className="cover-container">
@@ -6,11 +8,7 @@ const Header = () => {
         <h1>Where you want to go next on your career path?</h1>
         <h4>WE CONNECT TALENTED PEOPLE WITH GREAT COMPANIES.</h4>
       </div>
-      <img
-        src={`${process.env.PUBLIC_URL}/steadfast_images/steadfast-cover.png`}
-        alt="Steadfast cover"
-        className="cover"
-      />
+      <Image imgName={"steadfast-cover.png"} className="cover" />
     </div>
   );
 };

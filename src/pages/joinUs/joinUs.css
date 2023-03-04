@@ -1,0 +1,68 @@
+.joinUs-cointainer {
+  padding: 5% 0;
+}
+.joinUs-heading {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-top: 6%; */
+}
+.joinUs-heading > h1 {
+  /* display: block; */
+  font-size: 2vmax;
+  margin-bottom: 8%;
+  line-height: 6vh;
+  color: #f1b502;
+}
+.joinUs-heading > h1 > span {
+  font-size: 3.5vmax;
+  color: black;
+  /* color: #01b178; */
+  /* color: #f1b502; */
+  /* FFDD00 */
+}
+.joinUs-heading > span {
+  /* border: 1px solid black; */
+  padding: 15px;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: #f1b502;
+  color: white;
+  font-weight: bolder;
+}
+.joinUs-details {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 15vh;
+  padding-top: 3%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-around;
+}
+.joinUs-details > h1 {
+  text-align: center;
+  margin: 0;
+  width: 15%;
+  border-radius: 20% 100%;
+  box-shadow: 50px 10px 80px 0px #f1b502;
+  height: fit-content;
+}
+.joinUs-details > p {
+  width: 50%;
+  line-height: 3vh;
+  margin: 0;
+  /* font-weight: 500; */
+}
+.vacancies {
+  padding-top: 6vh;
+}
+.vacancies > h1 {
+  margin: 0;
+  margin-left: 3%;
+  font-size: 2.2vmax;
+}
+
+.vacancies > h1 > span {
+  color: #f1b502;
+}
