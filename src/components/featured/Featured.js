@@ -1,8 +1,7 @@
-import data from "../../data";
 import "./featured.css";
 import Card from "../card/Card";
 
-const Featured = () => {
+const Featured = ({ data }) => {
   return (
     <div className="featuredJobs">
       <div className="cards">

@@ -1,12 +1,11 @@
 import "./jobs.css";
 import Find from "../../components/find/Find";
 import Footer from "../../components/footer/Footer";
-import data from "../../data";
 import Card from "../../components/card/Card";
 import Image from "../../components/image/Image";
 
 import { FaAngleDoubleRight } from "react-icons/fa";
-const Jobs = () => {
+const Jobs = ({ data }) => {
   return (
     <div className="job-container">
       <div className="find-container">

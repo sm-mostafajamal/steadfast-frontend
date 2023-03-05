@@ -2,12 +2,15 @@ const jobs = [
   {
     id: 1,
     title: "Principal Python Automation Engineer",
+    jobType: "Full-time (Hybrid)",
+    Location: "Dallas, TX | Tampa, FL",
     skills:
       "Python, PowerShell, Shell scripting, BI tools, Splunk, Looker, Sigma Computing  ",
     location: "Dallas, TX | Tampa, FL",
     compensation: "$141,000 - $160,000' plus up to 20% bonus",
-    jobNature: "Full-time (Hybrid)",
-    jd: `Compensation: $141,000 - $160,000 plus up to 20% bonus 
+
+    jd: `
+    Compensation: $141,000 - $160,000 plus up to 20% bonus 
 
     Job function: Information Technology 
     
@@ -16,8 +19,6 @@ const jobs = [
     Experience level: Mid-senior 
     
     Education level: Bachelor’s degree 
-    
-    Location:  Dallas, TX | Tampa, FL 
     
     Skills: Python, PowerShell, Shell scripting, BI tools, Splunk, Looker, Sigma Computing  
     
@@ -97,15 +98,14 @@ const jobs = [
   {
     id: 2,
     title: "Mainframe Performance Engineer",
+    Location: "Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA",
     skills:
       "z/OS, Mainframe, Performance Diagnostics, CICS, Network, Storage, Sysplex analysis, LPAR, BMC Mainview, Workload Manager, ThruPut Manager, SAS coding, SAS/GRAPH ",
     location: "Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA",
     compensation: "up to $160,000 plus up to 20% bonus",
-    jobNature: "Full-time (Hybrid)",
-    jd: `Location: Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA 
+    jobType: "Full-time (Hybrid)",
+    jd: `
 
-    Skills: z/OS, Mainframe, Performance Diagnostics, CICS, Network, Storage, Sysplex analysis, LPAR, BMC Mainview, Workload Manager, ThruPut Manager, SAS coding, SAS/GRAPH  
-    
     Experience level: Mid-senior  
     
     Experience required: 8 Years  
@@ -214,10 +214,9 @@ const jobs = [
       "Public cloud operations, AWS, Azure, IaaS (IAM, VPC, EC2, S3, EBS, ELB), PaaS Services (Lambda, AWS Config, EMR, Athena, EKS, etc.), IAM, Orchestration, Kubernetes, Docker, Private cloud, Python, Jenkins",
     location: "Anywhere in U.S.",
     compensation: "$141,000 - $170,000",
-    jobNature: "Remote",
-    jd: `Location: Anywhere in U.S. 
-
-    Skills: Public cloud operations, AWS, Azure, IaaS (IAM, VPC, EC2, S3, EBS, ELB), PaaS Services (Lambda, AWS Config, EMR, Athena, EKS, etc.), IAM, Orchestration, Kubernetes, Docker, Private cloud, Python, Jenkins  
+    jobType: "Remote",
+    Location: "Anywhere in U.S.",
+    jd: ` 
     
     Experience level: Mid-senior 
     
@@ -283,10 +282,9 @@ const jobs = [
     skills: "Accounting, Finance, CPA, Regulatory Filings, P&L, Revenue",
     location: "Anywhere in U.S.",
     compensation: "up to $150,000 ",
-    jobNature: "Remote",
-    jd: `Location: Anywhere in U.S. 
-
-    Skills: Accounting, Finance, CPA, Regulatory Filings, P&L, Revenue 
+    jobType: "Remote",
+    Location: "Anywhere in U.S.",
+    jd: `
     
     Experience level: Mid-senior  
     
@@ -362,11 +360,13 @@ const jobs = [
   {
     id: 5,
     title: "Principal Python Automation Engineer",
+    jobType: "Full-time (Hybrid)",
+    Location: "Dallas, TX | Tampa, FL",
     skills:
       "Python, PowerShell, Shell scripting, BI tools, Splunk, Looker, Sigma Computing  ",
     location: "Dallas, TX | Tampa, FL",
     compensation: "$141,000 - $160,000' plus up to 20% bonus",
-    jobNature: "Full-time (Hybrid)",
+
     jd: `Compensation: $141,000 - $160,000 plus up to 20% bonus 
 
     Job function: Information Technology 
@@ -376,8 +376,6 @@ const jobs = [
     Experience level: Mid-senior 
     
     Education level: Bachelor’s degree 
-    
-    Location:  Dallas, TX | Tampa, FL 
     
     Skills: Python, PowerShell, Shell scripting, BI tools, Splunk, Looker, Sigma Computing  
     
@@ -457,15 +455,14 @@ const jobs = [
   {
     id: 6,
     title: "Mainframe Performance Engineer",
+    Location: "Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA",
     skills:
       "z/OS, Mainframe, Performance Diagnostics, CICS, Network, Storage, Sysplex analysis, LPAR, BMC Mainview, Workload Manager, ThruPut Manager, SAS coding, SAS/GRAPH ",
     location: "Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA",
     compensation: "up to $160,000 plus up to 20% bonus",
-    jobNature: "Full-time (Hybrid)",
-    jd: `Location: Dallas, TX/ Tampa, FL/ Jersey City, NJ/ Mclean, VA/ Boston, MA 
+    jobType: "Full-time (Hybrid)",
+    jd: `
 
-    Skills: z/OS, Mainframe, Performance Diagnostics, CICS, Network, Storage, Sysplex analysis, LPAR, BMC Mainview, Workload Manager, ThruPut Manager, SAS coding, SAS/GRAPH  
-    
     Experience level: Mid-senior  
     
     Experience required: 8 Years  
@@ -574,10 +571,9 @@ const jobs = [
       "Public cloud operations, AWS, Azure, IaaS (IAM, VPC, EC2, S3, EBS, ELB), PaaS Services (Lambda, AWS Config, EMR, Athena, EKS, etc.), IAM, Orchestration, Kubernetes, Docker, Private cloud, Python, Jenkins",
     location: "Anywhere in U.S.",
     compensation: "$141,000 - $170,000",
-    jobNature: "Remote",
-    jd: `Location: Anywhere in U.S. 
-
-    Skills: Public cloud operations, AWS, Azure, IaaS (IAM, VPC, EC2, S3, EBS, ELB), PaaS Services (Lambda, AWS Config, EMR, Athena, EKS, etc.), IAM, Orchestration, Kubernetes, Docker, Private cloud, Python, Jenkins  
+    jobType: "Remote",
+    Location: "Anywhere in U.S.",
+    jd: ` 
     
     Experience level: Mid-senior 
     
@@ -596,7 +592,6 @@ const jobs = [
     Relocation assistance: No 
     
      
-    
     JOB DESCRIPTION AND RESPONSIBILITIES: 
     
         Operational Support for public cloud technology solutions, primarily focused on the AWS or Azure cloud platforms. 
@@ -643,10 +638,9 @@ const jobs = [
     skills: "Accounting, Finance, CPA, Regulatory Filings, P&L, Revenue",
     location: "Anywhere in U.S.",
     compensation: "up to $150,000 ",
-    jobNature: "Remote",
-    jd: `Location: Anywhere in U.S. 
-
-    Skills: Accounting, Finance, CPA, Regulatory Filings, P&L, Revenue 
+    jobType: "Remote",
+    Location: "Anywhere in U.S.",
+    jd: `
     
     Experience level: Mid-senior  
     

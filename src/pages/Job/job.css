@@ -1,0 +1,48 @@
+.job-container {
+  width: 90%;
+  margin: auto;
+}
+.job-desc {
+  text-align: justify;
+  white-space: break-spaces;
+  padding-bottom: 5%;
+}
+.resume {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.resume label {
+  font-size: 1.5vmax;
+  font-weight: 500;
+}
+input[type="file"] {
+  font-size: 1.3vmax;
+}
+input::file-selector-button {
+  border: none;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 5px 10px;
+}
+input::file-selector-button:hover {
+  background-color: black;
+}
+.applyBtn {
+  height: 70px;
+  margin: auto;
+}
+.applyBtn button {
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  border: none;
+  background-color: #ffdd00;
+  font-size: medium;
+  font-weight: 500;
+}
+.applyBtn button:hover {
+  background-color: #f1b502;
+  color: white;
+}

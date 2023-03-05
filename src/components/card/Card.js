@@ -6,6 +6,7 @@ import {
   FaUserClock,
   FaArrowRight,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Card = ({ job }) => {
   return (
@@ -35,10 +36,12 @@ const Card = ({ job }) => {
         </div>
       </div>
       <div className="detailsBtn">
-        <button>
-          Details
-          <FaArrowRight className="detailsArrow" />
-        </button>
+        <Link to={`/jobs/${job.id}`}>
+          <button>
+            Details
+            <FaArrowRight className="detailsArrow" />
+          </button>
+        </Link>
       </div>
     </div>
   );

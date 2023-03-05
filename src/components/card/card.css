@@ -68,7 +68,10 @@
   height: 70px;
   margin: auto;
 }
-.detailsBtn > button {
+.detailsBtn a {
+  text-decoration: none;
+}
+.detailsBtn button {
   cursor: pointer;
   width: 150px;
   height: 45px;
@@ -77,7 +80,7 @@
   font-size: medium;
   font-weight: 500;
 }
-.detailsBtn > button:hover {
+.detailsBtn button:hover {
   background-color: #f1b502;
   color: white;
 }

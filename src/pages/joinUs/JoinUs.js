@@ -1,8 +1,7 @@
 import "./joinUs.css";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/Card";
-import data from "../../data";
-const JoinUs = () => {
+const JoinUs = ({ data }) => {
   return (
     <div>
       <div className="joinUs-cointainer">

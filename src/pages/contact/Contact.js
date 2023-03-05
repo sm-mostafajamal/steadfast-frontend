@@ -1,6 +1,7 @@
 import "./contact.css";
 import Flag from "react-world-flags";
 import Footer from "../../components/footer/Footer";
+import Form from "../../components/form/Form";
 const Contact = () => {
   return (
     <div className="contact-container">
@@ -37,29 +38,17 @@ const Contact = () => {
       </div>
       <div className="form-container">
         <h1>Contact us</h1>
-        <form action=""></form>
-        {/* <label htmlFor="name">Name</label> */}
-        <input type="text" name="name" id="name" placeholder="Name*" />
-        {/* <label htmlFor="email">Email</label> */}
-        <input type="text" name="email" id="email" placeholder="Email*" />
-        {/* <label htmlFor="phone">Phone</label> */}
-        <input type="text" name="phone" id="phone" placeholder="Phone*" />
-        <textarea
-          name="help"
-          id="help"
-          cols="100"
-          rows="10"
-          placeholder="How can we help?*"
-        />
-
-        <div className="policy">
-          <label htmlFor="policy">Privacy Policy *</label>
-          <input type="checkbox" name="policy" id="policy" />
-          <span>
-            I consent to having this website store my submitted information so
-            Steadfast can respond to my inquiry.
-          </span>
-        </div>
+        <form method="post" action="" className="contactForm">
+          <Form />
+        </form>
+      </div>
+      <div className="policy">
+        <label htmlFor="policy">Privacy Policy *</label>
+        <span>
+          <input type="checkbox" name="policy" id="policy" />I consent to having
+          this website store my submitted information so Steadfast can respond
+          to my inquiry.
+        </span>
         <button className="submit">CONTACT DETAILS</button>
       </div>
       <Footer />

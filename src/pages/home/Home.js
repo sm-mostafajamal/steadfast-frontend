@@ -6,7 +6,7 @@ import Featured from "../../components/featured/Featured";
 import Services from "../../components/services/Services";
 import Footer from "../../components/footer/Footer";
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
     <div className="home">
       <header>
@@ -24,7 +24,7 @@ const Home = () => {
             Jobs
             <FaAngleDoubleRight className="longArrow" />
           </h1>
-          <Featured />
+          <Featured data={data} />
         </div>
         <Services />
       </main>
