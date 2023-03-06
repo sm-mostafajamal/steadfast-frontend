@@ -1,4 +1,23 @@
+@media only screen and (max-width: 1000px) {
+  .navlist {
+    margin-right: 0;
+    margin-left: 20%;
+    width: 80%;
+  }
+  .navlist a {
+    font-size: 15px;
+  }
+}
 @media only screen and (max-width: 850px) {
+  .navWrapper {
+    height: 80px;
+  }
+  .navbar-nav {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+  }
   .logo {
     width: 100%;
     height: 5.5vmax;
@@ -7,6 +26,29 @@
     font-size: 1.2vmax;
     list-style: none;
   }
+  .navlist a {
+    margin: auto !important;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-container {
+    margin: auto !important;
+    width: 50%;
+  }
+  .logo-wrapper {
+    margin: 0;
+  }
+  .logoName {
+    font-size: 1.5vmax !important;
+  }
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    background-color: black;
+    box-shadow: none;
+    /* width: ; */
+  }
+
   .cover-heading > h1 {
     /* font-size: 2vmax; */
     font-size: 2.5vmax;
@@ -72,6 +114,116 @@
     font-size: 1.5vmax;
   }
 }
+/* ----------------------testing------------- */
+@media only screen and (max-width: 760px) {
+  .navWrapper {
+    height: 80px;
+  }
+  .navbar-nav {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    height: 200px !important;
+    box-shadow: 0 2px 20px 0 rgb(71, 71, 71);
+    margin: 0;
+  }
+  .logo {
+    width: 100%;
+    height: 5.5vmax;
+  }
+  .logoName {
+    font-size: 1.2vmax;
+    list-style: none;
+  }
+  .navlist a {
+    margin: auto !important;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-container {
+    margin: auto !important;
+    width: 50%;
+  }
+  .logo-wrapper {
+    margin: 0;
+  }
+  .logoName {
+    font-size: 1.5vmax !important;
+  }
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    background-color: black;
+    box-shadow: none;
+    /* width: ; */
+  }
+
+  .cover-heading > h1 {
+    /* font-size: 2vmax; */
+    font-size: 2.5vmax;
+  }
+  .cover-heading > h4 {
+    font-size: 1vmax;
+  }
+  main > div.findJob {
+    font-size: 1.3vmax;
+  }
+  .featuredContainer {
+    display: block;
+  }
+
+  h1.ftitle {
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 3vmax;
+  }
+  .longArrow {
+    font-size: 3.5vmax;
+  }
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .serviceWrapper {
+    margin-top: 10%;
+  }
+  .jsCover {
+    margin-top: -5%;
+    width: 30vmax;
+  }
+
+  .feCover {
+    width: 30vmax;
+    margin-top: 3%;
+  }
+  .our-expertise {
+    padding-top: 10%;
+  }
+  .spDetails p {
+    line-height: 2vh;
+    font-size: 14px;
+  }
+  .eTitle h1 {
+    font-size: 2vmax;
+    line-height: 3vh;
+  }
+  .joinUs-details p {
+    line-height: 2vh;
+  }
+  .heading-wrapper > p,
+  .heading-wrapper > span,
+  .country-icons > .country-icon span {
+    font-size: 1.3vmax;
+  }
+  .policy button {
+    height: 50px;
+  }
+  .policy label,
+  .policy span {
+    font-size: 1.5vmax;
+  }
+}
+/* --------------------------- */
 @media only screen and (max-width: 720px) {
   .cover-heading {
     width: 60%;

@@ -5,14 +5,14 @@ import Jobs from "./pages/jobs/Jobs";
 import JoinUs from "./pages/joinUs/JoinUs";
 import Employer from "./pages/employer/Employer";
 import Contact from "./pages/contact/Contact";
-import Navbar from "./components/navbar/Navbar";
+import NavbarMenu from "./components/navbar/NavbarMenu";
 import Job from "./pages/Job/Job";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar />}>
+        <Route path="/" element={<NavbarMenu />}>
           <Route index element={<Home data={data} />} />
           <Route path="/jobs/:id" element={<Job data={data} />} />
           <Route path="/jobs" element={<Jobs data={data} />} />

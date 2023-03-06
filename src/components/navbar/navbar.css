@@ -1,20 +1,15 @@
+.navbar {
+  padding-top: 0;
+}
+
 .navWrapper {
   z-index: 100;
   width: 100%;
-  height: auto;
   background-color: black;
   box-shadow: 0 2px 20px 0 rgb(71, 71, 71);
-  /* position: fixed; */
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-}
-div.navContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
 }
 .navContainer a {
   text-decoration: none;
@@ -25,9 +20,11 @@ div.navContainer {
   height: 6.5vmax;
 }
 .navlist {
-  width: 45%;
-  display: flex;
+  margin-left: 40%;
+  width: 60%;
   height: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 .navlist > a {
   margin: auto;
@@ -52,4 +49,8 @@ div.navContainer {
 .logoName {
   font-size: 1.3vmax;
   list-style: none;
+  color: white;
+  display: inline;
+  margin: 0;
+  font-weight: bold;
 }

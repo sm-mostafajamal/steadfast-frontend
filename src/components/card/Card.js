@@ -32,7 +32,7 @@ const Card = ({ job }) => {
         </div>
         <div className="cardItem">
           <FaUserClock className="cardIcon" />
-          <span className="cardDetails">{job.jobNature}</span>
+          <span className="cardDetails">{job.jobType}</span>
         </div>
       </div>
       <div className="detailsBtn">
