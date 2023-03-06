@@ -1,0 +1,291 @@
+@media only screen and (max-width: 850px) {
+  .logo {
+    width: 100%;
+    height: 5.5vmax;
+  }
+  .logoName {
+    font-size: 1.2vmax;
+    list-style: none;
+  }
+  .cover-heading > h1 {
+    /* font-size: 2vmax; */
+    font-size: 2.5vmax;
+  }
+  .cover-heading > h4 {
+    font-size: 1vmax;
+  }
+  main > div.findJob {
+    font-size: 1.3vmax;
+  }
+  .featuredContainer {
+    display: block;
+  }
+
+  h1.ftitle {
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 3vmax;
+  }
+  .longArrow {
+    font-size: 3.5vmax;
+  }
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .serviceWrapper {
+    margin-top: 10%;
+  }
+  .jsCover {
+    margin-top: -5%;
+    width: 30vmax;
+  }
+
+  .feCover {
+    width: 30vmax;
+    margin-top: 3%;
+  }
+  .our-expertise {
+    padding-top: 10%;
+  }
+  .spDetails p {
+    line-height: 2vh;
+    font-size: 14px;
+  }
+  .eTitle h1 {
+    font-size: 2vmax;
+    line-height: 3vh;
+  }
+  .joinUs-details p {
+    line-height: 2vh;
+  }
+  .heading-wrapper > p,
+  .heading-wrapper > span,
+  .country-icons > .country-icon span {
+    font-size: 1.3vmax;
+  }
+  .policy button {
+    height: 50px;
+  }
+  .policy label,
+  .policy span {
+    font-size: 1.5vmax;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .cover-heading {
+    width: 60%;
+    margin: 30px;
+  }
+  .cover-heading > h1 {
+    font-size: 2.5vmax;
+  }
+  .cover-heading > h4 {
+    font-size: 1vmax;
+  }
+
+  .jsCover {
+    margin-top: -5%;
+    width: 25vmax;
+  }
+  .feCover {
+    width: 25vmax;
+    margin-top: 11%;
+  }
+  .exDetails p,
+  .exDetails span {
+    font-size: 13px;
+  }
+  .navContainer {
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .cover-heading {
+    width: 70%;
+    margin: 20px;
+  }
+  .cover-heading > h1 {
+    font-size: 2vmax;
+  }
+  .cover-heading > h4 {
+    margin-top: 5px;
+  }
+  .cover-heading > h1,
+  h4 {
+    margin-left: 10px;
+  }
+
+  .serviceWrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .for-employers {
+    display: block;
+    padding: 0;
+  }
+  .jsDetails,
+  .feDetails {
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 2.5vh;
+    padding: 10% 0;
+  }
+  .feCover,
+  .jsCover {
+    display: flex;
+    position: unset;
+    /* z-index: 100; */
+    width: 80vw;
+    margin: auto;
+    border-radius: 0;
+  }
+  .exCover {
+    display: none;
+  }
+  .exDetails {
+    width: 90%;
+  }
+  .jobCards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footerWrapper {
+    padding-top: 5%;
+  }
+  .openningHours {
+    height: 40vh;
+  }
+  .aDetails {
+    display: none;
+  }
+  .copyright {
+    width: 70%;
+    padding-top: 0;
+  }
+  .joinUs-details h1 {
+    font-size: 5vw;
+  }
+  .joinUs-details p {
+    font-size: 2.5vw;
+  }
+  .heading-wrapper {
+    width: 100%;
+  }
+  .form-container h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .cover-heading > h1 {
+    /* font-size: 2vmax; */
+    font-size: 2vmax;
+  }
+  .cover-heading > h4 {
+    font-size: 1vmax;
+    margin-top: 5px;
+  }
+  .cover-heading {
+    border-left: 3px solid #f1b502;
+  }
+  .cover-heading > h1,
+  h4 {
+    margin-left: 10px;
+  }
+  main > div.findJob {
+    font-size: 1vmax;
+  }
+  .menuItem {
+    font-size: 1.5vmax;
+  }
+  .search {
+    padding-top: 10px;
+  }
+  .searchIcon {
+    font-size: 30px;
+    height: 30px;
+  }
+  .searchBox > input {
+    height: 30px;
+    padding-left: 5px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .jobCards-container {
+    grid-template-columns: 1fr;
+  }
+  .footerWrapper {
+    display: block;
+  }
+  .about {
+    width: 100%;
+  }
+  .openningHours {
+    height: 35vh;
+  }
+  .follow {
+    width: 60%;
+    margin: auto;
+  }
+  .country-icon > img {
+    height: 80px;
+  }
+
+  /* 
+  .featuredContainer {
+    display: block;
+  }
+
+  h1.ftitle {
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 3vmax;
+  }
+  .longArrow {
+    font-size: 3.5vmax;
+  }
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .serviceWrapper {
+    margin-top: 10%;
+  }
+  .jsCover {
+    margin-top: -5%;
+    width: 30vmax;
+  }
+
+  .feCover {
+    width: 30vmax;
+    margin-top: 3%;
+  }
+  .our-expertise {
+    padding-top: 10%;
+  }
+  .spDetails p {
+    line-height: 2vh;
+    font-size: 14px;
+  }
+  .eTitle h1 {
+    font-size: 2vmax;
+    line-height: 3vh;
+  }
+  .joinUs-details p {
+    line-height: 2vh;
+  }
+  .heading-wrapper > p,
+  .heading-wrapper > span,
+  .country-icons > .country-icon span {
+    font-size: 1.3vmax;
+  }
+  .policy button {
+    height: 50px;
+  }
+  .policy label,
+  .policy span {
+    font-size: 1.5vmax;
+  } */
+}

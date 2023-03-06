@@ -7,7 +7,7 @@ import Image from "../../components/image/Image";
 import { FaAngleDoubleRight } from "react-icons/fa";
 const Jobs = ({ data }) => {
   return (
-    <div className="job-container">
+    <div className="jobs-container">
       <div className="find-container">
         <div className="findWrapper">
           <h1>Find a job</h1>

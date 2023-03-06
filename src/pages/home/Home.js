@@ -19,9 +19,7 @@ const Home = ({ data }) => {
         <Search />
         <div className="featuredContainer">
           <h1 className="ftitle">
-            Our Latest
-            <br />
-            Jobs
+            Our Latest Jobs
             <FaAngleDoubleRight className="longArrow" />
           </h1>
           <Featured data={data} />

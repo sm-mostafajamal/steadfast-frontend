@@ -138,7 +138,9 @@ const Employer = () => {
             <button>CONTACT DETAILS</button>
           </Link>
         </div>
-        <Image imgName="contact.jpg" className="cImg" />
+        <div className="cImg-container">
+          <Image imgName="contact.jpg" className="cImg" />
+        </div>
       </div>
       <Footer />
     </div>

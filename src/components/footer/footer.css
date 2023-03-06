@@ -5,8 +5,10 @@
   /* margin-top: 80px; */
 }
 .footerWrapper {
+  margin: auto;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 50px;
 }
 .about {
@@ -73,7 +75,7 @@
 .follow > ul > li > a {
   color: white;
 }
-.follow > ul > li > a:hover {
+.follow ul li a:hover {
   transition: 0.5s ease;
   font-size: 30px;
   color: #00a26e;
@@ -85,7 +87,7 @@
 .copyright {
   width: 35%;
   margin: auto;
-  padding-top: 40px;
+  margin-top: 70px;
   padding-bottom: 10px;
 }
 .copyright > span {

@@ -1,6 +1,7 @@
 import { FaCheck } from "react-icons/fa";
 import "./services.css";
 import Image from "../image/Image";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -19,7 +20,9 @@ const Services = () => {
               are on-site and remote opportunities that you can choose from.
               Join our growing network of professionals and contact us today.
             </p>
-            <button> VIEW ALL JOBS</button>
+            <Link to="/jobs">
+              <button> VIEW ALL JOBS</button>
+            </Link>
           </div>
         </div>
         <div className="feCover">
@@ -37,7 +40,9 @@ const Services = () => {
               or work from home work all over the country. Contact us today to
               join our growing network of professionals.
             </p>
-            <button>EXPLORE MORE DETAILS</button>
+            <Link to="/employer">
+              <button>EXPLORE MORE DETAILS</button>
+            </Link>
           </div>
         </div>
       </div>

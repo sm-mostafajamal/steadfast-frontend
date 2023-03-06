@@ -36,8 +36,8 @@
   color: #01b178;
   margin: 0;
 }
-.jsDetails > button,
-.feDetails > button {
+.jsDetails button,
+.feDetails button {
   cursor: pointer;
   width: 250px;
   height: 50px;
@@ -47,8 +47,8 @@
   font-weight: 500;
   border-radius: 5px;
 }
-.jsDetails > button:hover,
-.feDetails > button:hover {
+.jsDetails button:hover,
+.feDetails button:hover {
   background-color: #f1b502;
 }
 .feCover,
