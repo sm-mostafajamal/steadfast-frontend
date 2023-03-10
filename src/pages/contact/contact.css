@@ -15,7 +15,6 @@
   text-align: justify;
 }
 .heading-wrapper p {
-  font-size: 1.2vw;
   line-height: 1.8vmax;
   border-left: 15px double var(--orange);
   padding-left: 10px;
@@ -23,35 +22,31 @@
 }
 .heading-wrapper span {
   font-weight: 500;
-  font-size: 1.2vw;
 }
 .country-icons {
   width: 90%;
   display: flex;
   justify-content: space-around;
-  padding: 15vh 0;
+  padding: 8rem 0;
   margin: auto;
 }
 .country-icons > .country-icon span {
   display: block;
   padding-top: 10px;
   font-weight: bolder;
-  font-size: 1.2vw;
 }
 .form-container {
   width: 90%;
   margin: auto;
-  padding-bottom: 3vh;
 }
 .form-container h1 {
-  font-size: 2.5vw;
+  font-size: 2rem;
 }
 .contactForm input {
   display: block;
   width: 100%;
-  height: 3vmax;
   margin-top: 20px;
-  font-size: 1.5vmax;
+  font-size: 1.2rem;
   border: 1px solid black;
   border-top: none;
   border-left: none;
@@ -60,24 +55,25 @@
 
 .contactForm textarea {
   width: 100%;
-  height: 15vmax;
-  padding-top: 5vh;
-  font-size: 1.3vmax;
+  height: 25vh;
+  padding-top: 2rem;
+  font-size: 1.2rem;
   /* color: #686666;s */
   border: 1px solid black;
   border-top: none;
   border-left: none;
   border-right: none;
   resize: vertical;
-  margin-bottom: 3%;
+  margin-bottom: 3rem;
 }
 .policy {
   width: 90%;
   margin: auto;
 }
+
 .policy > label {
   display: block;
-  font-size: 1.5vw;
+  font-size: 1.3rem;
   font-weight: 600;
   padding-bottom: 10px;
 }
@@ -87,22 +83,21 @@
 }
 .policy > span {
   color: #65656b;
-  font-size: 1.2vw;
   display: block;
   /* font-size: 16px; */
 }
 
 .submit {
-  width: 15%;
-  height: 6vh;
-  margin-top: 3vmax;
+  width: 15vw;
+  height: 40px;
+  margin-top: 3rem;
   border: none;
   background-color: var(--yellow);
   border-radius: 5px;
-  font-size: 1vmax;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  margin-bottom: 8%;
+  margin-bottom: 5rem;
 }
 .submit:hover {
   background-color: var(--orange);

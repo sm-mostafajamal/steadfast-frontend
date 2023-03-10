@@ -22,21 +22,20 @@ const Jobs = ({ data }) => {
       <div className="filter-container">
         <div className="filterWrapper">
           <div className="role-types">
-            <div className="role-type">All</div>
+            {/* <div className="role-type">All</div>
             <div className="role-type">Remote</div>
             <div className="role-type">Hybrid</div>
-            <div className="role-type">Permanent</div>
+            <div className="role-type">Permanent</div> */}
           </div>
           <div className="location-container">
             <form action="">
-              {/* <label for="locations">Location</label> */}
-              <select id="locations" name="locations" className="location">
+              {/* <select id="locations" name="locations" className="location">
                 <option selected>Location</option>
                 <option value="tampa">Tampa</option>
                 <option value="dallas">Dallas</option>
                 <option value="jersey-city">Jersey City</option>
                 <option value="boston">Boston</option>
-              </select>
+              </select> */}
             </form>
           </div>
         </div>

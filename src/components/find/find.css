@@ -1,11 +1,12 @@
 .search {
   display: flex;
   padding-top: 30px;
-  align-content: center;
+  /* align-content: center; */
+  /* justify-content: center; */
 }
 .searchIcon {
   height: 36px;
-  font-size: 35px;
+  font-size: 55px;
   border-right: 5px solid black;
   padding-right: 16px;
 }

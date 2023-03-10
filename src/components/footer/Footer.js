@@ -11,6 +11,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer-container">
+      <div className="steadfastMain">
+        <span>Click to Visit</span>
+        <Link to="https://www.steadfastints.com/">
+          Steadfast Internation Services, LLC
+        </Link>
+      </div>
       <div className="footerWrapper">
         <div className="about">
           <div className="aDetails">
@@ -23,15 +29,20 @@ const Footer = () => {
               <h3>STEADFAST COMMUNICATIONS</h3>
             </div>
             <article>
-              Steadfast International Services is a technology-based recruitment
-              organization. It is a principal of technology consulting and
-              workforce management solutions Company, with city of heart offices
-              in the New York, United States and Dhaka, Bangladesh. It provides
-              recruitment services for Technology, Information Technology and
-              Services (IT), Engineering, Technician, Finance, Administrative
-              Professional, Telecommunications, Pharmaceutical and Life
-              Sciences, Chemicals, Energy, Oil and Gas, Healthcare,
-              Professionals and many more!
+              <Link
+                to="https://www.steadfastints.com/"
+                className="steadfastLink"
+              >
+                Steadfast International Services{" "}
+              </Link>
+              is a technology-based recruitment organization. It is a principal
+              of technology consulting and workforce management solutions
+              Company, with city of heart offices in the New York, United States
+              and Dhaka, Bangladesh. It provides recruitment services for
+              Technology, Information Technology and Services (IT), Engineering,
+              Technician, Finance, Administrative Professional,
+              Telecommunications, Pharmaceutical and Life Sciences, Chemicals,
+              Energy, Oil and Gas, Healthcare, Professionals and many more!
             </article>
           </div>
           <div className="address">

@@ -20,10 +20,9 @@
   /* padding-top: 50px; */
 }
 .findWrapper > h3 {
-  font-size: 100%;
+  font-size: 18px;
   font-weight: 400;
   white-space: inherit;
-  line-height: 3vh;
 }
 .findWrapper > h3 > span {
   /* color: #01a06d; */
@@ -51,7 +50,6 @@
 }
 .location {
   padding-right: 40%;
-  /* padding: 10% 50% 10% 5%; */
   background: transparent;
   border: none;
   font-size: medium;
@@ -107,23 +105,23 @@
   color: white;
   width: 100%;
   text-align: center;
-  top: 35%;
-  padding: 1% 0;
+  top: 10rem;
+  padding: 1rem 0;
 }
 .spDetails > h1 {
   color: #01a06d;
   width: 50%;
   margin: auto;
-  line-height: 5vh;
+  /* line-height: 5vh; */
   font-size: x-large;
 }
 .spDetails > p {
-  line-height: 3vh;
+  /* line-height: 3vh; */
   width: 60%;
   margin: auto;
   font-weight: 500;
   font-size: medium;
-  padding-bottom: 1%;
+  padding-bottom: 10px;
 }
 
 .spImg {

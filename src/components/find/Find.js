@@ -3,8 +3,8 @@ import "./find.css";
 const Find = () => {
   return (
     <div className="search">
-      <div className="searchIcon">
-        <ImSearch />
+      <div>
+        <ImSearch className="searchIcon" />
       </div>
       <form className="searchBox">
         <input type="text" name="job" list="jobnames" placeholder="Search" />

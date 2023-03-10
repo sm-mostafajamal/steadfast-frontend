@@ -4,7 +4,7 @@
 .serviceWrapper {
   width: 90%;
   margin: auto;
-  padding: 5vmax 0;
+  padding: 50px 0;
   color: white;
   margin-top: 300px;
   position: relative;
@@ -17,24 +17,25 @@
   position: relative;
   display: flex;
   justify-content: flex-end;
-  padding-top: 10%;
+  margin-top: 6rem;
 }
 .jsDetails,
 .feDetails {
   width: 50%;
-  /* padding-top: 8%; */
-  line-height: 1.8vmax;
   text-align: justify;
-  font-size: 1.3vmax;
+  font-size: 16px;
+  position: relative;
 }
 .jsDetails > h1,
 .feDetails > h1 {
-  font-size: 2.6vmax;
+  font-size: 2rem;
 }
 .jsDetails > h4,
 .feDetails > h4 {
   color: #01b178;
   margin: 0;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
 }
 .jsDetails button,
 .feDetails button {
@@ -43,8 +44,8 @@
   height: 50px;
   border: none;
   background-color: #ffdd00;
-  font-size: 1.2vmax;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   border-radius: 5px;
 }
 .jsDetails button:hover,
@@ -61,10 +62,12 @@
 }
 .jsCover {
   margin-left: 60%;
-  margin-top: -20%;
+
+  /* margin-left: 45rem; */
+  margin-top: -15rem;
 }
 .feCover {
-  margin-top: 15%;
+  margin-top: 7rem;
 }
 .jsImg,
 .feImg {

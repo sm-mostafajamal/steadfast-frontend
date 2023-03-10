@@ -1,5 +1,5 @@
 .joinUs-cointainer {
-  padding: 5% 0;
+  padding: 50px 0;
 }
 .joinUs-heading {
   width: 40%;
@@ -9,13 +9,13 @@
 }
 .joinUs-heading > h1 {
   /* display: block; */
-  font-size: 2vmax;
-  margin-bottom: 8%;
-  line-height: 6vh;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
   color: #f1b502;
+  font-weight: bolder;
 }
 .joinUs-heading > h1 > span {
-  font-size: 3.5vmax;
+  font-size: 3rem;
   color: black;
   /* color: #01b178; */
   /* color: #f1b502; */
@@ -24,8 +24,8 @@
 .joinUs-heading > span {
   /* border: 1px solid black; */
   padding: 15px;
-  border-bottom-left-radius: 30%;
-  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
   background-color: #f1b502;
   color: white;
   font-weight: bolder;
@@ -35,7 +35,7 @@
   color: white;
   width: 100%;
   height: 250px;
-  margin-top: 6%;
+  margin-top: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,24 +44,24 @@
   text-align: center;
   margin: 0;
   width: 15%;
-  border-radius: 20% 100%;
+  border-radius: 40px 100%;
   box-shadow: 50px 10px 80px 0px #f1b502;
   height: fit-content;
 }
 .joinUs-details > p {
   width: 50%;
-  line-height: 3.5vh;
+  /* line-height: 3.5vh; */
   margin: 0;
-  font-size: 1.3vmax;
   /* font-weight: 500; */
 }
 .vacancies {
-  padding-top: 6vh;
+  padding-top: 6rem;
 }
 .vacancies > h1 {
   margin: 0;
-  margin-left: 3%;
-  font-size: 2.2vmax;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .vacancies > h1 > span {

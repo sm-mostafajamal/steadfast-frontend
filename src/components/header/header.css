@@ -5,7 +5,7 @@
 }
 .cover-container {
   position: relative;
-  font-size: 1.3vmax;
+  /* font-size: 1.3vmax; */
 }
 .cover-heading {
   position: absolute;
@@ -13,8 +13,8 @@
   width: 40%;
   border-left: 5px solid #f1b502;
   border-width: 8px;
-  margin-top: 8%;
-  margin-left: 10%;
+  margin-top: 5rem;
+  margin-left: 5rem;
   /* margin: auto; */
 }
 .cover-heading > h1,
@@ -23,12 +23,12 @@ h4 {
   margin-left: 20px;
 }
 .cover-heading > h4 {
-  font-size: 1vmax;
+  font-size: 14px;
   /* font-weight: 400; */
   margin-top: 20px;
   /* color: #ffdd00; */
   color: #01b178;
 }
 .cover-heading > h1 {
-  font-size: 2.6vmax;
+  font-size: 35px;
 }

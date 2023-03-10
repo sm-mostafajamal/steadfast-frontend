@@ -23,7 +23,7 @@ const Card = ({ job }) => {
           <FaLocationArrow className="cardIcon" />
           <span className="title">Location</span>
           <br />
-          <span className="cardDetails">{job.location}</span>
+          <span className="cardDetails location">{job.location}</span>
         </div>
         <div className="cardItem">
           <FaDollarSign className="cardIcon" />

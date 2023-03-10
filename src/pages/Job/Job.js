@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { FaLocationArrow, FaUserClock } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/form/Form";
@@ -24,10 +25,16 @@ const Job = ({ data }) => {
   return (
     <div>
       <div className="job-container">
+        <h1>{job.title}</h1>
         <div className="job-heading">
-          <h1>{job.title}</h1>
-          <span>{job.jobType}</span>
-          <span>{job.location}</span>
+          <span>
+            <FaUserClock className="jobIcon" />
+            {job.jobType}
+          </span>
+          <span>
+            <FaLocationArrow className="jobIcon" />
+            {job.location}
+          </span>
         </div>
         <div className="job-desc">{job.jd}</div>
         <div>

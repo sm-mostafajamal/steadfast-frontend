@@ -2,10 +2,29 @@
   width: 90%;
   margin: auto;
 }
+.job-container h1 {
+  padding-top: 30px;
+  font-weight: bolder;
+}
+.job-heading {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.job-heading span {
+  font-weight: bold;
+}
+.jobIcon {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #f1b502;
+}
 .job-desc {
   text-align: justify;
   white-space: break-spaces;
   padding-bottom: 5%;
+  width: 80%;
 }
 .resume {
   display: flex;
