@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="steadfastMain">
         <span>Click to Visit</span>
-        <Link to="https://www.steadfastints.com/">
+        <Link to="https://www.steadfastints.com/" target="_blank">
           Steadfast Internation Services, LLC
         </Link>
       </div>

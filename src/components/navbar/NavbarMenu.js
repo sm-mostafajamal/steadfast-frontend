@@ -17,7 +17,8 @@ function NavbarMenu() {
             <Navbar.Brand className="logo-wrapper">
               <Image imgName={"Steadfast-logo_withTxt.png"} className="logo" />
               <h1 className="logoName">
-                STEADFAST <br /> COMMUNICATIONS
+                <span>STEADFAST</span>
+                <br /> COMMUNICATIONS
               </h1>
             </Navbar.Brand>
           </Link>

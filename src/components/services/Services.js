@@ -7,9 +7,6 @@ const Services = () => {
   return (
     <div className="service-container">
       <div className="serviceWrapper">
-        <div className="jsCover">
-          <Image imgName={"jsCover.jpg"} className="jsImg" />
-        </div>
         <div className="for-jobseekers">
           <div className="jsDetails">
             <h1>FOR JOBSEEKERS</h1>
@@ -24,11 +21,14 @@ const Services = () => {
               <button> VIEW ALL JOBS</button>
             </Link>
           </div>
-        </div>
-        <div className="feCover">
-          <Image imgName={"forEmployers.jpg"} className="feImg" />
+          <div className="jsCover">
+            <Image imgName={"jsCover.jpg"} className="jsImg" />
+          </div>
         </div>
         <div className="for-employers">
+          <div className="feCover">
+            <Image imgName={"forEmployers.jpg"} className="feImg" />
+          </div>
           <div className="feDetails">
             <h1>FOR EMPLOYERS</h1>
             <h4>Discover The Best Talent</h4>

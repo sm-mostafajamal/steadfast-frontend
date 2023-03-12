@@ -6,18 +6,24 @@
   margin: auto;
   padding: 50px 0;
   color: white;
-  margin-top: 300px;
+  margin-top: 100px;
   position: relative;
 }
-.for-jobseekers {
-  position: relative;
-}
-
+.for-jobseekers,
 .for-employers {
-  position: relative;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.for-employers {
+  margin-top: 20px;
+}
+.feCover,
+.jsCover {
+  width: 30%;
+  height: fit-content;
+  /* border-radius: 25px; */
+  overflow: hidden;
 }
 .jsDetails,
 .feDetails {
@@ -52,23 +58,7 @@
 .feDetails button:hover {
   background-color: #f1b502;
 }
-.feCover,
-.jsCover {
-  width: 35vw;
-  height: fit-content;
-  position: absolute;
-  border-radius: 25px;
-  overflow: hidden;
-}
-.jsCover {
-  margin-left: 60%;
 
-  /* margin-left: 45rem; */
-  margin-top: -15rem;
-}
-.feCover {
-  margin-top: 7rem;
-}
 .jsImg,
 .feImg {
   width: 100%;
@@ -76,12 +66,8 @@
   object-fit: cover;
 }
 
-/* .feDetails {
-  margin-bottom: 5vmax;
-} */
-
 .our-expertise {
-  padding-top: 300px;
+  padding-top: 100px;
   padding-bottom: 80px;
   margin: 0 auto;
   background-color: #f2f2f2;

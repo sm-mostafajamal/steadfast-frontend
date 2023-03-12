@@ -1,0 +1,37 @@
+.ann-container {
+  /* position: absolute; */
+  /* text-transform: uppercase; */
+  display: flex;
+  flex-wrap: nowrap;
+  /* white-space: nowrap; */
+  width: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+  /* width: 100%; */
+}
+.ann-wrapper {
+  display: flex;
+  flex-shrink: 0;
+  height: 50px;
+  align-items: center;
+  animation: slide-left 15s linear infinite;
+  font-family: impact, sans-serif;
+  background: none;
+}
+
+.announcement {
+  color: red;
+  font-size: 1em;
+  font-weight: 100;
+  padding-left: 0.5em;
+}
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    /* -webkit-transform: translateX(-300%); */
+    transform: translateX(-100%);
+  }
+}

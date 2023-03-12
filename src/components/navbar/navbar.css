@@ -12,6 +12,7 @@
   position: -webkit-sticky;
   top: 0;
 }
+
 .navContainer a {
   text-decoration: none;
   color: white;
@@ -19,6 +20,10 @@
 .logo {
   width: 100%;
   height: 8vh;
+}
+.logoName span {
+  font-size: 25px;
+  color: #f1b502;
 }
 .navlist {
   margin-left: 20rem;
