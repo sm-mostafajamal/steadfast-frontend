@@ -5,6 +5,7 @@ import Featured from "../../components/featured/Featured";
 import Services from "../../components/services/Services";
 import Footer from "../../components/footer/Footer";
 import Announcement from "../../components/announcement/Announcement";
+import Assistance from "../../assistance/Assistance";
 
 const Home = ({ data }) => {
   return (
@@ -18,6 +19,7 @@ const Home = ({ data }) => {
           <h1>Find a Job In:</h1>
         </div>
         <Search /> */}
+        <Assistance />
         <div className="featuredContainer">
           <h1 className="ftitle">
             Our Latest Jobs
