@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { TfiHeadphoneAlt } from "react-icons/tfi";
+import { FaHandsHelping } from "react-icons/fa";
+import { MdBusiness } from "react-icons/md";
 
 const Container = styled.div`
   /* width: 100%; */
@@ -6,31 +9,62 @@ const Container = styled.div`
 `;
 const Wrapper = styled.div`
   display: flex;
-  /* padding: 20px; */
-  height: 50vh;
+  height: max-content;
+`;
+const Icon = styled.div`
+  font-size: 5rem;
 `;
 const Virtual = styled.div`
   flex: 1;
-  border: 1px solid black;
+  padding: 40px;
+  &:hover {
+    background-image: url(${require(`../../assets/virtual.jpeg`)});
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 100%;
+    color: white;
+  }
 `;
+
 const Consulting = styled.div`
   flex: 1;
-  border: 1px solid black;
+  padding: 40px;
+  &:hover {
+    background-image: url(${require(`../../assets/consulting.jpeg`)});
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 100%;
+    color: white;
+  }
 `;
 const BusinessDev = styled.div`
   flex: 1;
-  border: 1px solid black;
+  padding: 40px;
+  &:hover {
+    background-image: url(${require(`../../assets/business_dev.jpeg`)});
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 100%;
+    color: white;
+  }
 `;
 const Header = styled.h1`
   color: #444444;
+  font-size: 28px;
+  letter-spacing: 3px;
 `;
-const Desc = styled.p``;
+const Desc = styled.p`
+  letter-spacing: 1px;
+`;
 
 const Assistance = () => {
   return (
     <Container>
       <Wrapper>
         <Virtual>
+          <Icon>
+            <TfiHeadphoneAlt />
+          </Icon>
           <Header>Virtual Assistant Services</Header>
           <Desc>
             Committed workers that contribute their experience and knowledge to
@@ -39,6 +73,9 @@ const Assistance = () => {
           </Desc>
         </Virtual>
         <Consulting>
+          <Icon>
+            <FaHandsHelping />
+          </Icon>
           <Header>Consulting</Header>
           <Desc>
             We work closely with our clients to understand their unique
@@ -49,6 +86,9 @@ const Assistance = () => {
           </Desc>
         </Consulting>
         <BusinessDev>
+          <Icon>
+            <MdBusiness />
+          </Icon>
           <Header>Business Development</Header>
           <Desc>
             We offer business development services to help businesses grow and

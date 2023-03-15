@@ -6,7 +6,7 @@
 }
 
 .eTitle {
-  background-image: url("../../../public/steadfast_images/employer.jpeg");
+  background-image: url("../../assets/employer.jpeg");
   width: 100%;
   min-height: 400px;
   background-attachment: fixed;

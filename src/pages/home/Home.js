@@ -5,7 +5,8 @@ import Featured from "../../components/featured/Featured";
 import Services from "../../components/services/Services";
 import Footer from "../../components/footer/Footer";
 import Announcement from "../../components/announcement/Announcement";
-import Assistance from "../../assistance/Assistance";
+import Assistance from "../../components/assistance/Assistance";
+import Process from "../../components/process/Process";
 
 const Home = ({ data }) => {
   return (
@@ -28,6 +29,7 @@ const Home = ({ data }) => {
           <Featured data={data} />
         </div>
         <Services />
+        <Process />
       </main>
       <footer>
         <Footer />
