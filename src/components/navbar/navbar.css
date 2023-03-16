@@ -1,7 +1,9 @@
 .navbar {
   padding: 0;
 }
-
+.sideBar {
+  color: white;
+}
 .navWrapper {
   height: 10vh;
   z-index: 100;

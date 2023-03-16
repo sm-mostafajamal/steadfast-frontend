@@ -4,7 +4,15 @@
   --orange: #f1b502;
   --silver: #f2f2f2;
 }
-
+.contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.office-info {
+  /* flex: 1; */
+}
 .heading-container {
   background-color: var(--silver);
   padding: 50px;
@@ -21,23 +29,58 @@
   margin-top: 0;
 }
 .heading-wrapper span {
-  font-weight: 500;
+  /* font-weight: 500; */
+}
+
+.country-icon {
+  display: flex;
+  margin-bottom: 80px;
+}
+.country-icon span {
+  color: #747474;
+}
+.phoneNo {
+  display: flex;
+  padding-top: 5px;
+  font-weight: bolder;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bdPhoneNo {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+.officeAddress h5 {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.pIcon {
+  font-size: 25px;
+  color: var(--orange);
 }
 .country-icons {
   width: 90%;
-  display: flex;
-  justify-content: space-around;
-  padding: 8rem 0;
-  margin: auto;
 }
-.country-icons > .country-icon span {
-  display: block;
-  padding-top: 10px;
-  font-weight: bolder;
+
+.officeAddress {
+  margin-left: 20px;
 }
 .form-container {
-  width: 90%;
-  margin: auto;
+  width: 45%;
+}
+.form-wrapper {
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 35px 8px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: -2px 3px 35px 8px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: -2px 3px 35px 8px rgba(0, 0, 0, 0.46);
 }
 .form-container h1 {
   font-size: 2rem;
@@ -58,17 +101,12 @@
   height: 25vh;
   padding-top: 2rem;
   font-size: 1.2rem;
-  /* color: #686666;s */
   border: 1px solid black;
   border-top: none;
   border-left: none;
   border-right: none;
   resize: vertical;
-  margin-bottom: 3rem;
-}
-.policy {
-  width: 90%;
-  margin: auto;
+  margin-bottom: 1.5rem;
 }
 
 .policy > label {
@@ -84,22 +122,26 @@
 .policy > span {
   color: #65656b;
   display: block;
-  /* font-size: 16px; */
 }
 
 .submit {
   width: 15vw;
   height: 40px;
-  margin-top: 3rem;
+  margin-top: 2rem;
   border: none;
   background-color: var(--yellow);
   border-radius: 5px;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  margin-bottom: 5rem;
 }
 .submit:hover {
   background-color: var(--orange);
   color: white;
+}
+.google-map {
+  padding: 40px;
+}
+.google-map iframe {
+  width: 100%;
 }

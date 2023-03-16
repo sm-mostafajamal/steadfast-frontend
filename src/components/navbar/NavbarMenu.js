@@ -2,6 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 import "./navbar.css";
 import Image from "../image/Image";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Sling as Hamburger } from "hamburger-react";
 
 function NavbarMenu() {
   return (
@@ -30,6 +31,9 @@ function NavbarMenu() {
               <Link to="/employer">EMPLOYER</Link>
               <Link to="/join-us">JOIN US</Link>
               <Link to="/contact">CONTACT</Link>
+            </Nav>
+            <Nav className="sideBar">
+              <Hamburger />
             </Nav>
           </Navbar.Collapse>
         </Container>

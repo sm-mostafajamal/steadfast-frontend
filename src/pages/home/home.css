@@ -26,3 +26,42 @@ h1.ftitle {
   padding-top: 1px;
   margin-left: 20px;
 }
+.hireSteadfast {
+  background-color: #2d3133;
+  color: white;
+  padding: 4rem;
+}
+.hireSteadfast p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  width: 40%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+.buttons button {
+  /* margin-left: 50px; */
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: white;
+  color: #2d3133;
+  transition: all 0.5s ease;
+}

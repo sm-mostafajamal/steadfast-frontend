@@ -44,9 +44,15 @@ const Step = styled.div`
   }
 `;
 const Icon = styled.div`
-  /* background: linear-gradient(to right, #000000 0%, #f1b502 37%, #00b077 100%);
+  /* background: -webkit-linear-gradient(
+    to right,
+    #000000 0%,
+    #f1b502 37%,
+    #00b077 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+
   font-size: 40px;
 `;
 const Title = styled.div`

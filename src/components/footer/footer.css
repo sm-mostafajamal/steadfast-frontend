@@ -94,7 +94,9 @@
   font-size: 12px;
 }
 .steadfastMain {
-  background-color: #f1b502;
+  background-color: #b4f7d4;
+  /* background-color: #f1b502; */
+  color: #2d3133;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -105,7 +107,7 @@
 .steadfastMain span {
   padding-right: 10px;
   font-weight: bold;
-  color: black;
+  /* color: black; */
 }
 .steadfastLink {
   text-decoration: none;

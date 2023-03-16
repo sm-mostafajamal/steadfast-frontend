@@ -30,6 +30,15 @@ const Home = ({ data }) => {
         </div>
         <Services />
         <Process />
+        <div className="hireSteadfast">
+          <p>
+            The easiest thing for you to accomplish today is to get started.
+          </p>
+          <div className="buttons">
+            <button>Applicant</button>
+            <button>Hire STEADFAST</button> {/* for employer */}
+          </div>
+        </div>
       </main>
       <footer>
         <Footer />

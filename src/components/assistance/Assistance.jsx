@@ -16,45 +16,44 @@ const Icon = styled.div`
 `;
 const Virtual = styled.div`
   flex: 1;
-  padding: 40px;
+  padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/virtual.jpeg`)});
-    background-repeat: no-repeat;
-    background-color: white;
+    background-image: url(${require(`../../assets/virtual_a.png`)});
     background-size: 100% 100%;
-    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 `;
 
 const Consulting = styled.div`
   flex: 1;
-  padding: 40px;
+  padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/consulting.jpeg`)});
-    background-repeat: no-repeat;
-    background-color: white;
+    background-image: url(${require(`../../assets/consulting_a.png`)});
     background-size: 100% 100%;
-    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
   }
 `;
 const BusinessDev = styled.div`
   flex: 1;
-  padding: 40px;
+  padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/business_dev.jpeg`)});
-    background-repeat: no-repeat;
-    background-color: white;
+    background-image: url(${require(`../../assets/business_a.png`)});
     background-size: 100% 100%;
-    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 `;
 const Header = styled.h1`
-  color: #444444;
   font-size: 28px;
   letter-spacing: 3px;
+  /* color: #444444; */
 `;
 const Desc = styled.p`
   letter-spacing: 1px;
+  font-weight: 500;
 `;
 
 const Assistance = () => {
@@ -65,6 +64,7 @@ const Assistance = () => {
           <Icon>
             <TfiHeadphoneAlt />
           </Icon>
+
           <Header>Virtual Assistant Services</Header>
           <Desc>
             Committed workers that contribute their experience and knowledge to
@@ -76,7 +76,7 @@ const Assistance = () => {
           <Icon>
             <FaHandsHelping />
           </Icon>
-          <Header>Consulting</Header>
+          <Header>Workforce Management Consulting</Header>
           <Desc>
             We work closely with our clients to understand their unique
             challenges and develop customized solutions that meet their specific

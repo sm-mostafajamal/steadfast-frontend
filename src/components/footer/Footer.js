@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="steadfastMain">
         <span>Click to Visit</span>
         <Link to="https://www.steadfastints.com/" target="_blank">
-          Steadfast Internation Services, LLC
+          Steadfast International Services, LLC
         </Link>
       </div>
       <div className="footerWrapper">
