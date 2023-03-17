@@ -7,6 +7,7 @@ import Footer from "../../components/footer/Footer";
 import Announcement from "../../components/announcement/Announcement";
 import Assistance from "../../components/assistance/Assistance";
 import Process from "../../components/process/Process";
+import { Link } from "react-router-dom";
 
 const Home = ({ data }) => {
   return (
@@ -35,8 +36,12 @@ const Home = ({ data }) => {
             The easiest thing for you to accomplish today is to get started.
           </p>
           <div className="buttons">
-            <button>Applicant</button>
-            <button>Hire STEADFAST</button> {/* for employer */}
+            <Link to="/applicant">
+              <button>Applicant</button>
+            </Link>
+            <Link to="/hire-steadfast">
+              <button>Hire STEADFAST</button> {/* for employer */}
+            </Link>
           </div>
         </div>
       </main>

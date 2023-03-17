@@ -7,6 +7,8 @@ import Employer from "./pages/employer/Employer";
 import Contact from "./pages/contact/Contact";
 import NavbarMenu from "./components/navbar/NavbarMenu";
 import Job from "./pages/Job/Job";
+import Hire from "./pages/hire/Hire";
+import Applicant from "./pages/applicant/Applicant";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/employer" element={<Employer />} />
           <Route path="/join-us" element={<JoinUs data={data} />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/hire-steadfast" element={<Hire />} />
+          <Route path="/applicant" element={<Applicant />} />
         </Route>
       </Routes>
     </BrowserRouter>
