@@ -9,13 +9,13 @@ main > div.findJob {
   margin: auto;
 }
 .featuredContainer {
-  display: flex;
+  /* display: flex; */
   width: 90%;
-  margin: 80px auto 80px auto;
+  margin: auto;
 }
 h1.ftitle {
-  width: 30%;
-  margin: 0;
+  /* width: 30%; */
+  margin: 50px 0;
   padding-right: 80px;
   font-weight: 600;
 }

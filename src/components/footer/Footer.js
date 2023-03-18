@@ -29,20 +29,20 @@ const Footer = () => {
               <h3>STEADFAST COMMUNICATIONS</h3>
             </div>
             <article>
+              Steadfast Communications is the sister concern of
               <Link
                 to="https://www.steadfastints.com/"
                 className="steadfastLink"
               >
-                Steadfast International Services{" "}
+                Steadfast International Services, LLC.
               </Link>
-              is a technology-based recruitment organization. It is a principal
-              of technology consulting and workforce management solutions
-              Company, with city of heart offices in the New York, United States
-              and Dhaka, Bangladesh. It provides recruitment services for
-              Technology, Information Technology and Services (IT), Engineering,
-              Technician, Finance, Administrative Professional,
-              Telecommunications, Pharmaceutical and Life Sciences, Chemicals,
-              Energy, Oil and Gas, Healthcare, Professionals and many more!
+              Which is the leading talent acquisition platform that delivers top
+              candidates to enterprises by leveraging thelargest community of
+              recruiters and sourcing technology platforms. Companies receive
+              ready-to-hire candidates quickly and efficiently while
+              streamlining their recruiting efforts. Steadfast International
+              Services is tech-enabled solutions that include Direct Hire,
+              Contingent Hire, as well as Agency Management.
             </article>
           </div>
           <div className="address">

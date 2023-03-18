@@ -51,15 +51,14 @@ const Services = () => {
           <h4>OUR EXPERTISE</h4>
           <h1>Industries Served</h1>
           <p>
-            Steadfast International Services has associated with 100s of
-            companies in the past and have helped them save thousand over and
-            done with our unbroken Technology services and resourceful
-            Recruiting Services. With Excellence of experience, Statement of
-            Work Services(SOW) and Workforce Solutions (staff augmentation,
-            contingent labor, managed services), IT Consulting, Outsourced
-            Project. We’re enthusiastic to building relationships with our
-            Client, our talent, and technology providers that will build our
-            bottom line.
+            Steadfast Communications is the sister concern of Steadfast
+            International Services, LLC. Which is the leading talent acquisition
+            platform that delivers top candidates to enterprises by leveraging
+            thelargest community of recruiters and sourcing technology
+            platforms. Companies receive ready-to-hire candidates quickly and
+            efficiently while streamlining their recruiting efforts.
+            SteadfastInternational Services is tech-enabled solutions that
+            include Direct Hire, Contingent Hire, as well asAgency Management.
           </p>
           <ul>
             <li>

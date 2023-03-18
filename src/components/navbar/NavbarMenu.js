@@ -3,8 +3,12 @@ import "./navbar.css";
 import Image from "../image/Image";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Sling as Hamburger } from "hamburger-react";
+import { useState } from "react";
+import Menu from "../menu/Menu";
 
 function NavbarMenu() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <div className="navbar">
       <Navbar
@@ -32,8 +36,10 @@ function NavbarMenu() {
               <Link to="/join-us">JOIN US</Link>
               <Link to="/contact">CONTACT</Link>
             </Nav>
-            <Nav className="sideBar">
-              <Hamburger />
+            <Nav className="sideBar" onClick={() => setOpen(!isOpen)}>
+              {/* <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} /> */}
+              click
+              <div>{isOpen && <Menu />}</div>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -79,9 +79,9 @@ const Contact = () => {
           title="733 3rd Ave Floor 16 #1029, New York, NY 10017, US"
           width="600"
           height="350"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 

@@ -1,11 +1,9 @@
 .navbar {
   padding: 0;
 }
-.sideBar {
-  color: white;
-}
+
 .navWrapper {
-  height: 10vh;
+  height: 80px;
   z-index: 100;
   width: 100%;
   background-color: black;
@@ -60,4 +58,18 @@
   display: inline;
   margin: 0;
   font-weight: bold;
+}
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: #f1b502;
+  padding-top: 100px;
+  position: absolute;
+}
+.sideBar {
+  color: white;
+  position: relative;
+  /* position: absolute; */
+  /* padding: 50px; */
+  /* background-color: #f1b502; */
 }

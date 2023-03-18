@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { FaLocationArrow, FaUserClock } from "react-icons/fa";
+import { FaUserClock } from "react-icons/fa";
+import { IoLocation } from "react-icons/io5";
 import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/form/Form";
@@ -32,11 +33,36 @@ const Job = ({ data }) => {
             {job.jobType}
           </span>
           <span>
-            <FaLocationArrow className="jobIcon" />
+            <IoLocation className="jobIcon" />
             {job.location}
           </span>
         </div>
-        <div className="job-desc">{job.jd}</div>
+        <div className="job-desc">
+          <section>
+            <span>Salary: </span>
+            {job.compensation}
+          </section>
+          <section>
+            <span>Skills: </span>
+            {job.skills}
+          </section>
+          <section>
+            <span>Key Selling Points: </span>
+            {job.keySellingPoints}
+          </section>
+          <section>
+            <span>Job Context: </span>
+            {job.jobContext}
+          </section>
+          <section>
+            <span>Additional Requirements: </span>
+            {job.additionalRequirements}
+          </section>
+          <section>
+            <span>Compensation & Other Benefits: </span>
+            {job.compensationAndBenefits}
+          </section>
+        </div>
         <div>
           <div className="applyBtn">
             <button onClick={() => handleClick()}>Apply for job</button>

@@ -1,6 +1,5 @@
 .job-container {
-  width: 90%;
-  margin: auto;
+  padding: 50px;
 }
 .job-container h1 {
   padding-top: 30px;
@@ -8,7 +7,7 @@
 }
 .job-heading {
   display: flex;
-  width: 35%;
+  width: 70%;
   justify-content: space-between;
   padding: 15px 0;
 }
@@ -25,6 +24,14 @@
   white-space: break-spaces;
   padding-bottom: 5%;
   width: 80%;
+}
+.job-desc section {
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+.job-desc section > span {
+  font-weight: bold;
+  font-size: 20px;
 }
 .resume {
   display: flex;
