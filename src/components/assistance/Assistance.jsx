@@ -64,7 +64,6 @@ const Assistance = () => {
           <Icon>
             <TfiHeadphoneAlt />
           </Icon>
-
           <Header>Virtual Assistant Services</Header>
           <Desc>
             Committed workers that contribute their experience and knowledge to

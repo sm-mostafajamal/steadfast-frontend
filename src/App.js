@@ -9,6 +9,7 @@ import NavbarMenu from "./components/navbar/NavbarMenu";
 import Job from "./pages/Job/Job";
 import Hire from "./pages/hire/Hire";
 import Applicant from "./pages/applicant/Applicant";
+import Assistant from "./pages/assistant/Assistant";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/hire-steadfast" element={<Hire />} />
           <Route path="/applicant" element={<Applicant />} />
+          <Route path="/virtual-assistant" element={<Assistant />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -36,12 +36,11 @@ function NavbarMenu() {
               <Link to="/join-us">JOIN US</Link>
               <Link to="/contact">CONTACT</Link>
             </Nav>
-            <Nav className="sideBar" onClick={() => setOpen(!isOpen)}>
-              {/* <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} /> */}
-              click
-              <div>{isOpen && <Menu />}</div>
-            </Nav>
           </Navbar.Collapse>
+          <Nav className="sideBar">
+            <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
+            <div className="test">{isOpen && <Menu />}</div>
+          </Nav>
         </Container>
       </Navbar>
       <Outlet />

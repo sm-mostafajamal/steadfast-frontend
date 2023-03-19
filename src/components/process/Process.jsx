@@ -78,23 +78,25 @@ const Process = () => {
           <Icon>
             <FiPhoneCall />
           </Icon>
-          <Title>Step 1. Sales Call</Title>
+          <Title>Step 1. Commercial Inquiry</Title>
           <Desc>
-            Meet with your Solutions Consultant to identify your exact needs and
-            pain points to determine if we are fit. If so, we’ll send you an
-            agreement to sign and you’ll be assigned a Client Success
-            Consultant.
+            Schedule a meeting with your Solutions Consultant to discuss and
+            pinpoint your specific requirements and challenges, in order to
+            evaluate if we are a suitable match for you. If we are, we will
+            forward an agreement for you to sign and assign a Client Success
+            Consultant to assist you.
           </Desc>
         </Step>
         <Step>
           <Icon>
             <RiUserSearchLine />
           </Icon>
-          <Title>Step 2. Discovery Call</Title>
+          <Title>Step 2. Exploratory Conversation.</Title>
           <Desc>
-            Meet with your Client Success Consultant to deep dive into your
-            tasks, tools, culture and personality requirements to ensure we
-            match you with the right talent.
+            Arrange a meeting with your Client Success Consultant to thoroughly
+            explore your needs in terms of tasks, tools, company culture, and
+            personal preferences, so that we can find the most suitable talent
+            for you.
           </Desc>
         </Step>
         <Step>
@@ -103,11 +105,13 @@ const Process = () => {
           </Icon>
           <Title>Step 3. Placement Process</Title>
           <Desc>
-            Now, for our Secret Sauce. Your Client Success Consultant will meet
-            with the Placement Team to discuss, vet and select 2-3 top
-            candidates from our bench of nearly 2,000 U.S.-based talent to then
-            interview and select the best match for you. The best part? On
-            average, our clients are matched within one week.
+            Our Secret Sauce involves the Client Success Consultant
+            collaborating with the Placement Team to carefully evaluate and
+            choose the most suitable 2-3 candidates from our pool of nearly
+            2,000 talented professionals based in the U.S. Once selected, these
+            candidates will be interviewed and the best match will be chosen for
+            you. The most exciting part is that on average, our clients are
+            matched with their ideal candidate in just one week.
           </Desc>
         </Step>
         <Step>
@@ -116,10 +120,11 @@ const Process = () => {
           </Icon>
           <Title>Step 4. Kickoff Call</Title>
           <Desc>
-            You, your Client Success Consultant and your talent will have a
-            kickoff call – the official start to your partnership – to meet your
-            talent, set initial goals, discuss communication plans, and set
-            yourselves up for success.
+            A kickoff call will mark the official beginning of your partnership
+            with your Client Success Consultant and talent, during which you'll
+            get to know your talent, establish initial objectives, talk about
+            communication strategies, and prepare yourselves for a successful
+            collaboration.
           </Desc>
         </Step>
         <Step>
@@ -128,9 +133,9 @@ const Process = () => {
           </Icon>
           <Title>Step 5. Onboarding</Title>
           <Desc>
-            Your Client Success Consultant stays close to provide high-touch
-            relational service to guide you through our proven onboarding
-            process.
+            Your consultant for client success will remain in close proximity to
+            offer personalized and attentive service, as they assist you in
+            navigating our established onboarding procedure.
           </Desc>
         </Step>
         <Step>
@@ -139,8 +144,9 @@ const Process = () => {
           </Icon>
           <Title>Step 6. Nurturing</Title>
           <Desc>
-            You will have ongoing check-ins to support both you and your talent
-            throughout your partnership with BELAY.
+            Throughout your collaboration with STEADFAST, you can expect to
+            receive continuous check-ins to provide support for both you and
+            your talent.
           </Desc>
         </Step>
       </Wrapper>
