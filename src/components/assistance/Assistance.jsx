@@ -18,10 +18,10 @@ const Virtual = styled.div`
   flex: 1;
   padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/virtual_a.png`)});
-    background-size: 100% 100%;
+    background-image: url(${require(`../../assets/virtual.png`)});
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 `;
 
@@ -29,10 +29,12 @@ const Consulting = styled.div`
   flex: 1;
   padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/consulting_a.png`)});
-    background-size: 100% 100%;
+    background-image: url(${require(`../../assets/consulting.png`)});
+    /* background-size: 100% 100%; */
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
     /* color: white; */
   }
 `;
@@ -40,10 +42,10 @@ const BusinessDev = styled.div`
   flex: 1;
   padding: 30px;
   &:hover {
-    background-image: url(${require(`../../assets/business_a.png`)});
-    background-size: 100% 100%;
+    background-image: url(${require(`../../assets/business.png`)});
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 `;
 const Header = styled.h1`
@@ -54,6 +56,7 @@ const Header = styled.h1`
 const Desc = styled.p`
   letter-spacing: 1px;
   font-weight: 500;
+  /* color: #7b7b7b; */
 `;
 
 const Assistance = () => {
@@ -76,7 +79,7 @@ const Assistance = () => {
             <FaHandsHelping />
           </Icon>
           <Header>Workforce Management Consulting</Header>
-          <Desc>
+          <Desc className="test">
             We work closely with our clients to understand their unique
             challenges and develop customized solutions that meet their specific
             needs to achieve their goals. our goal is to help our clients
