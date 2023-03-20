@@ -1,29 +1,26 @@
 .ann-container {
-  /* position: absolute; */
-  /* text-transform: uppercase; */
   display: flex;
   flex-wrap: nowrap;
-  /* white-space: nowrap; */
-  width: 90%;
-  margin: 20px auto;
+  width: 50%;
+  margin-left: 20px;
   overflow: hidden;
-  /* width: 100%; */
 }
 .ann-wrapper {
   display: flex;
   flex-shrink: 0;
-  height: 50px;
+  /* height: 50px; */
   align-items: center;
-  animation: slide-left 15s linear infinite;
+  animation: slide-left 30s linear infinite;
   font-family: impact, sans-serif;
   background: none;
 }
 
 .announcement {
   /* color: red; */
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   padding-left: 0.5em;
+  color: #01b178;
 }
 @keyframes slide-left {
   from {

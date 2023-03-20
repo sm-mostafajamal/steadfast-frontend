@@ -4,7 +4,6 @@ import Header from "../../components/header/Header";
 import Featured from "../../components/featured/Featured";
 import Services from "../../components/services/Services";
 import Footer from "../../components/footer/Footer";
-import Announcement from "../../components/announcement/Announcement";
 import Assistance from "../../components/assistance/Assistance";
 import Process from "../../components/process/Process";
 import { Link } from "react-router-dom";
@@ -14,7 +13,6 @@ const Home = ({ data }) => {
     <div className="home">
       <header>
         <Header />
-        <Announcement />
       </header>
       <main>
         {/* <div className="findJob">

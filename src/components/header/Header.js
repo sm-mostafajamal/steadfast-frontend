@@ -1,3 +1,4 @@
+import Announcement from "../announcement/Announcement";
 import "./header.css";
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
           <span className="lastLine">
             Achieve more. Advanced staffing through STEADFAST.
           </span>
+          <Announcement />
         </div>
       </div>
     </div>

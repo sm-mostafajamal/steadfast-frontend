@@ -7,6 +7,15 @@ const Container = styled.div`
   /* width: 100%; */
   background-color: #f2f2f2;
 `;
+const Heading = styled.h1`
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #212529;
+  padding: 100px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+`;
 const Wrapper = styled.div`
   display: flex;
   height: max-content;
@@ -62,6 +71,9 @@ const Desc = styled.p`
 const Assistance = () => {
   return (
     <Container>
+      <Heading>
+        Having a remote work team can greatly impact and enhance your workday.
+      </Heading>
       <Wrapper>
         <Virtual>
           <Icon>

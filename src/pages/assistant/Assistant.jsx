@@ -143,6 +143,7 @@ const AssistContainer = styled.div`
     flex: 1;
     font-size: 1.8rem;
     font-weight: 600;
+    line-height: 2.5rem;
   }
   .assistIcon {
     font-size: 3rem;
