@@ -18,10 +18,12 @@ const JoinUs = ({ data }) => {
             opportunities
           </h1>
           <p>
-            Launch your career to the next level by joining our international
-            network of recruiters. Our talent team is dedicated to finding
-            career creators like you. They’re a friendly bunch, who will guide
-            you through our process, with feedback and advice at each step.
+            Elevate your career to new heights by becoming part of our global
+            network of recruiters. Our team of talent specialists is committed
+            to identifying individuals with the potential to create successful
+            careers, like yourself. They are a welcoming group that will support
+            you through our entire process, providing guidance, feedback, and
+            advice at every stage.
           </p>
         </div>
         <div className="vacancies">
