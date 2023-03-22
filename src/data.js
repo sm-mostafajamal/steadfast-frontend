@@ -1,4 +1,4 @@
-const jobs = [
+export const jobs = [
   {
     id: 1,
     title: "Junior Recruiter",
@@ -237,4 +237,49 @@ const jobs = [
   },
 ];
 
-export default jobs;
+export const employers = [
+  {
+    id: 1,
+    picture: "nawreen.jpg",
+    name: "Rifat Nawreen",
+    narration:
+      "Rifat Nawreen, Senior Recruiter and one of the Cheerful Team Leader who also hunting fit candidates for Recruiting Team of Steadfast International Services, LLC. She is Versatile, Loyal & Dedicated to Organizational growth.",
+  },
+  {
+    id: 2,
+    picture: "brishty.jpg",
+    name: "Tasnima Rahman Bristy",
+    narration:
+      "Tasnima Rahman Bristy is one can easily achieve success by being patient, sincere and believing in self. Maintaining proper determination and friendly environment is the key here",
+  },
+  {
+    id: 3,
+    picture: "hamidul.jpg",
+    name: "MD. Hamidul Hoque",
+    narration:
+      "Md. Hamidul Hoque is Most patinate , hard working Executive Recruiter who supports candidates to get their desire job and providing a great service through out the process.",
+  },
+
+  {
+    id: 4,
+    picture: "ridi.jpg",
+    name: "Mahtareen Haque Ridi",
+    narration:
+      "Mahtareen Haque Ridi, is an Executive Recruiter at Steadfast International Services, LLC who is determined to get the job done correctly and efficiently. She is a multi-skilled individual who has goals, morals and knows how to follow guide lines and rules.",
+  },
+  // { id: 3, picture: "mostafa.jpg", name: "Abdullah", narration: "" },
+  {
+    id: 5,
+    picture: "amin.jpg",
+    name: "Abdullah AL Amin",
+    narration: `This is Amin working as an Executive Recruiter being well organized, truthful and passionate. A pioneer is an individual who knows the path, goes the path and shows the path.`,
+  },
+  {
+    id: 6,
+    picture: "nishat.jpg",
+    name: "Nishat Anjum",
+    narration: ` Nishat Anjum is delighted to be a part of Steadfast International Services, where she can use her skills and talents to demonstrate her expertise and boost the company's growth.`,
+  },
+  // { id: 6, picture: "tahmid.jpg", name: "Abdullah", narration: "" },
+  // { id: 7, picture: "Rifat.jpg", name: "Abdullah", narration: "" },
+];
