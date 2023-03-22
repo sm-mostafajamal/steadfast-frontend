@@ -8,14 +8,21 @@ const Wrapper = styled.div``;
 const Cover = styled.div`
   background-image: url(${({ background }) => background});
   width: 100vw;
-  min-height: 100vh;
+  min-height: 60vh;
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 const Heading = styled.h1`
-  color: white;
+  /* color: #c1402a; */
+  color: #e7582c;
+  font-size: 4rem;
+  font-weight: 700;
+  border-bottom: 3px solid #f1b502;
 `;
 const Bloggers = styled.div`
   padding: 50px;
@@ -55,6 +62,8 @@ const Picture = styled.img`
 
 const Title = styled.h3`
   color: #2d3133;
+  text-align: center;
+  padding-bottom: 10px;
 `;
 const Article = styled.p`
   font-weight: 500;
@@ -65,9 +74,7 @@ const Blog = () => {
     <Container>
       <Wrapper>
         <Cover background={blogImg}>
-          <Heading>
-            STEADFAST Blog: How To's & Tips on Leadership & Remote Working
-          </Heading>
+          <Heading>STEADFAST BlOG</Heading>
         </Cover>
         <Bloggers>
           {employers.map((employer) => (

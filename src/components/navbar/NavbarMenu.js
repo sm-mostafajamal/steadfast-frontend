@@ -33,16 +33,17 @@ function NavbarMenu() {
               <Link to="/">HOME</Link>
               <Link to="/jobs">JOBS</Link>
               <Link to="/employer">EMPLOYER</Link>
-              <Link to="/join-us">JOIN US</Link>
-              <Link to="/contact">CONTACT</Link>
+              {/* <Link to="/join-us">JOIN US</Link> */}
+              {/* <Link to="/contact">CONTACT</Link> */}
             </Nav>
           </Navbar.Collapse>
-          <Nav className="sideBar">
-            <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
-            <div className="test">{isOpen && <Menu />}</div>
-          </Nav>
         </Container>
+        <Nav className="menu">
+          <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
+        </Nav>
+        <div className="menu-options">{isOpen && <Menu />}</div>
       </Navbar>
+
       <Outlet />
     </div>
   );
