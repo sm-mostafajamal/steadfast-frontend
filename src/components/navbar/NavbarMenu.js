@@ -28,6 +28,7 @@ function NavbarMenu() {
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto navlist">
               <Link to="/">HOME</Link>
@@ -37,10 +38,10 @@ function NavbarMenu() {
               {/* <Link to="/contact">CONTACT</Link> */}
             </Nav>
           </Navbar.Collapse>
+          <Nav className="menu">
+            <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
+          </Nav>
         </Container>
-        <Nav className="menu">
-          <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
-        </Nav>
         <div className="menu-options">{isOpen && <Menu />}</div>
       </Navbar>
 
