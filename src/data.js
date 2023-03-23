@@ -247,13 +247,20 @@ export const employers = [
   },
   {
     id: 2,
-    picture: "brishty.jpg",
-    name: "Tasnima Rahman Bristy",
+    picture: "shakhawat.jpg",
+    name: "Shakhawat Hossain",
     narration:
-      "Tasnima Rahman Bristy is one can easily achieve success by being patient, sincere and believing in self. Maintaining proper determination and friendly environment is the key here",
+      "Shakhawat Hossain, Assistant HR Manager of Steadfast International Services, LLC. His strongest asset is his multitasking ability. He is conduct interviews & hunts fit candidates for Recruiting Team.",
   },
   {
     id: 3,
+    picture: "brishty.jpg",
+    name: "Tasnima Rahman Bristy",
+    narration:
+      "Tasnima Rahman Bristy worked here as an executive recruiter. She believe one can easily achieve success by being patient, sincere and believing in self. Maintaining proper determination and friendly environment is the key here.",
+  },
+  {
+    id: 4,
     picture: "hamidul.jpg",
     name: "MD. Hamidul Hoque",
     narration:
@@ -261,25 +268,65 @@ export const employers = [
   },
 
   {
-    id: 4,
+    id: 5,
     picture: "ridi.jpg",
     name: "Mahtareen Haque Ridi",
     narration:
       "Mahtareen Haque Ridi, is an Executive Recruiter at Steadfast International Services, LLC who is determined to get the job done correctly and efficiently. She is a multi-skilled individual who has goals, morals and knows how to follow guide lines and rules.",
   },
-  // { id: 3, picture: "mostafa.jpg", name: "Abdullah", narration: "" },
+  // {
+  //   id: 6,
+  //   picture: "mostafa.jpg",
+  //   name: "S.M. Mostafa Jamal",
+  //   narration:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae cumque, autem architecto ratione modi, adipisci quod natus facilis inventore deserunt esse aspernatur rerum. Labore deserunt velit voluptates minus architecto!",
+  // },
   {
-    id: 5,
+    id: 7,
     picture: "amin.jpg",
     name: "Abdullah AL Amin",
     narration: `This is Amin working as an Executive Recruiter being well organized, truthful and passionate. A pioneer is an individual who knows the path, goes the path and shows the path.`,
   },
   {
-    id: 6,
+    id: 8,
     picture: "nishat.jpg",
     name: "Nishat Anjum",
-    narration: ` Nishat Anjum is delighted to be a part of Steadfast International Services, where she can use her skills and talents to demonstrate her expertise and boost the company's growth.`,
+    narration: `Nishat Anjum is delighted to be a part of Steadfast International Services, where she can use her skills and talents to demonstrate her expertise and boost the company's growth.`,
   },
-  // { id: 6, picture: "tahmid.jpg", name: "Abdullah", narration: "" },
-  // { id: 7, picture: "Rifat.jpg", name: "Abdullah", narration: "" },
+  {
+    id: 9,
+    picture: "tahmid.jpg",
+    name: "Tahmid Ahmed",
+    narration:
+      "Tahmid Ahmed is a recruiter responsible for finding and attracting talented individuals to fill job openings within the organization they represent. They create job descriptions and postings, screen resumes and applications, conduct interviews, and act as a point of contact for candidates throughout the recruitment process.",
+  },
+  {
+    id: 10,
+    picture: "shubrata.jpg",
+    name: "Shubrata Das",
+    narration:
+      "Shubrata Das is an optimistic person and a learning enthusiast who is deeply passionate for making amazing contributions in ensuring ceaseless personal and professional growth for himself. He's strongly spirited for ensuring brilliant footsteps in his career and highly committed to work with integrity, diligence and agility for the tasks, duties and responsibilities given to him within a job.",
+  },
+
+  {
+    id: 11,
+    picture: "adhora.jpg",
+    name: "Adhora Zaman",
+    narration:
+      "Not in doing what you like, but in liking what you do is the secret of happiness.",
+  },
+  {
+    id: 12,
+    picture: "mahim.jpg",
+    name: "Mahmudur Rahman",
+    narration:
+      "This is Mahmudur Rahman born and raised in the Chattogram. I have done my post Graduation from Port City International University majoring in HRM now working in Steadfast International Service, LLC. as a Management Trainee Officer. I help Job seekers to find their desired job.",
+  },
+  {
+    id: 13,
+    picture: "jahid.jpg",
+    name: "Khandokar Jahidul",
+    narration:
+      "Khandokar Jahidul, Holds the management trainee officer position at Steadfast Internationals Services LLC. Passionate about headhunting. Sourcing and attracting candidates by using databases and different platforms. Prepare recruitment materials and post jobs for the appropriate jobs.",
+  },
 ];

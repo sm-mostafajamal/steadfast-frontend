@@ -105,7 +105,7 @@ const Footer = () => {
             <h3>Stay Connected!</h3>
             <ul>
               <li>
-                <Link to="https://www.linkedin.com/company/steadfastllc">
+                <Link to="https://www.linkedin.com/company/steadfast-communications/">
                   <FaLinkedin />
                 </Link>
               </li>

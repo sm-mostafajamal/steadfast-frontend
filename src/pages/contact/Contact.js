@@ -29,7 +29,7 @@ const Contact = () => {
             <div className="country-icon">
               <Flag code="us" height="100" />
               <div className="officeAddress">
-                <h5>MAIN OFFICE</h5>
+                <h5>HEAD OFFICE</h5>
                 <span>
                   733 3rd Ave, Floor 16 #1029, New York, NY 10017, United States{" "}
                 </span>

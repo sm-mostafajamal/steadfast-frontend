@@ -31,7 +31,7 @@ const Bloggers = styled.div`
   gap: 50px;
 `;
 const Blogger = styled.div`
-  width: 360px;
+  width: 30%;
   border-radius: 10px;
   overflow: hidden;
   /* height: 500px; */

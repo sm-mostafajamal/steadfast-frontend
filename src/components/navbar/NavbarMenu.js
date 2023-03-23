@@ -42,7 +42,9 @@ function NavbarMenu() {
             <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
           </Nav>
         </Container>
-        <div className="menu-options">{isOpen && <Menu />}</div>
+        <div className="menu-options" onClick={() => setOpen(!isOpen)}>
+          {isOpen && <Menu />}
+        </div>
       </Navbar>
 
       <Outlet />
