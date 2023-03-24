@@ -53,11 +53,9 @@ const PictureContainer = styled.div`
   align-items: center;
 `;
 const Picture = styled.img`
-  /* background-image: url(${({ photo }) => photo}); */
   width: 100%;
-  /* position: absolute; */
-  /* height: 400px; */
-  /* text-align: center; */
+  /* max-width: 100%; */
+  /* max-height: 100%; */
 `;
 
 const Title = styled.h3`

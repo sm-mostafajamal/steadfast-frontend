@@ -1,6 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
 import "./navbar.css";
-import Image from "../image/Image";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Sling as Hamburger } from "hamburger-react";
 import { useState } from "react";
@@ -20,7 +19,12 @@ function NavbarMenu() {
         <Container className="navContainer">
           <Link to="/" className="logo-container">
             <Navbar.Brand className="logo-wrapper">
-              <Image imgName={"Steadfast-logo_withTxt.png"} className="logo" />
+              <div className="logo">
+                <img
+                  src="./steadfast_images/Steadfast-logo_withTxt.png"
+                  alt="Steadfast Communication Logo"
+                />
+              </div>
               <h1 className="logoName">
                 <span>STEADFAST</span>
                 <br /> COMMUNICATIONS
