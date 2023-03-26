@@ -78,6 +78,7 @@ const Job = ({ data }) => {
                 accept=".pdf, .doc, .docx, application/msword"
                 name="resume"
                 id="resume"
+                required
               />
             </div>
             <div className="applyBtn">

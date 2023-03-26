@@ -13,24 +13,42 @@ const Container = styled.div`
   );
   position: absolute;
   margin-top: 40px;
+  @media (min-width: 375px) and (max-width: 424px) {
+    .menu-wrapper {
+      flex-direction: column;
+    }
+    .links {
+      font-size: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .menu-wrapper {
+      flex-direction: column;
+    }
+    .links {
+      font-size: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+  }
 `;
 const Wrapper = styled.div`
   display: flex;
-  /* flex-direction: column; */
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  /* position: absolute; */
-  /* display: block; */
-  /* height: 100vh; */
-  /* text-align: center; */
   height: 100vh;
+  flex-wrap: wrap;
 `;
 
 const Links = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
+
   flex-direction: column;
   text-transform: uppercase;
+  flex: 1;
+
   .links {
     margin-bottom: 40px;
     text-decoration: none;
@@ -45,11 +63,18 @@ const Links = styled.div`
     border-bottom: 5px solid #f1b502;
   }
 `;
-const SocialLinks = styled.div``;
+const SocialLinks = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  flex: 1;
+`;
 const Menu = () => {
   return (
     <Container>
-      <Wrapper>
+      <Wrapper className="menu-wrapper">
         <Links>
           <Link to="/hire-steadfast" className="links">
             Hire Steadfast

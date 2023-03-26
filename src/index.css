@@ -171,11 +171,16 @@
     height: 0 !important;
   }
   .cover {
-    padding-left: 1.2rem !important;
+    padding-left: 1rem !important;
+  }
+  .cover-heading > h1,
+  h4,
+  .cover-heading span {
+    margin-left: 10px;
   }
   .cover-heading > h1,
   .cover-heading > h4 {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
   }
   .serv,
   .lastLine {
@@ -225,10 +230,24 @@
   .job-heading {
     flex-direction: column;
   }
+  .joinUs-heading > h1 span {
+    font-size: 2.5rem;
+  }
+  .contact-wrapper {
+    padding: 10px !important;
+  }
+  .form-wrapper {
+    padding: 20px;
+  }
+  .google-map {
+    padding: 10px;
+  }
+  .spDetails > p {
+    width: 90%;
+  }
   .footerWrapper {
     flex-direction: column;
   }
-
   .footerWrapper h3 {
     font-size: 20px;
   }
@@ -376,6 +395,21 @@
   }
   .job-heading {
     flex-direction: column;
+  }
+  .joinUs-heading > h1 span {
+    font-size: 2rem !important;
+  }
+  .contact-wrapper {
+    padding: 10px !important;
+  }
+  .form-wrapper {
+    padding: 20px;
+  }
+  .google-map {
+    padding: 10px;
+  }
+  .spDetails > p {
+    width: 90%;
   }
   .footerWrapper {
     flex-direction: column;

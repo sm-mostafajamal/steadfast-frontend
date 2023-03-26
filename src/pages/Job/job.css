@@ -1,5 +1,5 @@
 .job-container {
-  padding: 50px;
+  padding: 40px;
 }
 .job-container h1 {
   padding-top: 30px;
@@ -36,16 +36,17 @@
 }
 .resume {
   display: flex;
-  width: 50%;
-  justify-content: space-between;
-  margin-bottom: 5%;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 50px;
 }
 .resume label {
-  font-size: 1.5vmax;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 input[type="file"] {
-  font-size: 1.3vmax;
+  /* padding: 0 30px; */
+  /* font-size: 1.3vmax; */
 }
 input::file-selector-button {
   border: none;

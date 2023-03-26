@@ -2,7 +2,6 @@ import "./jobs.css";
 import Find from "../../components/find/Find";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/Card";
-import Image from "../../components/image/Image";
 
 import { FaAngleDoubleRight } from "react-icons/fa";
 const Jobs = ({ data }) => {
@@ -62,7 +61,6 @@ const Jobs = ({ data }) => {
             covering both client side and agency.
           </p>
         </div>
-        <Image imgName="specialism.jpg" className="spImg" />
       </div>
       <Footer />
     </div>

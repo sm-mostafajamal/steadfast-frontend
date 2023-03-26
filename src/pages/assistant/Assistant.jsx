@@ -109,7 +109,7 @@ const Container = styled.div`
       width: 320px;
     }
     .assistTitle {
-      font-size: 1rem !important;
+      font-size: 14px !important;
     }
   }
 `;
