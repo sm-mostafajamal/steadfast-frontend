@@ -8,22 +8,31 @@ import {
 } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
 
-const Container = styled.div``;
+const Container = styled.div`
+  @media (min-width: 375px) and (max-width: 424px) {
+    .process-step {
+      width: 370px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .process-step {
+      width: 320px;
+    }
+  }
+`;
 const Header = styled.h1`
   text-align: center;
-  margin-top: 5rem;
+  margin: 3rem;
   color: #444444;
 `;
 const Wrapper = styled.div`
   display: flex;
   height: max-content;
-  padding: 40px;
   flex-wrap: wrap;
-  gap: 30px;
   justify-content: center;
 `;
 const Step = styled.div`
-  width: 30%;
+  width: 380px;
   padding: 50px;
   border-radius: 5px;
   &:hover {
@@ -73,7 +82,7 @@ const Process = () => {
     <Container>
       <Header>The Process</Header>
       <Wrapper>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <FiPhoneCall />
           </Icon>
@@ -86,7 +95,7 @@ const Process = () => {
             Consultant to assist you.
           </Desc>
         </Step>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <RiUserSearchLine />
           </Icon>
@@ -98,7 +107,7 @@ const Process = () => {
             for you.
           </Desc>
         </Step>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <MdOutlinePeopleAlt />
           </Icon>
@@ -113,7 +122,7 @@ const Process = () => {
             matched with their ideal candidate in just one week.
           </Desc>
         </Step>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <MdOutlinePhonelinkRing />
           </Icon>
@@ -126,7 +135,7 @@ const Process = () => {
             collaboration.
           </Desc>
         </Step>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <FaHandshake />
           </Icon>
@@ -137,7 +146,7 @@ const Process = () => {
             navigating our established onboarding procedure.
           </Desc>
         </Step>
-        <Step>
+        <Step className="process-step">
           <Icon>
             <MdFace />
           </Icon>

@@ -31,14 +31,15 @@ const Home = ({ data }) => {
         <Process />
         <div className="hireSteadfast">
           <p>
-            The easiest thing for you to accomplish today is to get started.
+            The easiest thing for you to accomplish today <br /> is to get
+            started.
           </p>
           <div className="buttons">
             <Link to="/applicant">
               <button>Applicant</button>
             </Link>
             <Link to="/hire-steadfast">
-              <button>Hire STEADFAST</button> {/* for employer */}
+              <button>Hire STEADFAST</button>
             </Link>
           </div>
         </div>

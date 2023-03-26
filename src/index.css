@@ -1,506 +1,88 @@
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .navlist {
-    margin-right: 0;
-    margin-left: 15rem;
-    width: 70%;
-  }
-  .navlist a {
-    font-size: 18px;
-  }
-  .cover-heading {
-    width: 50%;
-  }
-  h1.ftitle {
-    width: 40%;
-    font-size: 30px;
-  }
-  .heading-wrapper p,
-  .heading-wrapper span {
-    font-size: 16px;
-  }
-  .spImg {
-    height: 70vh;
-  }
-}
 @media (min-width: 769px) and (max-width: 1024px) {
-  .navWrapper {
-    height: 80px;
-  }
-  .navbar-nav {
-    margin: auto;
-    background-color: black;
-    width: 100%;
-    margin: 0;
-  }
-  .logo {
-    width: 100%;
-    height: 70px;
-  }
-  .logo-container {
-    margin: auto !important;
-    width: 50%;
+  .navlist {
+    display: none;
   }
 
-  .cover-heading > h1 {
-    font-size: 1.5rem;
-  }
+  .cover-heading > h1,
   .cover-heading > h4 {
-    font-size: 11px;
-  }
-  h1.ftitle {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .featuredContainer {
-    display: block;
+    font-size: 1.8rem !important;
   }
   .jsCover,
   .feCover {
-    width: 40vw;
+    width: 40% !important;
   }
-  .jsDetails {
-    font-size: 14px;
+  .hireSteadfast > p {
+    font-size: 1.8rem !important;
   }
-
-  .feDetails {
-    /* margin-top: 5rem; */
-    font-size: 14px;
-  }
-
-  .serviceWrapper {
-    margin-top: 5rem;
-  }
-  .our-expertise {
-    padding-top: 5rem;
-  }
-  .spDetails p {
-    font-size: 14px;
-  }
-  .heading-container p {
-    line-height: 3.5vh;
-  }
-}
-/* ----------------------testing------------- */
-@media (min-width: 481px) and (max-width: 768px) {
-  .navWrapper {
-    height: 80px;
-  }
-  .navbar-nav {
-    margin: auto;
-    background-color: black;
-    width: 100%;
-    height: 200px !important;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-    margin: 0;
-  }
-
-  .logo {
-    height: 70px;
-  }
-  .navlist a {
-    font-size: 14px;
-  }
-  .logo-container {
-    margin: auto !important;
-    width: 50%;
-  }
-  .logoName {
-    font-size: 14px;
-  }
-  .navbar-toggler,
-  .navbar-toggler:focus {
-    background-color: black;
-    box-shadow: none;
-  }
-
-  .cover-heading {
-    width: 70%;
-    margin: 20px;
-    border-left-width: 4px;
-  }
-  .cover-heading > h1 {
-    font-size: 23px;
-    font-weight: bolder;
-  }
-  .cover-heading > h4 {
-    font-size: 9px;
-    margin-top: 5px;
-  }
-
-  .featuredContainer {
-    display: block;
-  }
-
-  h1.ftitle {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .jsDetails h1,
-  .feDetails h1 {
-    font-size: 20px;
-  }
-  .jsDetails h4,
-  .feDetails h4 {
-    font-size: 16px;
-  }
-  .jsDetails,
-  .feDetails {
-    font-size: 14px;
-  }
-  .jsCover {
-    /* margin-top: 0rem; */
-    width: 40vw;
-  }
-  .jsDetails button,
-  .feDetails button {
-    width: 80%;
-  }
-  .feCover {
-    width: 40vw;
-  }
-  .serviceWrapper {
-    margin-top: 5rem;
-  }
-  .our-expertise {
-    padding-top: 5rem;
-  }
-  .exCover {
-    display: none;
-  }
-  .exDetails {
-    width: 90%;
-  }
-
-  .findWrapper h3 {
-    font-size: 14px;
-  }
-  .footerWrapper {
-    gap: 20px;
-  }
-  .footerWrapper h3 {
-    font-size: 20px;
-  }
-  .address {
-    padding-top: 0;
-  }
-  .follow {
-    width: 100%;
-  }
-  .aDetails {
-    display: none;
-  }
-  .copyright {
-    width: 100%;
-    text-align: center;
-  }
-  .moreBtn {
-    width: 30%;
-  }
-  .spDetails p {
-    width: 90%;
-    font-size: 14px;
-  }
-  .spImg {
-    height: 70vh;
-  }
-  .eTitle h1 {
-    font-size: 1.5rem;
-    width: 90%;
-  }
-  .steadfast-cards {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .steadfast-card {
-    width: 90%;
-    margin: auto;
-  }
-  .steadfast-cards h3 {
-    font-size: 20px;
-  }
-  .steadfast-cards p {
-    font-size: 13px;
-  }
-  .questions-wrapper {
-    display: flex;
+  .contact-wrapper {
     flex-direction: column;
   }
-
-  .joinUs-heading {
+  .form-container {
     width: 100%;
-  }
-  .joinUs-heading h1 {
-    font-size: 1.2rem;
-  }
-  .joinUs-heading h1 span {
-    font-size: 2rem;
-  }
-  .joinUs-details h1 {
-    font-size: 20px;
-  }
-  .joinUs-details p {
-    font-size: 13px;
-  }
-  .heading-wrapper {
-    width: 100%;
-  }
-  .heading-wrapper p {
-    font-size: 13px;
-    line-height: 18px;
-  }
-  .policy button {
-    width: 40%;
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .navWrapper {
-    height: 80px;
+@media (min-width: 425px) and (max-width: 768px) {
+  .navbar-toggler {
+    display: none !important;
   }
   .navbar-nav {
-    margin: auto;
-    background-color: black;
-    width: 100%;
-    height: 200px !important;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-    margin: 0;
+    height: 0 !important;
   }
-
-  .logo {
-    width: 100%;
-    height: 70px;
-  }
-  .navlist a {
-    font-size: 14px;
-  }
-
-  .logoName {
-    font-size: 14px;
-  }
-  .navbar-toggler,
-  .navbar-toggler:focus {
-    background-color: black;
-    box-shadow: none;
-  }
-
-  .cover-heading {
-    width: 90%;
-    margin: 10px;
-    border-left-width: 3px;
+  .cover {
+    padding-left: 1.2rem !important;
   }
   .cover-heading > h1,
   .cover-heading > h4 {
-    margin-left: 5px;
+    font-size: 1.1rem !important;
   }
-  .cover-heading > h1 {
-    font-size: 16px;
-    font-weight: bolder;
+  .serv,
+  .lastLine {
+    font-size: 11px;
   }
-  .cover-heading > h4 {
-    width: 70%;
-    font-weight: bold;
-    font-size: 8px;
-    margin-top: 5px;
+  .ann-container {
+    width: 90%;
   }
-  .findJob h1 {
-    font-size: medium;
-    font-weight: bolder;
-  }
-  .menuItem {
-    font-size: small;
-  }
-  .search {
-    padding-top: 5px;
-  }
-  .searchIcon {
-    font-size: 40px;
-    height: 25px;
-  }
-  .search input {
-    height: 25px;
-    font-size: 16px;
-    padding-left: 5px;
-  }
-  .featuredContainer {
-    display: block;
+  .announcement {
+    font-size: 14px;
   }
 
-  h1.ftitle {
-    width: 100%;
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-  .longArrow {
-    font-size: 25px;
+  .for-employers {
+    flex-direction: column;
   }
   .for-jobseekers,
-  .for-employers {
-    /* display: flex; */
-    flex-direction: column;
-    /* justify-content: un set; */
-  }
-  .jsCover {
-    order: 1;
-  }
-  .jsDetails {
-    order: 2;
-  }
-  .feCover,
-  .jsCover {
-    width: 90vw;
-    margin: auto;
-    border-radius: 0;
-  }
-  .jsDetails h1,
-  .feDetails h1,
-  .exDetails h1 {
-    padding-top: 20px;
-    font-size: 20px;
-  }
-  .jsDetails h4,
-  .feDetails h4,
-  .exDetails h4 {
-    font-size: 16px;
+  .our-expertise {
+    flex-direction: column-reverse;
   }
   .jsDetails,
   .feDetails,
   .exDetails {
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .jsDetails button,
-  .feDetails button {
-    width: 80%;
-  }
-  .feCover {
-    margin-top: 20px;
-  }
-  .serviceWrapper {
-    padding-top: 20px;
-    margin-top: 3rem;
-  }
-  .for-employers {
-    margin: 0;
+    width: 100% !important;
+    padding: 30px 0;
   }
   .our-expertise {
-    padding-top: 3rem;
+    padding: 20px !important;
   }
+  .jsCover,
+  .feCover,
   .exCover {
-    display: none;
+    width: 100% !important;
   }
-  .exDetails {
-    width: 90%;
-  }
-
-  .moreBtn {
-    width: 30%;
-  }
-  .spDetails p {
-    width: 90%;
-    font-size: 14px;
-  }
-  .findWrapper h3 {
-    font-size: 12px;
-  }
-  .spImg {
-    height: 70vh;
-  }
-  .spDetails p {
-    font-size: 13px;
-    text-align: justify;
-  }
-  .eTitle h1 {
-    width: 90%;
-    font-size: 1.3rem;
-    padding-top: 8rem;
-  }
-  .steadfast-cards {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .steadfast-card {
-    width: 90%;
-    margin: auto;
-  }
-  .steadfast-cards h3 {
-    font-size: 20px;
-  }
-  .steadfast-cards p {
-    font-size: 13px;
-  }
-  .questions-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .joinUs-heading {
-    width: 100%;
-  }
-  .joinUs-heading h1 {
-    font-size: 1rem;
-  }
-  .joinUs-heading h1 span {
-    font-size: 1.5rem;
-  }
-  .joinUs-details {
-    flex-direction: column;
-    height: 220px;
-  }
-  .joinUs-details h1 {
-    font-size: 20px;
-    width: 60%;
-  }
-  .joinUs-details p {
-    font-size: 13px;
-    width: 90%;
-  }
-  .vacancies h1 {
-    font-size: 25px;
-  }
-  .jobCards-container {
-    padding-top: 20px;
-  }
-  .heading-container {
-    padding: 20px;
-  }
-  .heading-wrapper {
-    width: 100%;
+  .exImg {
+    margin: 0 !important;
   }
 
-  .heading-wrapper p,
-  .heading-wrapper span {
-    font-size: 13px;
-    line-height: 18px;
+  .hireSteadfast p {
+    font-size: 1.3rem !important;
   }
-
-  .country-icons {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  .buttons {
     flex-direction: column;
-    /* height: 50px; */
   }
-  .country-icon {
-    padding-top: 30px;
+  .steadfastMain {
+    font-size: 1.1rem;
   }
-  .form-container h1 {
-    padding-top: 20px;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .policy label {
-    font-size: 1.2rem;
-  }
-  .policy span {
-    font-size: 14px;
-  }
-  .policy button {
-    width: 40%;
+  .job-heading {
+    flex-direction: column;
   }
   .footerWrapper {
     flex-direction: column;
@@ -528,5 +110,349 @@
   }
   .steadfastMain {
     font-size: 14px;
+  }
+  .joinUs-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .joinUs-details > p {
+    width: 90%;
+    text-align: justify;
+  }
+  .contact-wrapper {
+    padding: 30px;
+    flex-direction: column;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .country-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .country-icon {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+  }
+  .officeAddress {
+    width: 100% !important;
+  }
+  .officeAddress h5 {
+    justify-content: center;
+  }
+  .phoneNo,
+  .bdPhoneNo {
+    width: 100%;
+  }
+  .eTitle h1 {
+    font-size: 1.2rem;
+  }
+  .steadfast-cards {
+    flex-direction: column;
+  }
+  .steadfast-card {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .questions-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+  .navbar-nav {
+    height: 0 !important;
+  }
+  .cover {
+    padding-left: 1.2rem !important;
+  }
+  .cover-heading > h1,
+  .cover-heading > h4 {
+    font-size: 1.1rem !important;
+  }
+  .serv,
+  .lastLine {
+    font-size: 11px;
+  }
+  .ann-container {
+    width: 90%;
+  }
+  .announcement {
+    font-size: 14px;
+  }
+
+  .for-employers {
+    flex-direction: column;
+  }
+  .for-jobseekers,
+  .our-expertise {
+    flex-direction: column-reverse;
+  }
+  .jsDetails,
+  .feDetails,
+  .exDetails {
+    width: 100% !important;
+    padding: 30px 0;
+  }
+  .our-expertise {
+    padding: 20px !important;
+  }
+  .jsCover,
+  .feCover,
+  .exCover {
+    width: 100% !important;
+  }
+  .exImg {
+    margin: 0 !important;
+  }
+
+  .hireSteadfast p {
+    font-size: 1.1rem !important;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .steadfastMain {
+    font-size: 1.1rem;
+  }
+  .job-heading {
+    flex-direction: column;
+  }
+  .footerWrapper {
+    flex-direction: column;
+  }
+
+  .footerWrapper h3 {
+    font-size: 20px;
+  }
+  .about {
+    width: 100%;
+    padding-top: 0;
+  }
+  .follow {
+    width: 70%;
+  }
+  .aDetails {
+    display: none;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+  .job-desc {
+    font-size: 13px;
+  }
+  .steadfastMain {
+    font-size: 14px;
+  }
+  .joinUs-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .joinUs-details > p {
+    width: 90%;
+    text-align: justify;
+  }
+  .contact-wrapper {
+    padding: 30px;
+    flex-direction: column;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .country-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .country-icon {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+  }
+  .officeAddress {
+    width: 100% !important;
+  }
+  .officeAddress h5 {
+    justify-content: center;
+  }
+  .phoneNo,
+  .bdPhoneNo {
+    width: 100%;
+  }
+  .eTitle h1 {
+    font-size: 1.2rem;
+  }
+  .steadfast-cards {
+    flex-direction: column;
+  }
+  .steadfast-card {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .questions-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .logo {
+    width: 40%;
+  }
+  .logoName > span,
+  .logoName {
+    font-size: 14px !important;
+  }
+  .logo-wrapper {
+    margin: 0;
+  }
+  .navbar-toggler {
+    display: none !important;
+  }
+  .navbar-nav {
+    height: 0 !important;
+  }
+  .cover {
+    padding-left: 1.2rem !important;
+  }
+  .cover-heading > h1,
+  .cover-heading > h4 {
+    font-size: 1.1rem !important;
+  }
+  .serv,
+  .lastLine {
+    font-size: 11px;
+  }
+  .ann-container {
+    width: 90%;
+  }
+  .announcement {
+    font-size: 14px;
+  }
+
+  .for-employers {
+    flex-direction: column;
+  }
+  .for-jobseekers,
+  .our-expertise {
+    flex-direction: column-reverse;
+  }
+  .jsDetails,
+  .feDetails,
+  .exDetails {
+    width: 100% !important;
+    padding: 30px 0;
+  }
+  .our-expertise {
+    padding: 20px !important;
+  }
+  .jsCover,
+  .feCover,
+  .exCover {
+    width: 100% !important;
+  }
+  .exImg {
+    margin: 0 !important;
+  }
+
+  .hireSteadfast p {
+    font-size: 1rem !important;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .steadfastMain {
+    font-size: 1.1rem;
+  }
+  .job-heading {
+    flex-direction: column;
+  }
+  .footerWrapper {
+    flex-direction: column;
+  }
+
+  .footerWrapper h3 {
+    font-size: 20px;
+  }
+  .about {
+    width: 100%;
+    padding-top: 0;
+  }
+  .follow {
+    width: 70%;
+  }
+  .aDetails {
+    display: none;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+  .job-desc {
+    font-size: 13px;
+  }
+  .steadfastMain {
+    font-size: 14px;
+  }
+  .joinUs-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .joinUs-details > p {
+    width: 90%;
+    text-align: justify;
+  }
+  .contact-wrapper {
+    padding: 30px;
+    flex-direction: column;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .country-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .country-icon {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+  }
+  .officeAddress {
+    width: 100% !important;
+  }
+  .officeAddress h5 {
+    justify-content: center;
+  }
+  .phoneNo,
+  .bdPhoneNo {
+    width: 100%;
+  }
+  .eTitle h1 {
+    font-size: 1.2rem;
+  }
+  .steadfast-cards {
+    flex-direction: column;
+  }
+  .steadfast-card {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .questions-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 }

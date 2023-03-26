@@ -3,7 +3,13 @@ import blogImg from "../../assets/blog.jpg";
 import { employers } from "../../data.js";
 import Footer from "../../components/footer/Footer";
 
-const Container = styled.div``;
+const Container = styled.div`
+  @media (min-width: 425px) and (max-width: 768px) {
+    .blog-heading {
+      font-size: 2.5rem;
+    }
+  }
+`;
 const Wrapper = styled.div``;
 const Cover = styled.div`
   background-image: url(${({ background }) => background});
@@ -25,17 +31,19 @@ const Heading = styled.h1`
   border-bottom: 3px solid #f1b502;
 `;
 const Bloggers = styled.div`
-  padding: 50px;
+  padding: 50px 0;
   display: flex;
+  /* align-items: center; */
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
 `;
 const Blogger = styled.div`
-  width: 30%;
+  width: 370px;
   border-radius: 10px;
   overflow: hidden;
   /* height: 500px; */
-  min-height: max-content;
+  min-height: fit-content;
 
   border: 1px solid #ccd4d8;
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.35);
@@ -46,7 +54,7 @@ const ArticleContainer = styled.div`
   padding: 30px;
 `;
 const PictureContainer = styled.div`
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -72,7 +80,7 @@ const Blog = () => {
     <Container>
       <Wrapper>
         <Cover background={blogImg}>
-          <Heading>STEADFAST BlOG</Heading>
+          <Heading className="blog-heading">STEADFAST BlOG</Heading>
         </Cover>
         <Bloggers>
           {employers.map((employer) => (

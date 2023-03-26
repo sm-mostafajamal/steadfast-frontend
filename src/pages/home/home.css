@@ -6,12 +6,12 @@ body {
 }
 
 main > div.findJob {
-  width: 90%;
+  width: 90vw;
   margin: auto;
 }
 .featuredContainer {
   /* display: flex; */
-  width: 90%;
+  width: 90vw;
   margin: auto;
 }
 h1.ftitle {
@@ -30,25 +30,29 @@ h1.ftitle {
 .hireSteadfast {
   background-color: #2d3133;
   color: white;
-  padding: 4rem;
+  /* padding: 4rem 0; */
 }
 .hireSteadfast p {
-  width: 80%;
-  margin: auto;
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
+  padding-top: 50px;
 }
 
 .buttons {
   display: flex;
   width: 40%;
-  margin: 40px auto;
-  justify-content: space-between;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  /* justify-content: space-between; */
 }
 .buttons button {
   /* margin-left: 50px; */
-  width: 200px;
+  width: 15rem;
   height: 50px;
   background: transparent;
   color: white;

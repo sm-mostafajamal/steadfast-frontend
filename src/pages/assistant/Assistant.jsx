@@ -18,7 +18,101 @@ import {
 import Process from "../../components/process/Process";
 import Footer from "../../components/footer/Footer";
 
-const Container = styled.div``;
+const Container = styled.div`
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .coverHeading,
+    .questionHeading {
+      font-size: 1.5rem !important;
+    }
+    .virtualAssistantHeading,
+    .assistHeading {
+      font-size: 1.4rem !important;
+    }
+  }
+  @media (min-width: 425px) and (max-width: 768px) {
+    .coverHeading {
+      padding: 10px !important;
+    }
+    .coverHeading,
+    .questionHeading {
+      font-size: 1.5rem !important;
+    }
+    .virtualAssistantHeading,
+    .assistHeading {
+      font-size: 1.4rem !important;
+    }
+    .article-wrapper {
+      flex-direction: column;
+    }
+    .assist-container {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .assistHeading {
+      align-items: center !important;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 424px) {
+    .coverHeading {
+      padding: 10px !important;
+    }
+    .coverHeading,
+    .questionHeading {
+      font-size: 1.2rem !important;
+    }
+    .virtualAssistantHeading,
+    .assistHeading {
+      font-size: 1.2rem !important;
+    }
+    .article-wrapper {
+      flex-direction: column;
+    }
+    .assist-container {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .assistHeading {
+      align-items: center !important;
+    }
+
+    .quesStep {
+      width: 370px;
+    }
+    .assistTitle {
+      font-size: 1rem !important;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .coverHeading {
+      padding: 10px !important;
+    }
+    .coverHeading,
+    .questionHeading {
+      font-size: 1.2rem !important;
+    }
+    .virtualAssistantHeading,
+    .assistHeading {
+      font-size: 1.2rem !important;
+    }
+    .article-wrapper {
+      flex-direction: column;
+    }
+    .assist-container {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .assistHeading {
+      align-items: center !important;
+    }
+
+    .quesStep {
+      width: 320px;
+    }
+    .assistTitle {
+      font-size: 1rem !important;
+    }
+  }
+`;
 const Wrapper = styled.div``;
 const Cover = styled.div`
   background-image: url(${({ background }) => background});
@@ -29,13 +123,20 @@ const Cover = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   .coverHeading {
-    padding: 50px 50px;
+    width: fit-content;
+    padding-left: 50px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .coverSteps {
     color: white;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
   }
   .coverDesc {
     color: #c8cfcf;
@@ -50,7 +151,7 @@ const Heading = styled.h1`
   letter-spacing: 1px;
   font-weight: bolder;
   font-size: 2rem;
-  line-height: 3.5rem;
+  /* line-height: 3.5rem; */
 `;
 const Design = styled.span`
   border-bottom: 3px solid #dda601;
@@ -67,8 +168,8 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin: 0px 50px;
   background-color: #dda601;
+  margin-top: 50px;
 
   &:hover {
     background-color: white;
@@ -78,18 +179,17 @@ const Button = styled.button`
 `;
 const Steps = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
 `;
 const Step = styled.div`
-  flex: 1;
-  padding: 50px;
+  width: 400px;
+  padding: 20px;
 `;
 
 const Title = styled.h5`
   font-weight: 700;
-  letter-spacing: 1px;
-`;
-const Desc = styled.p`
   letter-spacing: 1px;
 `;
 
@@ -127,9 +227,14 @@ const Article = styled.div`
 const ArticleWrapper = styled.div`
   padding: 50px 0;
   display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
   color: #6b6b6b;
   gap: 30px;
   text-align: justify;
+`;
+const Desc = styled.p`
+  letter-spacing: 1px;
 `;
 
 const AssistContainer = styled.div`
@@ -137,9 +242,13 @@ const AssistContainer = styled.div`
   background-color: #f4f4f4;
   padding: 50px;
   color: #444444;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   .assistHeading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     flex: 1;
     font-size: 1.8rem;
     font-weight: 600;
@@ -159,9 +268,10 @@ const Assists = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
 `;
 const Assist = styled.div`
-  padding: 20px;
+  /* margin: 10px; */
   width: 30%;
   text-align: center;
 `;
@@ -175,10 +285,10 @@ const Assistant = () => {
             <Design>Instead of attempting to handle everything,</Design>
             <br /> achieve greater results by enlisting the help of <br />a
             virtual assistant.
+            <Link to="/hire-steadfast">
+              <Button>Hire STEADFAST</Button> {/* for employer */}
+            </Link>
           </Heading>
-          <Link to="/hire-steadfast">
-            <Button>Hire STEADFAST</Button> {/* for employer */}
-          </Link>
           <Steps>
             <Step className="coverSteps">
               <LocationOnOutlined className="coverIcon" />
@@ -246,7 +356,7 @@ const Assistant = () => {
             <br />
             Consider taking the assistance of a Virtual Assistant.
           </Title>
-          <ArticleWrapper>
+          <ArticleWrapper className="article-wrapper">
             <Desc>
               Being a leader who is occupied with numerous responsibilities can
               be quite challenging. From handling emails, keeping up-to-date
@@ -273,10 +383,12 @@ const Assistant = () => {
             </Desc>
           </ArticleWrapper>
         </Article>
-        <AssistContainer>
+        <AssistContainer className="assist-container">
           <Heading className="assistHeading">
             How may a STEADFAST virtual assistant be of assistance?
+            <Button>Hire STEADFAST</Button>
           </Heading>
+
           <Assists>
             <Assist>
               <TrendingUpOutlined className="assistIcon" />

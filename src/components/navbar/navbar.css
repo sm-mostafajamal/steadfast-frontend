@@ -5,7 +5,7 @@
 }
 
 .navWrapper {
-  height: 80px;
+  height: fit-content;
   z-index: 100;
   max-width: 100%;
   background-color: black;
@@ -37,7 +37,6 @@
 .navlist {
   /* margin-left: 20rem; */
   width: 40%;
-  height: auto;
   margin: auto;
   /* display: flex; */
   /* justify-content: center; */

@@ -10,8 +10,9 @@ const Employer = () => {
       <div className="sContainer">
         <div className="eTitle">
           <h1>
-            Whatever your hiring plans are, <span>Steadfast</span> can find the
-            right person for your business.
+            Whatever your hiring plans are, <span>Steadfast</span> can find
+            <br />
+            the right person for your business.
           </h1>
         </div>
         <div className="steadfast-cards">

@@ -7,8 +7,9 @@
 }
 .job-heading {
   display: flex;
-  width: 70%;
-  justify-content: space-between;
+  /* width: 70%; */
+  gap: 30px;
+  /* justify-content: space-between; */
   padding: 15px 0;
 }
 .job-heading span {
@@ -23,7 +24,7 @@
   text-align: justify;
   white-space: break-spaces;
   padding-bottom: 5%;
-  width: 80%;
+  /* width: 80%; */
 }
 .job-desc section {
   padding: 10px 0;

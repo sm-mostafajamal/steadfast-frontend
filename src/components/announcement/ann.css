@@ -18,7 +18,7 @@
 .announcement {
   /* color: red; */
   font-size: 1rem;
-  padding-left: 0.5em;
+  padding-left: 0.5rem;
   color: #01b178;
 }
 @keyframes slide-left {

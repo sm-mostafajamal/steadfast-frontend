@@ -1,9 +1,9 @@
-import { Link, Outlet } from "react-router-dom";
 import "./navbar.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Sling as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import Menu from "../menu/Menu";
+import { Link, Outlet } from "react-router-dom";
 
 function NavbarMenu() {
   const [isOpen, setOpen] = useState(false);
@@ -38,19 +38,16 @@ function NavbarMenu() {
               <Link to="/">HOME</Link>
               <Link to="/jobs">JOBS</Link>
               <Link to="/employer">EMPLOYER</Link>
-              {/* <Link to="/join-us">JOIN US</Link> */}
-              {/* <Link to="/contact">CONTACT</Link> */}
             </Nav>
           </Navbar.Collapse>
-          <Nav className="menu">
+          <div className="menu">
             <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
-          </Nav>
+          </div>
         </Container>
         <div className="menu-options" onClick={() => setOpen(!isOpen)}>
           {isOpen && <Menu />}
         </div>
       </Navbar>
-
       <Outlet />
     </div>
   );

@@ -3,6 +3,30 @@ import Footer from "../../components/footer/Footer";
 
 const Container = styled.div`
   width: 100%;
+  @media (min-width: 425px) and (max-width: 768px) {
+    .applicant-title {
+      font-size: 1.6rem !important;
+    }
+    .applicant-form {
+      width: 90%;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 424px) {
+    .applicant-title {
+      font-size: 1.5rem !important;
+    }
+    .applicant-form {
+      width: 95%;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .applicant-title {
+      font-size: 1.4rem !important;
+    }
+    .applicant-form {
+      width: 95%;
+    }
+  }
   /* background: rgb(241, 196, 2);
   background: linear-gradient(
     313deg,
@@ -88,11 +112,11 @@ const Button = styled.button`
 const Applicant = () => {
   return (
     <Container>
-      <Title>
+      <Title className="applicant-title">
         The easiest thing for you to accomplish today is to get started.
       </Title>
       <SubTitle>All fields required</SubTitle>
-      <FormContainer>
+      <FormContainer className="applicant-form">
         <Form>
           <Label>
             First Name <Required> (Required)</Required>

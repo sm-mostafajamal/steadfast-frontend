@@ -6,6 +6,30 @@ import Footer from "../../components/footer/Footer";
 
 const Container = styled.div`
   width: 100%;
+  @media (min-width: 425px) and (max-width: 768px) {
+    .hire-title {
+      font-size: 1.6rem !important;
+    }
+    .hire-form {
+      width: 90%;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 424px) {
+    .hire-title {
+      font-size: 1.5rem !important;
+    }
+    .hire-form {
+      width: 95%;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .hire-title {
+      font-size: 1.4rem !important;
+    }
+    .hire-form {
+      width: 95%;
+    }
+  }
   /* background: rgb(241, 196, 2);
   background: linear-gradient(
     313deg,
@@ -17,11 +41,13 @@ const Steps = styled.div`
   height: fit-content;
   background-color: #b4f7d4;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 30px;
   /* gap: 20px; */
 `;
 const Step = styled.div`
-  flex: 1;
+  width: 400px;
   padding: 20px;
 `;
 const Icon = styled.div`
@@ -151,11 +177,11 @@ const Hire = () => {
           </Explanation>
         </Step>
       </Steps>
-      <Title>
+      <Title className="hire-title">
         The easiest thing for you to accomplish today is to get started.
       </Title>
       <SubTitle>All fields required</SubTitle>
-      <FormContainer>
+      <FormContainer className="hire-form">
         <Form>
           <Label>
             First Name <Required> (Required)</Required>

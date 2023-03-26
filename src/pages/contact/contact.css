@@ -10,9 +10,7 @@
   align-items: center;
   padding: 50px;
 }
-.office-info {
-  /* flex: 1; */
-}
+
 .heading-container {
   background-color: var(--silver);
   padding: 50px;
@@ -27,9 +25,6 @@
   border-left: 15px double var(--orange);
   padding-left: 10px;
   margin-top: 0;
-}
-.heading-wrapper span {
-  /* font-weight: 500; */
 }
 
 .country-icon {
@@ -47,13 +42,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.bdPhoneNo {
-  display: flex;
-  width: 45%;
-  justify-content: space-between;
-  align-items: center;
+.bdPhoneNo > span {
   font-weight: bolder;
   padding-top: 5px;
+  margin-left: 15px;
 }
 .officeAddress h5 {
   display: flex;
@@ -125,13 +117,13 @@
 }
 
 .submit {
-  width: 15vw;
-  height: 40px;
+  width: 200px;
+  height: 45px;
   margin-top: 2rem;
   border: none;
   background-color: var(--yellow);
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
 }

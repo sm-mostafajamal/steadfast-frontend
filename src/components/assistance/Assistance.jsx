@@ -4,21 +4,38 @@ import { FaHandsHelping } from "react-icons/fa";
 import { MdBusiness } from "react-icons/md";
 
 const Container = styled.div`
-  /* width: 100%; */
   background-color: #f2f2f2;
+  @media (min-width: 425px) and (max-width: 768px) {
+    .assitance-heading {
+      font-size: 1.5rem;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 424px) {
+    .assitance-heading {
+      font-size: 1.3rem;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .assitance-heading {
+      padding: 50px 0;
+      font-size: 1.3rem;
+    }
+  }
 `;
 const Heading = styled.h1`
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
   color: #212529;
-  padding: 100px;
+  padding: 100px 0;
   text-transform: capitalize;
   letter-spacing: 1px;
 `;
 const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
   height: max-content;
+  flex-wrap: wrap;
 `;
 const Icon = styled.div`
   font-size: 5rem;
@@ -49,6 +66,7 @@ const Consulting = styled.div`
 `;
 const BusinessDev = styled.div`
   flex: 1;
+
   padding: 30px;
   &:hover {
     background-image: url(${require(`../../assets/business.png`)});
@@ -71,10 +89,10 @@ const Desc = styled.p`
 const Assistance = () => {
   return (
     <Container>
-      <Heading>
+      <Heading className="assitance-heading">
         Having a remote work team can greatly impact and enhance your workday.
       </Heading>
-      <Wrapper>
+      <Wrapper className="assistance-wrapper">
         <Virtual>
           <Icon>
             <TfiHeadphoneAlt />

@@ -61,12 +61,16 @@
   font-weight: 600;
 }
 .jobCards-container {
-  width: 95%;
-  margin: auto;
+  /* width: 95%; */
+  /* margin: auto; */
   padding-top: 80px;
-  display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* display: grid; */
+  /* gap: 15px; */
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
 }
 .moreBtn {
   width: 100%;

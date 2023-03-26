@@ -1,8 +1,8 @@
 .cover {
-  width: 100%;
+  /* width: 100%; */
   background-image: url("../../assets/steadfast-cover.jpg");
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   /* background-attachment: ; */
   background-attachment: fixed;
   background-position: center;
