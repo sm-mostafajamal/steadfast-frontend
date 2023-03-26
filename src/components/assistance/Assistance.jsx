@@ -43,11 +43,13 @@ const Icon = styled.div`
 const Virtual = styled.div`
   flex: 1;
   padding: 30px;
+
   &:hover {
     background-image: url(${require(`../../assets/virtual.png`)});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
   }
 `;
 
@@ -60,6 +62,8 @@ const Consulting = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+
     /* opacity: 0.8; */
     /* color: white; */
   }
@@ -73,6 +77,7 @@ const BusinessDev = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
   }
 `;
 const Header = styled.h1`
