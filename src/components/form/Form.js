@@ -3,27 +3,24 @@ import "./form.css";
 const Form = () => {
   return (
     <div>
-      {/* <label htmlFor="name">Name</label> */}
       <input type="text" name="name" id="name" placeholder="Name*" required />
-      {/* <label htmlFor="email">Email</label> */}
       <input
-        type="text"
+        type="email"
         name="email"
         id="email"
         placeholder="Email*"
         required
       />
-      {/* <label htmlFor="phone">Phone</label> */}
       <input
-        type="text"
+        type="number"
         name="phone"
         id="phone"
         placeholder="Phone*"
         required
       />
       <textarea
-        name="help"
-        id="help"
+        name="message"
+        id="message"
         cols="100"
         rows="10"
         placeholder="How can we help?*"

@@ -23,6 +23,16 @@ const Job = ({ data }) => {
     resumeFormRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
   return (
     <div>
       <div className="job-container">
@@ -67,10 +77,11 @@ const Job = ({ data }) => {
           <div className="applyBtn">
             <button onClick={() => handleClick()}>Apply for job</button>
           </div>
-          <form style={style} action="">
+          <form style={style} target="_blank" action="" method="POST">
             <div className="contactForm">
               <Form />
             </div>
+
             <div className="resume">
               <label htmlFor="resume">Upload Resume</label>
               <input
@@ -87,6 +98,7 @@ const Job = ({ data }) => {
           </form>
         </div>
       </div>
+
       <div ref={resumeFormRef}>
         <Footer />
       </div>

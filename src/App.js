@@ -11,8 +11,12 @@ import Hire from "./pages/hire/Hire";
 import Applicant from "./pages/applicant/Applicant";
 import Assistant from "./pages/assistant/Assistant";
 import Blog from "./pages/blog/Blog";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
