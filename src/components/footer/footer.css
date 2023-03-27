@@ -74,12 +74,12 @@
 }
 .follow > ul > li > a {
   color: white;
-  padding-right: 30px;
+  margin-right: 30px;
+  transition: 0.5s ease;
 }
 .follow ul li a:hover {
-  transition: 0.5s ease;
-  font-size: 30px;
   color: #00a26e;
+  transform: scale(1.1);
 }
 .follow > ul {
   display: flex;

@@ -44,7 +44,6 @@ const Links = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
   text-transform: uppercase;
   flex: 1;
@@ -56,18 +55,16 @@ const Links = styled.div`
     font-weight: 700;
     color: white;
     cursor: pointer;
-  }
-  .links:hover {
-    color: black;
     transition: all 0.5s ease;
-    border-bottom: 5px solid #f1b502;
+    &:hover {
+      transform: scale(1.1);
+      color: black;
+    }
   }
 `;
 const SocialLinks = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
-
   flex-direction: column;
   flex: 1;
 `;

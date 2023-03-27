@@ -274,13 +274,13 @@ export const employers = [
     narration:
       "Mahtareen Haque Ridi, is an Executive Recruiter at Steadfast International Services, LLC who is determined to get the job done correctly and efficiently. She is a multi-skilled individual who has goals, morals and knows how to follow guide lines and rules.",
   },
-  // {
-  //   id: 6,
-  //   picture: "mostafa.jpg",
-  //   name: "S.M. Mostafa Jamal",
-  //   narration:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae cumque, autem architecto ratione modi, adipisci quod natus facilis inventore deserunt esse aspernatur rerum. Labore deserunt velit voluptates minus architecto!",
-  // },
+  {
+    id: 6,
+    picture: "mostafa.png",
+    name: "S.M. Mostafa Jamal",
+    narration:
+      "S.M. Mostafa Jamal a Technical Recruiter as well as Computer Science Student fond of web development/software engineering, he has a unique perspective on both sides of the hiring process. In his role as a technical recruiter, he gained a deep understanding of what companies look for in a software engineers, as well as the challenges they face in finding and hiring top talent. As a technical recruiter, he use his experience to find and hiring the best technical talent for many organization. he is able to speak their language and understand the technical requirements of the job, making it easier for him to tailor his application and stand out from other candidates.",
+  },
   {
     id: 7,
     picture: "amin.jpg",

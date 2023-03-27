@@ -80,6 +80,8 @@ const Title = styled.h3`
 `;
 const Article = styled.p`
   font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
 `;
 
 const Blog = () => {
