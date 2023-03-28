@@ -279,7 +279,7 @@ export const employers = [
     picture: "mostafa.png",
     name: "S.M. Mostafa Jamal",
     narration:
-      "S.M. Mostafa Jamal a Technical Recruiter as well as Computer Science Student fond of web development/software engineering, he has a unique perspective on both sides of the hiring process. In his role as a technical recruiter, he gained a deep understanding of what companies look for in a software engineers, as well as the challenges they face in finding and hiring top talent. As a technical recruiter, he use his experience to find and hiring the best technical talent for many organization. he is able to speak their language and understand the technical requirements of the job, making it easier for him to tailor his application and stand out from other candidates.",
+      "S.M. Mostafa Jamal a Technical Recruiter as well as Computer Science Student fond of web development/software engineering, he has a unique perspective on both sides of the hiring process. In his role as a technical recruiter, he gained a deep understanding of what companies look for in a software engineers, as well as the challenges they face in finding and hiring top talent. As a technical recruiter, he use his experience to find and hiring the best technical talent for many organization. He is able to speak their language and understand the technical requirements of the job, making it easier for him to tailor his application and stand out from other candidates.",
   },
   {
     id: 7,
