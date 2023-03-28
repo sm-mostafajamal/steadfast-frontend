@@ -301,6 +301,14 @@ export const employers = [
       "Tahmid Ahmed is a recruiter responsible for finding and attracting talented individuals to fill job openings within the organization they represent. They create job descriptions and postings, screen resumes and applications, conduct interviews, and act as a point of contact for candidates throughout the recruitment process.",
   },
   {
+    id: 9,
+    picture: "zubair.png",
+    name: "Sheikh Sauban Zubair ",
+    narration:
+      "Sheikh Sauban Zubair currently operates as a management trainee officer at Steadfast. He looks to source candidates from different backgrounds using his expertise in different fields as well as his vast knowledge of different cultures. As one of the youngest members at Steadfast, he is always striving to learn and improve on his previous work.",
+  },
+
+  {
     id: 10,
     picture: "shubrata.jpg",
     name: "Shubrata Das",
