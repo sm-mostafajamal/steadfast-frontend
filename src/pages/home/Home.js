@@ -7,6 +7,7 @@ import Footer from "../../components/footer/Footer";
 import Assistance from "../../components/assistance/Assistance";
 import Process from "../../components/process/Process";
 import { Link } from "react-router-dom";
+import Clients from "../../components/clients/Clients";
 
 const Home = ({ data }) => {
   return (
@@ -19,6 +20,7 @@ const Home = ({ data }) => {
           <h1>Find a Job In:</h1>
         </div>
         <Search /> */}
+        <Clients />
         <Assistance />
         <div className="featuredContainer">
           <h1 className="ftitle">

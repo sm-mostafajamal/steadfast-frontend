@@ -24,10 +24,10 @@ const Container = styled.div`
 `;
 const Heading = styled.h1`
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #212529;
-  padding: 100px 0;
+  padding: 50px 0;
   text-transform: capitalize;
   letter-spacing: 1px;
 `;
