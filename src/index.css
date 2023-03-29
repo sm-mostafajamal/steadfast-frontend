@@ -7,7 +7,7 @@
     padding: 1rem;
   }
   .ann-container {
-    width: 80vw;
+    width: 85%;
   }
   .announcement {
     font-size: 1.5rem;
@@ -44,8 +44,12 @@
     height: 0 !important;
   }
   .cover {
-    padding-left: 1.2rem !important;
+    padding: 3rem 0.5rem;
   }
+  .announcement {
+    font-size: 1.5rem;
+  }
+
   .cover-heading > h1,
   .cover-heading > h4 {
     font-size: 1.1rem !important;
@@ -190,8 +194,14 @@
     height: 0 !important;
   }
   .cover {
-    padding-left: 1rem !important;
+    padding: 3rem 0.5rem;
   }
+  .announcement {
+    font-size: 1.5rem;
+  }
+  /* .cover {
+    padding-left: 1rem !important;
+  } */
   .cover-heading > h1,
   h4,
   .cover-heading span {
@@ -348,7 +358,12 @@
   .login-btn {
     display: none;
   }
-
+  .cover {
+    padding: 3rem 0;
+  }
+  .announcement {
+    font-size: 1.5rem;
+  }
   .logo {
     width: 40%;
   }
