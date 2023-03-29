@@ -1,5 +1,6 @@
 @media (min-width: 769px) and (max-width: 1024px) {
-  .navlist {
+  .navlist,
+  .login-btn {
     display: none;
   }
 
@@ -23,6 +24,11 @@
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
+  .navlist,
+  .login-btn {
+    display: none;
+  }
+
   .navbar-toggler {
     display: none !important;
   }
@@ -164,6 +170,11 @@
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
+  .navlist,
+  .login-btn {
+    display: none;
+  }
+
   .navbar-toggler {
     display: none !important;
   }
@@ -325,6 +336,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
+  .navlist,
+  .login-btn {
+    display: none;
+  }
+
   .logo {
     width: 40%;
   }

@@ -12,6 +12,8 @@ import Applicant from "./pages/applicant/Applicant";
 import Assistant from "./pages/assistant/Assistant";
 import Blog from "./pages/blog/Blog";
 import { useEffect } from "react";
+import Register from "./pages/register/Register";
+import Login from "./pages/login/Login";
 
 function App() {
   useEffect(() => {
@@ -31,6 +33,8 @@ function App() {
           <Route path="/applicant" element={<Applicant />} />
           <Route path="/virtual-assistant" element={<Assistant />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>

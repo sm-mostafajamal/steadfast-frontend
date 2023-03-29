@@ -1,4 +1,4 @@
-.navbar {
+.navbarContainer {
   padding: 0;
   position: relative;
   width: 100%;
@@ -13,6 +13,7 @@
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  padding: 0;
 }
 .navContainer {
   position: relative;
@@ -67,6 +68,19 @@
   display: inline;
   margin: 0;
   font-weight: bold;
+}
+.login-btn {
+  width: 100px;
+  border: none;
+  padding: 5px 20px;
+  background-color: #f1b502;
+  color: white;
+
+  cursor: pointer;
+  margin-right: 10px;
+}
+.login-btn:hover {
+  background-color: #e9bd39;
 }
 .menu {
   /* background-color: #f1b502; */
