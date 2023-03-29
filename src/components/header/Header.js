@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <div className="cover-container">
       <div className="cover">
+        <Announcement />
         <div className="cover-heading">
           <h1>The Optimal Hire For Your Organization's Needs.</h1>
           <h4>From STEADFAST.</h4>
@@ -13,7 +14,6 @@ const Header = () => {
           <span className="lastLine">
             Achieve more. Advanced staffing through STEADFAST.
           </span>
-          <Announcement />
         </div>
       </div>
     </div>

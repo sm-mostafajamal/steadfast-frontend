@@ -1,25 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
 .ann-container {
+  /* position: absolute; */
   display: flex;
   flex-wrap: nowrap;
-  width: 50%;
-  margin-left: 20px;
   overflow: hidden;
+  /* margin-top: 70px; */
+  /* margin-left: 300px; */
+  /* width: 68%; */
+  width: 750px;
 }
 .ann-wrapper {
   display: flex;
   flex-shrink: 0;
   /* height: 50px; */
   align-items: center;
-  animation: slide-left 30s linear infinite;
+  animation: slide-left 60s linear infinite;
   font-family: impact, sans-serif;
   background: none;
 }
 
 .announcement {
   /* color: red; */
-  font-size: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
   padding-left: 0.5rem;
-  color: #01b178;
+  color: red;
+  /* color: #6d90af; */
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 @keyframes slide-left {
   from {

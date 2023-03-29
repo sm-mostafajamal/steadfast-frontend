@@ -11,6 +11,7 @@ const Container = styled.div`
     rgba(241, 196, 2, 0.867366929682029) 15%,
     rgba(1, 177, 120, 0.9345938204383316) 100%
   );
+
   position: absolute;
   margin-top: 40px;
   @media (min-width: 425px) and (max-width: 768px) {

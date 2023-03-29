@@ -3,7 +3,15 @@
   .login-btn {
     display: none;
   }
-
+  .cover {
+    padding: 1rem;
+  }
+  .ann-container {
+    width: 80vw;
+  }
+  .announcement {
+    font-size: 1.5rem;
+  }
   .cover-heading > h1,
   .cover-heading > h4 {
     font-size: 1.8rem !important;
