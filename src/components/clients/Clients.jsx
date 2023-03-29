@@ -39,7 +39,7 @@ const Clients = () => {
         <Logo src="./steadfast_images/clients/benchmark.png" />
         <Logo src="./steadfast_images/clients/nooter.png" />
         <Logo src="./steadfast_images/clients/ups.png" />
-        <Logo src="./steadfast_images/clients/RubinBrown.png" />
+        <Logo src="./steadfast_images/clients/gillig.png" />
       </LogoContainer>
     </Container>
   );
