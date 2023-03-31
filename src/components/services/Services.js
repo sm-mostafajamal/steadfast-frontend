@@ -58,7 +58,7 @@ const Services = () => {
             platforms. Companies receive ready-to-hire candidates quickly and
             efficiently while streamlining their recruiting efforts.
             SteadfastInternational Services is tech-enabled solutions that
-            include Direct Hire, Contingent Hire, as well asAgency Management.
+            include Direct Hire, Contingent Hire, as well as Agency Management.
           </p>
           <ul>
             <li>

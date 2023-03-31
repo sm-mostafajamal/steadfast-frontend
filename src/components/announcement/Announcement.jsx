@@ -9,11 +9,8 @@ const Announcement = () => {
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; Please be aware that the only areas from
-          which we will ever recruit is our official website,
-          www.steadfastints.com, and our official emails. Neither throughout the
-          employment nor application processes will we ever request payment.
+          &nbsp; &nbsp; &nbsp; &nbsp; Please be aware that, We will never ask
+          for money during our application or hiring process. 
         </p>
       </section>
     </div>

@@ -29,16 +29,16 @@ const Footer = () => {
               <h3>STEADFAST COMMUNICATIONS</h3>
             </div>
             <article>
-              Steadfast Communications is the sister concern of
+              Steadfast Communications is the sister concern of{" "}
               <Link
                 to="https://www.steadfastints.com/"
                 className="steadfastLink"
               >
-                Steadfast International Services, LLC.
+                Steadfast International Services, LLC
               </Link>
-              Which is the leading talent acquisition platform that delivers top
-              candidates to enterprises by leveraging thelargest community of
-              recruiters and sourcing technology platforms. Companies receive
+              . Which is the leading talent acquisition platform that delivers
+              top candidates to enterprises by leveraging thelargest community
+              of recruiters and sourcing technology platforms. Companies receive
               ready-to-hire candidates quickly and efficiently while
               streamlining their recruiting efforts. Steadfast International
               Services is tech-enabled solutions that include Direct Hire,

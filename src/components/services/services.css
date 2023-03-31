@@ -38,7 +38,7 @@
 }
 .jsDetails > h4,
 .feDetails > h4 {
-  color: #01b178;
+  color: #f1b502;
   margin: 0;
   font-size: 1.2rem;
   padding-bottom: 10px;
@@ -84,7 +84,7 @@
   line-height: 25px;
 }
 .exDetails > h4 {
-  color: #039e6d;
+  color: #f1b502;
   margin: 0;
 }
 .exDetails > ul {
@@ -108,7 +108,7 @@
 .exIcon {
   position: absolute;
   padding-top: 4px;
-  color: rgb(6, 155, 108);
+  color: #f1b502;
 }
 .exDetails > ul > li > span {
   padding-left: 30px;

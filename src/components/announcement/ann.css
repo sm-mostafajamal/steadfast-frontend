@@ -14,7 +14,7 @@
   flex-shrink: 0;
   /* height: 50px; */
   align-items: center;
-  animation: slide-left 60s linear infinite;
+  animation: slide-left 15s linear infinite;
   font-family: impact, sans-serif;
   background: none;
 }

@@ -42,14 +42,14 @@
   padding: 3px;
 }
 .footerWrapper h3 {
-  color: #00a26e;
+  color: #f1b502;
 }
 .steadfastLogo-container {
   display: flex;
   align-items: center;
 }
 .steadfast-logo {
-  width: 32px;
+  width: 42px;
   height: 30px;
   padding-right: 10px;
 }
@@ -78,7 +78,7 @@
   transition: 0.5s ease;
 }
 .follow ul li a:hover {
-  color: #00a26e;
+  color: #f1b502;
   transform: scale(1.1);
 }
 .follow > ul {

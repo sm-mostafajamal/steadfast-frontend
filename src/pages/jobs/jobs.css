@@ -80,18 +80,16 @@
 .moreBtn > button {
   cursor: pointer;
   width: 150px;
-
   height: 50px;
   border: none;
   margin: auto;
   border-radius: 5px;
-  background-color: #01a06d;
+  background-color: #f1b502;
   font-size: medium;
   font-weight: 500;
 }
 .moreBtn > button:hover {
-  background-color: #007752;
-  color: white;
+  background-color: #ffdd00;
 }
 .moreArrow {
   position: absolute;
@@ -117,7 +115,7 @@
   padding: 1rem 0;
 }
 .spDetails > h1 {
-  color: #01a06d;
+  color: #f1b502;
 }
 .spDetails > p {
   width: 60%;
