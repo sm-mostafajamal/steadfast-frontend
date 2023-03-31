@@ -10,6 +10,8 @@
   justify-content: center;
 }
 .cover {
+  width: 100vw;
+
   height: 60vh;
   display: flex;
   flex-direction: column;

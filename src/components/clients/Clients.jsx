@@ -15,15 +15,16 @@ const Title = styled.h1`
   text-transform: capitalize;
 `;
 const LogoContainer = styled.div`
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  /* margin: 50px; */
 `;
 const Logo = styled.img`
   width: 20%;
-  height: 20%;
+  /* height: 20%; */
   margin: 0 20px;
 `;
 
