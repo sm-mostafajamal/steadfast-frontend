@@ -321,7 +321,7 @@ export const employers = [
     picture: "adhora.jpg",
     name: "Adhora Zaman",
     narration:
-      "Not in doing what you like, but in liking what you do is the secret of happiness.",
+      "Adhora Zaman is a highly motivated and energetic recruitment Professional. She is an effective communicator and negotiator maintaining strong working relationships with clients, leadership teams, and her peers. She possesses excellent time management skills as well as the ability to handle multiple tasks simultaneously and operate effectively within strict deadlines and challenging situations.",
   },
   {
     id: 12,
