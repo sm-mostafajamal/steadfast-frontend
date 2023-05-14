@@ -5,16 +5,19 @@ import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/form/Form";
 import "./job.css";
+import { useSelector } from "react-redux";
 
-const Job = ({ data }) => {
-  const [show, setShow] = useState(false);
-  const id = useParams().id;
-  const job = data.find((j) => Number(id) === j.id);
-  const style = { display: show ? "" : "none" };
+const Job = () => {
   // To view from the beginning for the pagte
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [show, setShow] = useState(false);
+  const jobs = useSelector(({ jobs }) => jobs);
+  const id = useParams().id;
+  const job = jobs.find((j) => Number(id) === j.id);
+  const style = { display: show ? "" : "none" };
 
   // To scroll to the form component when clicking "Apply for job button"
   const resumeFormRef = useRef(null);
@@ -63,6 +66,10 @@ const Job = ({ data }) => {
           <section>
             <span>Job Context: </span>
             {job.jobContext}
+          </section>
+          <section>
+            <span>Job Responsibilities: </span>
+            {job.jobResponsibilities}
           </section>
           <section>
             <span>Additional Requirements: </span>

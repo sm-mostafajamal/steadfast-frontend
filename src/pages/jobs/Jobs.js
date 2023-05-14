@@ -2,9 +2,11 @@ import "./jobs.css";
 import Find from "../../components/find/Find";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/Card";
-
 import { FaAngleDoubleRight } from "react-icons/fa";
-const Jobs = ({ data }) => {
+import { useSelector } from "react-redux";
+
+const Jobs = () => {
+  const jobs = useSelector(({ jobs }) => jobs);
   return (
     <div className="jobs-container">
       <div className="find-container">
@@ -40,7 +42,7 @@ const Jobs = ({ data }) => {
         </div>
       </div>
       <div className="jobCards-container">
-        {data.slice(0, 20).map((job) => (
+        {jobs.slice(0, 20).map((job) => (
           <Card job={job} key={job.id} />
         ))}
       </div>

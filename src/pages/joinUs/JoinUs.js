@@ -1,7 +1,10 @@
 import "./joinUs.css";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/Card";
-const JoinUs = ({ data }) => {
+import { useSelector } from "react-redux";
+const JoinUs = () => {
+  const jobs = useSelector(({ jobs }) => jobs);
+
   return (
     <div>
       <div className="joinUs-cointainer">
@@ -31,7 +34,7 @@ const JoinUs = ({ data }) => {
             Open vacancies at <span>Steadfast</span>
           </h1>
           <div className="jobCards-container">
-            {data.slice(0, 8).map((job) => (
+            {jobs.slice(0, 8).map((job) => (
               <Card job={job} key={job.id} />
             ))}
           </div>
