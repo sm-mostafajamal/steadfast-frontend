@@ -22,7 +22,6 @@ const Home = () => {
   });
   useEffect(() => {
     if (data) {
-      console.log(data);
       dispatch(appendJobs(data));
     }
   }, [data, dispatch]);

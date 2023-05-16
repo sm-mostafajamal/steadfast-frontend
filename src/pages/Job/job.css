@@ -35,15 +35,15 @@
   font-size: 20px;
 }
 .resume {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding-bottom: 50px;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  display: block;
+  width: max-content;
 }
-.resume label {
-  font-size: 1.1rem;
-  font-weight: 700;
-}
+
 input[type="file"] {
   /* padding: 0 30px; */
   /* font-size: 1.3vmax; */
@@ -57,11 +57,8 @@ input::file-selector-button {
 input::file-selector-button:hover {
   background-color: black;
 }
+
 .applyBtn {
-  height: 70px;
-  margin: auto;
-}
-.applyBtn button {
   cursor: pointer;
   width: 150px;
   height: 45px;
@@ -69,8 +66,19 @@ input::file-selector-button:hover {
   background-color: #ffdd00;
   font-size: medium;
   font-weight: 500;
+  margin-top: 20px;
 }
 .applyBtn button:hover {
   background-color: #f1b502;
   color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
 }

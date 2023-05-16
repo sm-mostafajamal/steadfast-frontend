@@ -115,7 +115,7 @@ const Container = styled.div`
 `;
 const Cover = styled.div`
   background-image: url(${({ background }) => background});
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   /* background-attachment: ; */
   background-attachment: fixed;

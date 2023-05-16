@@ -26,7 +26,7 @@ const Container = styled.div`
 const Wrapper = styled.div``;
 const Cover = styled.div`
   background-image: url(${({ background }) => background});
-  width: 100vw;
+  width: 100%;
   min-height: 60vh;
   background-position: center;
   background-repeat: no-repeat;

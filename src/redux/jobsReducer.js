@@ -4,7 +4,7 @@ const jobsSlice = createSlice({
   name: "jobs",
   initialState: [],
   reducers: {
-    appendJobs(action) {
+    appendJobs(state, action) {
       return action.payload;
     },
   },
