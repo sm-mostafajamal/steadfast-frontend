@@ -5,13 +5,13 @@ import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import "./job.css";
 import { useSelector } from "react-redux";
+import { useMutation, useQuery } from "react-query";
+import { createFormData } from "../../server/dashboardReq";
 
 const Job = () => {
-  // To view from the beginning for the pagte
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0); // To view from the beginning for the pagte
   }, []);
-
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,14 +19,14 @@ const Job = () => {
     message: "",
     resume: null,
   });
-
   const [show, setShow] = useState(false);
   const jobs = useSelector(({ jobs }) => jobs);
   const id = useParams().id;
   const job = jobs.find((j) => Number(id) === j.id);
+  const resumeFormRef = useRef(null); // To scroll to the form component when clicking "Apply for job button"
+  const createNewForm = useMutation(createFormData);
 
-  // To scroll to the form component when clicking "Apply for job button"
-  const resumeFormRef = useRef(null);
+  // Handle Buttons
   const handleClick = () => {
     setShow(!show);
     resumeFormRef.current.scrollIntoView({ behavior: "smooth" });
@@ -41,10 +41,17 @@ const Job = () => {
       message: "",
       resume: null,
     });
+    createNewForm.mutate({ name: "hell" });
+    // createNewForm.mutate({ form });
   };
   const handleResume = () => {
     resumeFormRef.current?.click();
   };
+
+  // fetching all submitted  forms
+  // const { data } = useQuery("applied", getAllAppliedData);
+  // console.log(data);
+
   return (
     <div>
       <div className="job-container">
@@ -97,6 +104,7 @@ const Job = () => {
           >
             Apply for job
           </button>
+
           <form
             style={{ display: show ? "" : "none" }}
             action=""
@@ -112,7 +120,7 @@ const Job = () => {
               onChange={(e) =>
                 setForm({ ...form, [e.target.name]: e.target.value })
               }
-              required
+              // required
             />
             <input
               type="email"
@@ -123,7 +131,7 @@ const Job = () => {
               onChange={(e) =>
                 setForm({ ...form, [e.target.name]: e.target.value })
               }
-              required
+              // required
             />
             <input
               type="number"
@@ -134,7 +142,7 @@ const Job = () => {
               onChange={(e) =>
                 setForm({ ...form, [e.target.name]: e.target.value })
               }
-              required
+              // required
             />
             <textarea
               name="message"
@@ -166,7 +174,7 @@ const Job = () => {
               onChange={(e) =>
                 setForm({ ...form, [e.target.name]: e.target.files[0] })
               }
-              required
+              // required
             />
             <button className="applyBtn" type="submit">
               Send application
