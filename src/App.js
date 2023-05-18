@@ -25,7 +25,7 @@ function App() {
         <Route path="/" element={<NavbarMenu />}>
           <Route index element={<Home />} />
           <Route path="/jobs" element={<Jobs />} />
-          <Route path="/jobs/:id" element={<Job />} />
+          <Route path="/apply/:id" element={<Job />} />
           <Route path="/employer" element={<Employer />} />
           <Route path="/join-us" element={<JoinUs />} />
           <Route path="/contact" element={<Contact />} />

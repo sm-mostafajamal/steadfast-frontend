@@ -5,8 +5,9 @@ import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import "./job.css";
 import { useSelector } from "react-redux";
-import { useMutation, useQuery } from "react-query";
-import { createFormData } from "../../server/dashboardReq";
+import { useMutation, useQuery, useQueryClient } from "react-query";
+import { createApplyFormData } from "../../server/requests";
+import { getAllAppliedData } from "../../server/requests";
 
 const Job = () => {
   useEffect(() => {
@@ -24,7 +25,15 @@ const Job = () => {
   const id = useParams().id;
   const job = jobs.find((j) => Number(id) === j.id);
   const resumeFormRef = useRef(null); // To scroll to the form component when clicking "Apply for job button"
-  const createNewForm = useMutation(createFormData);
+
+  const queryClient = useQueryClient();
+  const { data } = useQuery("applied", getAllAppliedData);
+  const createNewForm = useMutation(createApplyFormData, {
+    onSuccess: (newApplied) => {
+      const applied = queryClient.getQueryData("applied");
+      queryClient.setQueryData("applied", applied.concat(newApplied));
+    },
+  });
 
   // Handle Buttons
   const handleClick = () => {
@@ -33,6 +42,11 @@ const Job = () => {
   };
   const handleApplyForm = (e) => {
     e.preventDefault();
+    createNewForm.mutate({
+      id: Math.round(Math.random() * 100000),
+      jobTitle: job.title,
+      ...form,
+    });
     setForm({
       ...form,
       name: "",
@@ -41,16 +55,11 @@ const Job = () => {
       message: "",
       resume: null,
     });
-    createNewForm.mutate({ name: "hell" });
     // createNewForm.mutate({ form });
   };
   const handleResume = () => {
     resumeFormRef.current?.click();
   };
-
-  // fetching all submitted  forms
-  // const { data } = useQuery("applied", getAllAppliedData);
-  // console.log(data);
 
   return (
     <div>

@@ -42,6 +42,7 @@
   border-right: none;
   display: block;
   width: max-content;
+  cursor: pointer;
 }
 
 input[type="file"] {

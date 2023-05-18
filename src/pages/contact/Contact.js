@@ -1,10 +1,41 @@
 import "./contact.css";
 import Flag from "react-world-flags";
 import Footer from "../../components/footer/Footer";
-import Form from "../../components/form/Form";
 import { IoCallSharp } from "react-icons/io5";
+import { useState } from "react";
+import { useMutation, useQuery, useQueryClient } from "react-query";
+import {
+  createNewContactForm,
+  getALLContactFormData,
+} from "../../server/contactReq";
 
 const Contact = () => {
+  const contactData = useQuery("contacts", getALLContactFormData);
+  const queryClient = useQueryClient();
+  const createNewContact = useMutation(createNewContactForm, {
+    onSuccess: (newForm) => {
+      const contacts = queryClient.getQueryData("contacts");
+      queryClient.setQueryData("contacts", contacts.concat(newForm));
+    },
+  });
+  // console.log(contactData.data);
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    number: "",
+    message: "",
+  });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    createNewContact.mutate({ id: Math.round(Math.random() * 10000), ...form });
+    setForm({
+      name: "",
+      email: "",
+      number: "",
+      message: "",
+    });
+  };
+
   return (
     <div className="contact-container">
       {/* <div className="heading-container">
@@ -58,18 +89,68 @@ const Contact = () => {
         <div className="form-container">
           <div className="form-wrapper">
             <h1>Contact us</h1>
-            <form method="post" action="" className="contactForm">
-              <Form />
+            <form
+              method="POST"
+              onSubmit={handleSubmit}
+              action=""
+              className="contactForm"
+            >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name*"
+                value={form.name}
+                onChange={(e) =>
+                  setForm({ ...form, [e.target.name]: e.target.value })
+                }
+                // required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email*"
+                value={form.email}
+                onChange={(e) =>
+                  setForm({ ...form, [e.target.name]: e.target.value })
+                }
+                // required
+              />
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Phone*"
+                value={form.number}
+                onChange={(e) =>
+                  setForm({ ...form, [e.target.name]: e.target.value })
+                }
+                // required
+              />
+              <textarea
+                name="message"
+                id="message"
+                cols="100"
+                rows="10"
+                placeholder="How can we help?*"
+                value={form.message}
+                onChange={(e) =>
+                  setForm({ ...form, [e.target.name]: e.target.value })
+                }
+              />
+              <div className="policy">
+                <label htmlFor="policy">Privacy Policy *</label>
+                <div>
+                  <input type="checkbox" name="policy" id="policy" required />
+                  <span>
+                    I consent to having this website store my submitted
+                    information so Steadfast can respond to my inquiry.
+                  </span>
+                </div>
+                <button className="submit">Submit</button>
+              </div>
             </form>
-            <div className="policy">
-              <label htmlFor="policy">Privacy Policy *</label>
-              <span>
-                <input type="checkbox" name="policy" id="policy" />I consent to
-                having this website store my submitted information so Steadfast
-                can respond to my inquiry.
-              </span>
-              <button className="submit">CONTACT DETAILS</button>
-            </div>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ const Card = ({ job }) => {
         </div>
       </div>
       <div className="detailsBtn">
-        <Link to={`/jobs/${job.id}`}>
+        <Link to={`/apply/${job.id}`}>
           <button>
             Details
             <FaArrowRight className="detailsArrow" />

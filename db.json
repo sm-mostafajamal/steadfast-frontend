@@ -38,20 +38,102 @@
       "jobResponsibilities": "\n-Insert customer and account data by inputting text-based and numerical information from source documents within time limits \n-Compile, verify accuracy, and sort information according to priorities to prepare source data for computer entry\n-Review data for deficiencies or errors, correct any incompatibilities if possible, and check the output\n-Research and obtain further information for incomplete documents\n-Apply data program techniques and procedures\n-Generate reports, store completed work in designated locations, and perform backup operations\n-Keep information confidential\n-Respond to queries for information and access relevant files\n-Comply with data integrity and security policies\n-Requirements and skills\n-Proven data entry work experience, as a Data Analyst or Business Analyst,\n-Experience with MS Office and data programs\n-Familiarity with administrative duties \n-Typing speed and accuracy \n-Excellent knowledge of correct spelling, grammar, and punctuation \n-Attention to detail \n-Confidentiality \n-Organization skills, with an ability to stay focused on assigned tasks \n-Must-Have a Certificate which indicates experience as Data Analyst or Business Analyst. \n-Interested to work in the USA Based time Schedule (06:00 pm - 03:00 am/ 7:00 pm-4:00 am) \n-Full-Time Job, 100% Remote Work, (Work from Home)\nEducational Level: Minimum Bachelor's Degree from any Reputed Organization.\nBelongings: Laptop/Desktop, High-Speed Internet (The organization will not provide these)\nWeekend: Saturday & Sunday\nLanguage: English (Conversational)",
       "additionalRequirements": "\n-Age 30 to 40 years\n-5-7 years of sales experience within the Recruiting and Staffing industry in the USA or Sales and\n-Marketing experience in the Technology industry.\n-Canada/UK Market experience will also get priority.\n-Entrepreneurial mindset with a true sales hunter approach.\n-Strong established relationships among key influencers within the Recruiting and Staffing Industry.\n-Strong communication and interpersonal skills.\n-Business management in technology and digital marketing.\n-Tech-savvy, proficient in using tools such as Zoom, Dynamics CRM, and MS Office Suite (Excel, PowerPoint, Outlook)\n-Proven working experience as a business development manager, sales executive, or a relevant role\n-Proven sales track record. selling recruiting solutions or services to large enterprises.",
       "compensationAndBenefits": "\n-Performance bonus, Weekly 2 holidays, Gratuity, Overtime allowance \n-Salary Review: Half Yearly\n-Festival Bonus: 2 (Yearly)\n-Attendance Bonus Per Month\n-Other's Leave as per Labor Law "
-    },
-    {
-      "name": "hell",
-      "id": 4
     }
   ],
-  "applied": [
+  "apply": [
     {
+      "id": 1,
       "jobTitle": "Junior Recruiter",
       "name": "test",
       "email": "test@email.com",
       "number": "018",
       "message": "hello",
       "resume": null
+    },
+    {
+      "id": 2,
+      "jobTitle": "Principal Digital Marketing Manager",
+      "name": "a",
+      "email": "s@ea.com",
+      "number": "12",
+      "message": "",
+      "resume": {}
+    },
+    {
+      "id": 58951,
+      "jobTitle": "Junior Recruiter",
+      "name": "a",
+      "email": "a@a",
+      "number": "12",
+      "message": "",
+      "resume": null
+    },
+    {
+      "id": 34518,
+      "jobTitle": "Junior Recruiter",
+      "name": "a",
+      "email": "a@a",
+      "number": "1",
+      "message": "",
+      "resume": null
+    },
+    {
+      "id": 85877,
+      "jobTitle": "Junior Recruiter",
+      "name": "a",
+      "email": "a@a",
+      "number": "12",
+      "message": "",
+      "resume": null
+    },
+    {
+      "id": 20152,
+      "jobTitle": "Principal Digital Marketing Manager",
+      "name": "adsf",
+      "email": "mostafa2k20@gmail.com",
+      "number": "123",
+      "message": "",
+      "resume": {}
+    },
+    {
+      "id": 78566,
+      "jobTitle": "Junior Recruiter",
+      "name": "a",
+      "email": "",
+      "number": "",
+      "message": "",
+      "resume": null
+    },
+    {
+      "id": 49177,
+      "jobTitle": "Junior Recruiter",
+      "name": "a",
+      "email": "",
+      "number": "",
+      "message": "",
+      "resume": null
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "test",
+      "email": "test@email.com",
+      "number": "018"
+    },
+    {
+      "id": 2417,
+      "name": "a",
+      "email": "a@a",
+      "number": "123",
+      "message": ""
+    },
+    {
+      "id": 6178,
+      "name": "testing",
+      "email": "test@gmail.com",
+      "number": "123",
+      "message": "test"
     }
   ]
 }

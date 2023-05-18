@@ -108,12 +108,16 @@
   padding-bottom: 10px;
 }
 #policy {
-  margin-left: 0;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin: 0;
   margin-right: 10px;
 }
-.policy > span {
+.policy > div {
   color: #65656b;
   display: block;
+  display: flex;
 }
 
 .submit {
