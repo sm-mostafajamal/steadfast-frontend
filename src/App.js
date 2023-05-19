@@ -13,17 +13,33 @@ import Blog from "./pages/blog/Blog";
 import { useEffect } from "react";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
+import { useDispatch } from "react-redux";
+import { useQuery } from "react-query";
+import { appendJobs } from "./redux/jobsReducer";
+import { getJobs } from "./server/requests";
 
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const dispatch = useDispatch();
+  const { isLoading, data } = useQuery("jobs", getJobs, {
+    retry: false,
+    refetchOnWindowFocus: false,
+  });
+
+  useEffect(() => {
+    if (data) {
+      dispatch(appendJobs(data));
+    }
+  }, [data, dispatch]);
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<NavbarMenu />}>
-          <Route index element={<Home />} />
+          <Route index element={<Home isLoading={isLoading} />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/apply/:id" element={<Job />} />
           <Route path="/employer" element={<Employer />} />

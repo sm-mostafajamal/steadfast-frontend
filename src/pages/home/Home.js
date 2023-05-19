@@ -8,23 +8,8 @@ import Assistance from "../../components/assistance/Assistance";
 import Process from "../../components/process/Process";
 import { Link } from "react-router-dom";
 import Clients from "../../components/clients/Clients";
-import { useDispatch } from "react-redux";
-import { useQuery } from "react-query";
-import { getJobs } from "../../server/requests";
-import { useEffect } from "react";
-import { appendJobs } from "../../redux/jobsReducer";
 
-const Home = () => {
-  const dispatch = useDispatch();
-  const { isLoading, data } = useQuery("jobs", getJobs, {
-    retry: false,
-    refetchOnWindowFocus: false,
-  });
-  useEffect(() => {
-    if (data) {
-      dispatch(appendJobs(data));
-    }
-  }, [data, dispatch]);
+const Home = ({ isLoading }) => {
   return (
     <div className="home">
       <header>
@@ -42,7 +27,11 @@ const Home = () => {
             Our Latest Jobs
             <FaAngleDoubleRight className="longArrow" />
           </h1>
-          {isLoading ? <span> Loading...</span> : <Featured />}
+          {isLoading ? (
+            <span style={{ fontSize: 24, fontWeight: 500 }}> Loading...</span>
+          ) : (
+            <Featured />
+          )}
         </div>
         <Services />
         <Process />

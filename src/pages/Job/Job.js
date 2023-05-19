@@ -27,7 +27,7 @@ const Job = () => {
   const resumeFormRef = useRef(null); // To scroll to the form component when clicking "Apply for job button"
 
   const queryClient = useQueryClient();
-  const { data } = useQuery("applied", getAllAppliedData);
+  const getAllFormData = useQuery("applied", getAllAppliedData);
   const createNewForm = useMutation(createApplyFormData, {
     onSuccess: (newApplied) => {
       const applied = queryClient.getQueryData("applied");
