@@ -19,6 +19,7 @@ const Contact = () => {
     },
   });
   // console.log(contactData.data);
+  const [checked, setChecked] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -28,6 +29,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     createNewContact.mutate({ id: Math.round(Math.random() * 10000), ...form });
+    setChecked(!checked);
     setForm({
       name: "",
       email: "",
@@ -35,7 +37,7 @@ const Contact = () => {
       message: "",
     });
   };
-
+  // console.log(checked);
   return (
     <div className="contact-container">
       {/* <div className="heading-container">
@@ -104,7 +106,7 @@ const Contact = () => {
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }
-                // required
+                required
               />
               <input
                 type="email"
@@ -115,7 +117,7 @@ const Contact = () => {
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }
-                // required
+                required
               />
               <input
                 type="number"
@@ -126,7 +128,7 @@ const Contact = () => {
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }
-                // required
+                required
               />
               <textarea
                 name="message"
@@ -134,7 +136,7 @@ const Contact = () => {
                 cols="100"
                 rows="10"
                 placeholder="How can we help?*"
-                value={form.message}
+                defaultChecked={form.message}
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }
@@ -142,13 +144,22 @@ const Contact = () => {
               <div className="policy">
                 <label htmlFor="policy">Privacy Policy *</label>
                 <div>
-                  <input type="checkbox" name="policy" id="policy" required />
+                  <input
+                    type="checkbox"
+                    name="policyApproved"
+                    id="policy"
+                    checked={checked}
+                    onChange={(e) => setChecked(e.target.checked)}
+                    required
+                  />
                   <span>
                     I consent to having this website store my submitted
                     information so Steadfast can respond to my inquiry.
                   </span>
                 </div>
-                <button className="submit">Submit</button>
+                <button type="submit" className="submit">
+                  Submit
+                </button>
               </div>
             </form>
           </div>

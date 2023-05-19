@@ -120,20 +120,6 @@
       "name": "test",
       "email": "test@email.com",
       "number": "018"
-    },
-    {
-      "id": 2417,
-      "name": "a",
-      "email": "a@a",
-      "number": "123",
-      "message": ""
-    },
-    {
-      "id": 6178,
-      "name": "testing",
-      "email": "test@gmail.com",
-      "number": "123",
-      "message": "test"
     }
   ]
 }
