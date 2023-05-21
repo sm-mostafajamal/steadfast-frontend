@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3001/contact";
+const baseURL = "/contact";
 
 export const getALLContactFormData = () =>
   axios.get(baseURL).then((res) => res.data);
