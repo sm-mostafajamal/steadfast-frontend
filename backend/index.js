@@ -1,15 +1,15 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
-const mongoose = require("mongoose");
-require("dotenv").config();
+const cors = require("cors");
+const jobsRouter = require("./controllers/jobs");
+const { errorHandler } = require("./utils/middleware");
+
 const PORT = process.env.PORT;
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then((result) => console.log("connected to database"));
-
-app.get("/", (req, res) => {
-  res.send("hello");
-});
+app.use(express.json());
+app.use(cors());
+app.use("/api/jobs", jobsRouter);
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
