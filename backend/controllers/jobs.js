@@ -1,8 +1,9 @@
 const router = require("express").Router();
 const Job = require("../models/job");
 
-router.get("/", (req, res) => {
-  res.send("hello");
+router.get("/", async (req, res, next) => {
+  const jobs = await Job.find({});
+  res.json(jobs);
 });
 
 router.get("/:id", async (req, res, next) => {
@@ -30,6 +31,20 @@ router.post("/", async (req, res) => {
   });
   const savedJob = await job.save();
   res.status(200).json(savedJob);
+});
+
+router.delete("/:id", async (req, res, next) => {
+  const job = await Job.findById(req.params.id);
+  try {
+    if (job) {
+      const jobToDelete = await Job.findByIdAndRemove(req.params.id);
+      res.status(200).json(jobToDelete);
+    } else {
+      res.status(404).json({ error: "content doesn't exist" });
+    }
+  } catch (error) {
+    next(error);
+  }
 });
 
 module.exports = router;
