@@ -5,18 +5,18 @@ router.get("/", (req, res) => {
   res.send("hello");
 });
 
-router.get("/:id", (req, res, next) => {
-  const job = Job.findById(req.params.id)
-    .then((job) => {
-      if (job) {
-        res.status(200).json(job);
-      } else {
-        res.status(404).end();
-      }
-    })
-    .catch((err) => {
-      next(err);
-    });
+router.get("/:id", async (req, res, next) => {
+  try {
+    const job = await Job.findById(req.params.id);
+
+    if (job) {
+      res.status(200).json(job);
+    } else {
+      res.status(404).end();
+    }
+  } catch (err) {
+    next(err);
+  }
 });
 
 router.post("/", async (req, res) => {
