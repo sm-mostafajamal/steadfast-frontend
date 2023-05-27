@@ -38,7 +38,25 @@ router.delete("/:id", async (req, res, next) => {
   try {
     if (job) {
       const jobToDelete = await Job.findByIdAndRemove(req.params.id);
-      res.status(200).json(jobToDelete);
+      res.status(204).json(jobToDelete);
+    } else {
+      res.status(404).json({ error: "content doesn't exist" });
+    }
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.put("/:id", async (req, res, next) => {
+  const jobToUpdate = req.body;
+  try {
+    if (jobToUpdate) {
+      const updatedJob = await Job.findByIdAndUpdate(
+        req.params.id,
+        jobToUpdate,
+        { new: true }
+      );
+      res.status(200).json(updatedJob);
     } else {
       res.status(404).json({ error: "content doesn't exist" });
     }

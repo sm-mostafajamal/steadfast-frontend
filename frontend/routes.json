@@ -1,3 +1,4 @@
 {
+  "/api/jobs": "/jobs/",
   "/apply/:id": "/apply/"
 }
