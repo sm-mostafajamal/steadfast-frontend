@@ -3,37 +3,33 @@ import {
   FaDollarSign,
   FaLocationArrow,
   FaStar,
-  FaUserClock,
   FaArrowRight,
 } from "react-icons/fa";
+import Parser from "html-react-parser";
 import { Link } from "react-router-dom";
 
 const Card = ({ job }) => {
+  console.log(job);
   return (
     <div className="cardContainer">
       <h1 className="cardTitle">{job.title}</h1>
       <div className="card">
         <div className="cardItem">
-          <FaStar className="cardIcon" />
-          <span className="title">Skills</span>
-          <br />
-          <span className="cardDetails skills">{job.skills}</span>
-        </div>
-        <div className="cardItem">
           <FaLocationArrow className="cardIcon" />
           <span className="title">Location</span>
           <br />
-          <span className="cardDetails location">{job.location}</span>
         </div>
+        <span className="cardDetails location">{job.location}</span>
         <div className="cardItem">
           <FaDollarSign className="cardIcon" />
           <span className="title">Compensation</span> <br />
-          <span className="cardDetails">{job.compensation}</span>
         </div>
+        <span className="cardDetails">{job.compensation}</span>
         <div className="cardItem">
-          <FaUserClock className="cardIcon" />
-          <span className="cardDetails">{job.jobType}</span>
+          <FaStar className="cardIcon" />
+          <span className="title">Description</span> <br />
         </div>
+        <span className="cardDetails desc">{Parser(job.desc)}</span>
       </div>
       <div className="detailsBtn">
         <Link to={`/apply/${job.id}`}>

@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import { FaUserClock } from "react-icons/fa";
+import { useEffect, useRef, useState } from "react";
+import Parser from "html-react-parser";
+import { FaDollarSign } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
@@ -65,8 +66,8 @@ const Job = () => {
         <h1>{job.title}</h1>
         <div className="job-heading">
           <span>
-            <FaUserClock className="jobIcon" />
-            {job.jobType}
+            <FaDollarSign className="jobIcon" />
+            {job.compensation}
           </span>
           <span>
             <IoLocation className="jobIcon" />
@@ -75,32 +76,8 @@ const Job = () => {
         </div>
         <div className="job-desc">
           <section>
-            <span>Salary: </span>
-            {job.compensation}
-          </section>
-          <section>
-            <span>Skills: </span>
-            {job.skills}
-          </section>
-          <section>
-            <span>Key Selling Points: </span>
-            {job.keySellingPoints}
-          </section>
-          <section>
-            <span>Job Context: </span>
-            {job.jobContext}
-          </section>
-          <section>
-            <span>Job Responsibilities: </span>
-            {job.jobResponsibilities}
-          </section>
-          <section>
-            <span>Additional Requirements: </span>
-            {job.additionalRequirements}
-          </section>
-          <section>
-            <span>Compensation & Other Benefits: </span>
-            {job.compensationAndBenefits}
+            <span>Description: </span>
+            {Parser(job.desc)}
           </section>
         </div>
         <div>
