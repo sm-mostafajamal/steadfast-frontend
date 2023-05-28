@@ -3,14 +3,11 @@ import Flag from "react-world-flags";
 import Footer from "../../components/footer/Footer";
 import { IoCallSharp } from "react-icons/io5";
 import { useState } from "react";
-import { useMutation, useQuery, useQueryClient } from "react-query";
-import {
-  createNewContactForm,
-  getALLContactFormData,
-} from "../../server/contactReq";
+import { useMutation, useQueryClient } from "react-query";
+import { createNewContactForm } from "../../server/contactReq";
 
 const Contact = () => {
-  const contactData = useQuery("contacts", getALLContactFormData);
+  // const contactData = useQuery("contacts", getALLContactFormData);
   const queryClient = useQueryClient();
   const createNewContact = useMutation(createNewContactForm, {
     onSuccess: (newForm) => {
