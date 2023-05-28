@@ -5,9 +5,8 @@ import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import "./job.css";
 import { useSelector } from "react-redux";
-import { useMutation, useQuery, useQueryClient } from "react-query";
+import { useMutation, useQueryClient } from "react-query";
 import { createApplyFormData } from "../../server/requests";
-import { getAllAppliedData } from "../../server/requests";
 
 const Job = () => {
   useEffect(() => {
@@ -23,11 +22,10 @@ const Job = () => {
   const [show, setShow] = useState(false);
   const jobs = useSelector(({ jobs }) => jobs);
   const id = useParams().id;
-  const job = jobs.find((j) => Number(id) === j.id);
+  const job = jobs.find((j) => id === j.id);
   const resumeFormRef = useRef(null); // To scroll to the form component when clicking "Apply for job button"
 
   const queryClient = useQueryClient();
-  const getAllFormData = useQuery("applied", getAllAppliedData);
   const createNewForm = useMutation(createApplyFormData, {
     onSuccess: (newApplied) => {
       const applied = queryClient.getQueryData("applied");

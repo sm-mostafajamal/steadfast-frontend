@@ -1,6 +1,6 @@
 import axios from "axios";
-const baseURL = "/jobs";
-const applyURL = "/apply";
+const baseURL = "https://steadfast-d3c4.onrender.com/api/jobs";
+const applyURL = "https://steadfast-d3c4.onrender.com//apply";
 
 export const getJobs = () => axios.get(baseURL).then((res) => res.data);
 
