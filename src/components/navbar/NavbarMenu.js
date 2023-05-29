@@ -50,9 +50,9 @@ function NavbarMenu() {
               <Link to="/employer">EMPLOYER</Link>
             </Nav>
           </Navbar.Collapse>
-          <Link to="/login" onClick={() => setOpen(false)}>
+          {/* <Link to="/login" onClick={() => setOpen(false)}>
             <button className="login-btn">LOG IN</button>
-          </Link>
+          </Link> */}
 
           <div className="menu">
             <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
