@@ -35,7 +35,7 @@ const Home = ({ isLoading }) => {
         </div>
         <Services />
         <Process />
-        <div className="hireSteadfast">
+        {/* <div className="hireSteadfast">
           <p>
             The easiest thing for you to accomplish today <br /> is to get
             started.
@@ -48,7 +48,7 @@ const Home = ({ isLoading }) => {
               <button>Hire STEADFAST</button>
             </Link>
           </div>
-        </div>
+        </div> */}
       </main>
       <footer>
         <Footer />
