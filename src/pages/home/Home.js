@@ -6,7 +6,7 @@ import Services from "../../components/services/Services";
 import Footer from "../../components/footer/Footer";
 import Assistance from "../../components/assistance/Assistance";
 import Process from "../../components/process/Process";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Clients from "../../components/clients/Clients";
 
 const Home = ({ isLoading }) => {
