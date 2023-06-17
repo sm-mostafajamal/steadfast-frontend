@@ -62,7 +62,7 @@ export const employers = [
       "Tahmid Ahmed is a recruiter responsible for finding and attracting talented individuals to fill job openings within the organization they represent. They create job descriptions and postings, screen resumes and applications, conduct interviews, and act as a point of contact for candidates throughout the recruitment process.",
   },
   {
-    id: 9,
+    id: 10,
     picture: "zubair.png",
     name: "Sheikh Sauban Zubair ",
     narration:
@@ -70,7 +70,7 @@ export const employers = [
   },
 
   {
-    id: 10,
+    id: 11,
     picture: "shubrata.jpg",
     name: "Shubrata Das",
     narration:
@@ -78,21 +78,21 @@ export const employers = [
   },
 
   {
-    id: 11,
+    id: 12,
     picture: "adhora.jpg",
     name: "Adhora Zaman",
     narration:
       "Adhora Zaman is a highly motivated and energetic recruitment Professional. She is an effective communicator and negotiator maintaining strong working relationships with clients, leadership teams, and her peers. She possesses excellent time management skills as well as the ability to handle multiple tasks simultaneously and operate effectively within strict deadlines and challenging situations.",
   },
   {
-    id: 12,
+    id: 13,
     picture: "mahim.jpg",
     name: "Mahmudur Rahman",
     narration:
       "This is Mahmudur Rahman born and raised in the Chattogram. I have done my post Graduation from Port City International University majoring in HRM now working in Steadfast International Service, LLC. as a Management Trainee Officer. I help Job seekers to find their desired job.",
   },
   {
-    id: 13,
+    id: 14,
     picture: "jahid.jpg",
     name: "Khandokar Jahidul",
     narration:

@@ -9,7 +9,6 @@ import Parser from "html-react-parser";
 import { Link } from "react-router-dom";
 
 const Card = ({ job }) => {
-  console.log(job);
   return (
     <div className="cardContainer">
       <h1 className="cardTitle">{job.title}</h1>

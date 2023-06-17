@@ -6,7 +6,16 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { useSelector } from "react-redux";
 
 const Jobs = () => {
-  const jobs = useSelector(({ jobs }) => jobs);
+  const jobs = useSelector(({ jobs, filter }) => {
+    if (filter === "") {
+      return jobs;
+    }
+    return [...jobs].filter((job) => {
+      const jobTitle = job.title.toLowerCase();
+      return jobTitle.indexOf(filter) > -1;
+    });
+  });
+
   return (
     <div className="jobs-container">
       <div className="find-container">
