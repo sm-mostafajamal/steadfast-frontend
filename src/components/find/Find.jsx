@@ -1,9 +1,10 @@
 import { ImSearch } from "react-icons/im";
 import "./find.css";
 import { searchValue } from "../../redux/filterReducer";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Find = () => {
+  const jobs = useSelector(({ jobs }) => jobs);
   const dispatch = useDispatch();
   const handleChange = (e) => {
     const content = e.target.value;
@@ -22,12 +23,11 @@ const Find = () => {
           list="jobnames"
           placeholder="Search"
         />
-        {/* <datalist id="jobnames">
-          <option value="Principal Python Automation Engineer" />
-          <option value="Mainframe Performance Engineer" />
-          <option value="Public Cloud Operations Engineer " />
-          <option value="Account Executive Senior" />
-        </datalist> */}
+        <datalist id="jobnames">
+          {jobs.map((job) => (
+            <option value={job.title} key={job.id} />
+          ))}
+        </datalist>
       </form>
     </div>
   );
