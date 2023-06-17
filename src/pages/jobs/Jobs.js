@@ -2,7 +2,7 @@ import "./jobs.css";
 import Find from "../../components/find/Find";
 import Footer from "../../components/footer/Footer";
 import Card from "../../components/card/Card";
-import { FaAngleDoubleRight } from "react-icons/fa";
+// import { FaAngleDoubleRight } from "react-icons/fa";
 import { useSelector } from "react-redux";
 
 const Jobs = () => {
@@ -55,12 +55,12 @@ const Jobs = () => {
           <Card job={job} key={job.id} />
         ))}
       </div>
-      <div className="moreBtn">
+      {/* <div className="moreBtn">
         <button>
           More
           <FaAngleDoubleRight className="moreArrow" />
         </button>
-      </div>
+      </div> */}
       <div className="specialism">
         <div className="spDetails">
           <h1>Specialisms</h1>
