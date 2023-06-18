@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const Jobs = () => {
   const jobs = useSelector(({ jobs, filter }) => {
-    if (filter === "") {
+    if (filter === "" || filter === "All") {
       return jobs;
     }
     return [...jobs].filter((job) => {
